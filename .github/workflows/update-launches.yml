@@ -1,0 +1,36 @@
+name: Update Launch Data
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"   # every 10 minutes
+  workflow_dispatch:         # allow manual run too
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - name: Install fetch support
+        run: |
+          npm init -y
+          npm install node-fetch@3
+
+      - name: Generate launches.json
+        run: |
+          node build-launches.js
+
+      - name: Commit & push updates
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add launches.json
+          git commit -m "Update launch data" || echo "No changes"
+          git push
