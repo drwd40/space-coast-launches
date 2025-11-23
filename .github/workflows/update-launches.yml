@@ -2,35 +2,91 @@ name: Update Launch Data
 
 on:
   schedule:
-    - cron: "*/10 * * * *"   # every 10 minutes
-  workflow_dispatch:         # allow manual run too
+    - cron: "*/15 * * * *"   # every 15 minutes
+  workflow_dispatch:
 
 jobs:
-  build:
+  update:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write   # allow push
+
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v3
 
       - name: Set up Node
         uses: actions/setup-node@v3
         with:
-          node-version: 20
+          node-version: 18
 
-      - name: Install fetch support
+      - name: Install dependencies
+        run: npm install node-fetch@2
+
+      - name: Fetch and Convert LL2 Data
         run: |
-          npm init -y
-          npm install node-fetch@3
+          node <<'EOF'
+          const fs = require("fs");
+          const fetch = require("node-fetch");
 
-      - name: Generate launches.json
-        run: |
-          node build-launches.js
+          const LL2_URL =
+            "https://ll.thespacedevs.com/2.2.0/launch/upcoming/?location__ids=12,27&limit=10&mode=detailed";
 
-      - name: Commit & push updates
+          async function run() {
+            try {
+              const response = await fetch(LL2_URL);
+              const json = await response.json();
+
+              const launches = (json.results || []).map(l => {
+                return {
+                  id: l.id,
+                  name: l.name || null,
+                  net: l.net || null,
+                  window_start: l.window_start || null,
+                  window_end: l.window_end || null,
+
+                  provider: l.launch_service_provider?.name || null,
+                  vehicle: l.rocket?.configuration?.full_name || null,
+                  orbit: l.mission?.orbit?.name || null,
+
+                  probability: l.probability ?? null,
+                  status: l.status?.name || null,
+                  image: l.image || null,
+
+                  pad: l.pad?.name || "",
+                  location: l.pad?.location?.name || "",
+                  direction: l.mission?.orbit?.name
+                    ? (l.mission.orbit.abbrev === "LEO"
+                        ? "Southeast — LEO"
+                        : l.mission.orbit.name)
+                    : "Direction TBD",
+
+                  agency_launches_this_year:
+                    l.agency_launch_attempt_count_year || null
+                };
+              });
+
+              const output = {
+                timestamp: new Date().toISOString(),
+                launches
+              };
+
+              fs.writeFileSync("launches.json", JSON.stringify(output, null, 2));
+              console.log("✔ launches.json updated");
+            } catch (err) {
+              console.error("Error fetching LL2:", err);
+              process.exit(1);
+            }
+          }
+
+          run();
+          EOF
+
+      - name: Commit and Push
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add launches.json
-          git commit -m "Update launch data" || echo "No changes"
+          git commit -m "Update launch data" || echo "No changes to commit"
           git push
