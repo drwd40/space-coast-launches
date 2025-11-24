@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-11-24T17:14:11.219Z",
+  "timestamp": "2025-11-24T17:27:45.793Z",
   "launches": [
     {
       "id": "4d61413a-5fb6-4d68-8719-d247e95a76bd",
@@ -11,7 +11,7 @@
       "vehicle": "Falcon 9 Block 5",
       "orbit": "Low Earth Orbit",
       "probability": null,
-      "status": "To Be Confirmed",
+      "status": "Go for Launch",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
       "pad": "Launch Complex 39A",
       "location": "Kennedy Space Center, FL, USA",
