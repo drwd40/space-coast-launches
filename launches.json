@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-11-24T17:27:45.793Z",
+  "timestamp": "2025-11-24T17:38:55.787Z",
   "launches": [
     {
       "id": "4d61413a-5fb6-4d68-8719-d247e95a76bd",
@@ -28,7 +28,7 @@
       "vehicle": "Falcon 9 Block 5",
       "orbit": "Low Earth Orbit",
       "probability": null,
-      "status": "To Be Confirmed",
+      "status": "Go for Launch",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
