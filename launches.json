@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-11-25T18:12:54.828Z",
+  "timestamp": "2025-11-25T18:28:29.624Z",
   "launches": [
     {
       "id": "4d61413a-5fb6-4d68-8719-d247e95a76bd",
@@ -51,6 +51,23 @@
       "location": "Kennedy Space Center, FL, USA",
       "direction": "Southeast — LEO",
       "agency_launches_this_year": 163
+    },
+    {
+      "id": "c203e807-0955-4e32-abfe-d5c71cdf5c31",
+      "name": "Falcon 9 Block 5 | NROL-77",
+      "net": "2025-12-09T19:16:00Z",
+      "window_start": "2025-12-09T19:16:00Z",
+      "window_end": "2025-12-09T19:16:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon 9 Block 5",
+      "orbit": "Unknown",
+      "probability": null,
+      "status": "Go for Launch",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "pad": "Space Launch Complex 40",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "direction": "Unknown",
+      "agency_launches_this_year": 165
     },
     {
       "id": "0dcbd5ee-2728-4c79-8dc5-051ea11b888f",
@@ -118,7 +135,7 @@
       "pad": "Unknown Pad",
       "location": "Cape Canaveral SFS, FL, USA",
       "direction": "Geostationary Transfer Orbit",
-      "agency_launches_this_year": 172
+      "agency_launches_this_year": 173
     },
     {
       "id": "53769468-bfd3-45c7-a52b-46a68ed7510f",
@@ -135,7 +152,7 @@
       "pad": "Unknown Pad",
       "location": "Cape Canaveral SFS, FL, USA",
       "direction": "Southeast — LEO",
-      "agency_launches_this_year": 172
+      "agency_launches_this_year": 173
     },
     {
       "id": "4c78e865-8f03-4f47-a081-b507da270d19",
@@ -152,24 +169,7 @@
       "pad": "Unknown Pad",
       "location": "Cape Canaveral SFS, FL, USA",
       "direction": "Geostationary Orbit",
-      "agency_launches_this_year": 172
-    },
-    {
-      "id": "4cc237b2-c61a-491e-9532-466cce81f524",
-      "name": "Unknown | ViaSat-3 F3 (ViaSat-3 Asia-Pacific)",
-      "net": "2025-12-31T00:00:00Z",
-      "window_start": "2025-12-31T00:00:00Z",
-      "window_end": "2025-12-31T00:00:00Z",
-      "provider": "Unknown",
-      "vehicle": "Unknown Launch Vehicle",
-      "orbit": "Geostationary Transfer Orbit",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": null,
-      "pad": "Unknown Pad",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "direction": "Geostationary Transfer Orbit",
-      "agency_launches_this_year": 1
+      "agency_launches_this_year": 173
     }
   ]
 }
