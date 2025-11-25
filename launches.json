@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-11-25T00:29:19.689Z",
+  "timestamp": "2025-11-25T00:54:40.534Z",
   "launches": [
     {
       "id": "4d61413a-5fb6-4d68-8719-d247e95a76bd",
@@ -135,7 +135,7 @@
       "pad": "Unknown Pad",
       "location": "Cape Canaveral SFS, FL, USA",
       "direction": "Southeast — LEO",
-      "agency_launches_this_year": 170
+      "agency_launches_this_year": 172
     },
     {
       "id": "4c78e865-8f03-4f47-a081-b507da270d19",
@@ -152,7 +152,7 @@
       "pad": "Unknown Pad",
       "location": "Cape Canaveral SFS, FL, USA",
       "direction": "Geostationary Orbit",
-      "agency_launches_this_year": 170
+      "agency_launches_this_year": 172
     },
     {
       "id": "4cc237b2-c61a-491e-9532-466cce81f524",
