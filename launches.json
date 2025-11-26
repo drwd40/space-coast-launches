@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-11-26T23:51:16.382Z",
+  "timestamp": "2025-11-26T23:59:10.571Z",
   "launches": [
     {
       "id": "4d61413a-5fb6-4d68-8719-d247e95a76bd",
@@ -87,40 +87,6 @@
       "agency_launches_this_year": 6
     },
     {
-      "id": "98f70f28-397a-4c0d-aeb2-e7f8a88e0323",
-      "name": "Vulcan | GPS III SV09",
-      "net": "2025-12-31T00:00:00Z",
-      "window_start": "2025-12-31T00:00:00Z",
-      "window_end": "2025-12-31T00:00:00Z",
-      "provider": "United Launch Alliance",
-      "vehicle": "Vulcan",
-      "orbit": "Medium Earth Orbit",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
-      "pad": "Space Launch Complex 41",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "direction": "Medium Earth Orbit",
-      "agency_launches_this_year": 10
-    },
-    {
-      "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
-      "name": "Vulcan VC6L | Amazon Leo (LV-01)",
-      "net": "2025-12-31T00:00:00Z",
-      "window_start": "2025-12-31T00:00:00Z",
-      "window_end": "2025-12-31T00:00:00Z",
-      "provider": "United Launch Alliance",
-      "vehicle": "Vulcan VC6L",
-      "orbit": "Low Earth Orbit",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_vc6l_image_20220406123130.jpg",
-      "pad": "Space Launch Complex 41",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "direction": "Southeast — LEO",
-      "agency_launches_this_year": 10
-    },
-    {
       "id": "9bfa0324-db74-444f-8dc3-1c7d373ca659",
       "name": "Falcon 9 Block 5 | 5x Astranis MicroGEO",
       "net": "2025-12-31T00:00:00Z",
@@ -170,6 +136,40 @@
       "location": "Cape Canaveral SFS, FL, USA",
       "direction": "Geostationary Orbit",
       "agency_launches_this_year": 173
+    },
+    {
+      "id": "4cc237b2-c61a-491e-9532-466cce81f524",
+      "name": "Unknown | ViaSat-3 F3 (ViaSat-3 Asia-Pacific)",
+      "net": "2025-12-31T00:00:00Z",
+      "window_start": "2025-12-31T00:00:00Z",
+      "window_end": "2025-12-31T00:00:00Z",
+      "provider": "Unknown",
+      "vehicle": "Unknown Launch Vehicle",
+      "orbit": "Geostationary Transfer Orbit",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": null,
+      "pad": "Unknown Pad",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "direction": "Geostationary Transfer Orbit",
+      "agency_launches_this_year": 1
+    },
+    {
+      "id": "98ec4234-8c4e-4365-b6c5-6b89da53f8dd",
+      "name": "New Glenn | Blue Moon Pathfinder",
+      "net": "2026-01-31T00:00:00Z",
+      "window_start": "2026-01-31T00:00:00Z",
+      "window_end": "2026-01-31T00:00:00Z",
+      "provider": "Blue Origin",
+      "vehicle": "New Glenn",
+      "orbit": "Low Earth Orbit",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new_glenn_on_lc_image_20240313170026.jpeg",
+      "pad": "Launch Complex 36A",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "direction": "Southeast — LEO",
+      "agency_launches_this_year": 1
     }
   ]
 }
