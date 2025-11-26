@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-11-26T19:19:09.107Z",
+  "timestamp": "2025-11-26T19:26:23.795Z",
   "launches": [
     {
       "id": "4d61413a-5fb6-4d68-8719-d247e95a76bd",
@@ -16,7 +16,7 @@
       "pad": "Launch Complex 39A",
       "location": "Kennedy Space Center, FL, USA",
       "direction": "Southeast — LEO",
-      "agency_launches_this_year": 159
+      "agency_launches_this_year": 158
     },
     {
       "id": "d1ee3587-a7f7-455c-9dc3-1624352262b4",
@@ -33,7 +33,7 @@
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
       "direction": "Southeast — LEO",
-      "agency_launches_this_year": 161
+      "agency_launches_this_year": 160
     },
     {
       "id": "c1fb73cf-ad9a-4305-bd11-d61fff369afe",
@@ -67,7 +67,7 @@
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
       "direction": "Unknown",
-      "agency_launches_this_year": 165
+      "agency_launches_this_year": 164
     },
     {
       "id": "0dcbd5ee-2728-4c79-8dc5-051ea11b888f",
