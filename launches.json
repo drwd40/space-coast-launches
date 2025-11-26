@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-11-26T19:26:23.795Z",
+  "timestamp": "2025-11-26T19:34:29.382Z",
   "launches": [
     {
       "id": "4d61413a-5fb6-4d68-8719-d247e95a76bd",
@@ -50,7 +50,7 @@
       "pad": "Launch Complex 39A",
       "location": "Kennedy Space Center, FL, USA",
       "direction": "Southeast — LEO",
-      "agency_launches_this_year": 163
+      "agency_launches_this_year": 162
     },
     {
       "id": "c203e807-0955-4e32-abfe-d5c71cdf5c31",
