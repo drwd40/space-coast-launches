@@ -4,25 +4,34 @@ import fs from "fs";
 const LL2_URL =
   "https://ll.thespacedevs.com/2.2.0/launch/?mode=detailed&limit=10&location__ids=12,27&ordering=net";
 
-function safeGet(obj, path) {
-  return path.split(".").reduce((o, p) => (o ? o[p] : null), obj);
+// Helper to safely read nested paths
+function safe(obj, path) {
+  return path.split(".").reduce((o, p) => (o ? o[p] : undefined), obj);
 }
 
-function extractBoosters(l) {
+// Try all known LL2 booster locations
+function extractBoosters(launch) {
   const candidates = [
-    safeGet(l, "rocket.firststage"),
-    safeGet(l, "rocket.firststages"),
-    safeGet(l, "rocket.first_stage"),
-    safeGet(l, "rocket.stages.first_stage")
+    safe(launch, "rocket.firststage"),
+    safe(launch, "rocket.firststages"),
+    safe(launch, "rocket.first_stage"),
+    safe(launch, "rocket.first_stages"),
+    safe(launch, "rocket.first_stage_cores"),
+    safe(launch, "rocket.stages.first_stage"),
+    safe(launch, "rocket.firststage.core"),
+    safe(launch, "firststage"),          // very old LL2
+    safe(launch, "first_stage"),
   ];
 
+  // Flatten and remove nulls
   const stages = candidates.flat().filter(Boolean);
   if (!stages.length) return [];
 
-  return stages.map(fs => {
+  return stages.map((fs) => {
     const landing = fs.landing || {};
+
     return {
-      core: fs.launcher?.serial_number || null,
+      core: fs.launcher?.serial_number || fs.core || null,
       landing_attempt: landing.attempt ?? null,
       landing_success: landing.success ?? null,
       landing_type: landing.type || null,
@@ -46,20 +55,18 @@ function simplify(launches) {
     net: l.net || null,
     window_start: l.window_start || null,
     window_end: l.window_end || null,
-
     provider: l.launch_service_provider?.name || "",
     vehicle: l.rocket?.configuration?.full_name || "",
-
     orbit: l.mission?.orbit?.name || "",
     probability: l.probability,
     status: l.status?.name || "",
-
     image: l.image || null,
     pad: l.pad?.name || "",
     location: l.pad?.location?.name || "",
-    direction: l.mission?.orbit?.name || "",
+    direction: l.mission?.orbit?.abbrev || "",
     agency_launches_this_year: l.agency_launch_attempt_count_year || null,
 
+    // NEW booster block (safe, optional)
     boosters: extractBoosters(l)
   }));
 }
@@ -75,9 +82,10 @@ async function main() {
     };
 
     fs.writeFileSync("launches.json", JSON.stringify(output, null, 2));
-    console.log("✅ launches.json updated with booster recovery info!");
+    console.log("✅ launches.json updated!");
   } catch (err) {
     console.error("❌ Error:", err);
+    process.exit(1);
   }
 }
 
