@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-12-01T17:43:26.503Z",
+  "timestamp": "2025-12-01T17:53:37.138Z",
   "launches": [
     {
       "id": "4d61413a-5fb6-4d68-8719-d247e95a76bd",
@@ -72,9 +72,9 @@
     {
       "id": "0dcbd5ee-2728-4c79-8dc5-051ea11b888f",
       "name": "Atlas V 551 | Amazon Leo (LA-04)",
-      "net": "2025-12-15T08:52:00Z",
-      "window_start": "2025-12-15T08:52:00Z",
-      "window_end": "2025-12-15T08:52:00Z",
+      "net": "2025-12-15T08:35:00Z",
+      "window_start": "2025-12-15T08:35:00Z",
+      "window_end": "2025-12-15T08:35:00Z",
       "provider": "United Launch Alliance",
       "vehicle": "Atlas V 551",
       "orbit": "Low Earth Orbit",
