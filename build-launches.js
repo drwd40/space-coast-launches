@@ -119,7 +119,8 @@ function simplify(launches) {
 
     pad: l.pad?.name || "",
     location: l.pad?.location?.name || "",
-    direction: l.mission?.orbit?.abbrev || "",
+    orbit: l.mission?.orbit?.name || "",
+    trajectory_direction: inferTrajectoryDirection(l),
 
     agency_launches_this_year: l.agency_launch_attempt_count_year || null,
 
