@@ -5,6 +5,7 @@ const fs = require("fs");
 const LL2_URL =
   "https://ll.thespacedevs.com/2.2.0/launch/upcoming/?location__ids=12,27&limit=10&mode=detailed&ordering=net";
 
+
 // Helper: safe nested access
 function safe(obj, path) {
   return path.split(".").reduce((o, p) => (o ? o[p] : undefined), obj);
