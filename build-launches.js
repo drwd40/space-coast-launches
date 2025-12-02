@@ -113,6 +113,7 @@ function simplify(launches) {
     provider: l.launch_service_provider?.name || "",
     vehicle: l.rocket?.configuration?.full_name || "",
     orbit: l.mission?.orbit?.name || "",
+    orbit_abbrev: l.mission?.orbit?.abbrev || null,
     probability: l.probability ?? null,
     status: l.status?.name || "",
     image: l.image || null,
