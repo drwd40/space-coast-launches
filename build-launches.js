@@ -2,8 +2,8 @@ const fetch = require("node-fetch");
 const fs = require("fs");
 
 // 1) Summary list – lightweight
-const LIST_URL =
-  "https://ll.thespacedevs.com/2.2.0/launch/?limit=10&ordering=net&location__ids=12,27";
+const LL2_URL =
+  "https://ll.thespacedevs.com/2.2.0/launch/upcoming/?location__ids=12,27&limit=10&mode=detailed&ordering=net";
 
 // Helper: safe nested access
 function safe(obj, path) {
