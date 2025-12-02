@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-12-02T15:03:35.199Z",
+  "timestamp": "2025-12-02T15:05:09.477Z",
   "launches": [
     {
       "id": "d1ee3587-a7f7-455c-9dc3-1624352262b4",
@@ -16,7 +16,7 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
-      "direction": "LEO",
+      "trajectory_direction": "Southeast",
       "agency_launches_this_year": 160,
       "boosters": [
         {
@@ -46,7 +46,7 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
       "pad": "Launch Complex 39A",
       "location": "Kennedy Space Center, FL, USA",
-      "direction": "LEO",
+      "trajectory_direction": "Southeast",
       "agency_launches_this_year": 163,
       "boosters": [
         {
@@ -76,7 +76,7 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
-      "direction": "N/A",
+      "trajectory_direction": null,
       "agency_launches_this_year": 164,
       "boosters": [
         {
@@ -106,7 +106,7 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas2520v2520551_image_20190224012316.jpeg",
       "pad": "Space Launch Complex 41",
       "location": "Cape Canaveral SFS, FL, USA",
-      "direction": "LEO",
+      "trajectory_direction": null,
       "agency_launches_this_year": 6,
       "boosters": []
     },
@@ -125,7 +125,7 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "pad": "Unknown Pad",
       "location": "Cape Canaveral SFS, FL, USA",
-      "direction": "Direct-GEO",
+      "trajectory_direction": null,
       "agency_launches_this_year": 173,
       "boosters": []
     },
@@ -144,7 +144,7 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_20241221043403.jpg",
       "pad": "Unknown Pad",
       "location": "Cape Canaveral SFS, FL, USA",
-      "direction": "GTO",
+      "trajectory_direction": "East",
       "agency_launches_this_year": 173,
       "boosters": [
         {
@@ -174,7 +174,7 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/f9_on_slc-40_2_image_20240919072420.jpg",
       "pad": "Unknown Pad",
       "location": "Cape Canaveral SFS, FL, USA",
-      "direction": "LEO",
+      "trajectory_direction": null,
       "agency_launches_this_year": 173,
       "boosters": [
         {
@@ -204,7 +204,7 @@
       "image": null,
       "pad": "Unknown Pad",
       "location": "Cape Canaveral SFS, FL, USA",
-      "direction": "GTO",
+      "trajectory_direction": "East",
       "agency_launches_this_year": 1,
       "boosters": []
     },
@@ -223,7 +223,7 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new_glenn_on_lc_image_20240313170026.jpeg",
       "pad": "Launch Complex 36A",
       "location": "Cape Canaveral SFS, FL, USA",
-      "direction": "LEO",
+      "trajectory_direction": null,
       "agency_launches_this_year": 1,
       "boosters": [
         {
@@ -253,7 +253,7 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/space_launch_sy_image_20220331082429.jpeg",
       "pad": "Launch Complex 39B",
       "location": "Kennedy Space Center, FL, USA",
-      "direction": "Lunar flyby",
+      "trajectory_direction": null,
       "agency_launches_this_year": 1,
       "boosters": []
     }
