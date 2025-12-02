@@ -1,29 +1,25 @@
 import fetch from "node-fetch";
 import fs from "fs";
 
-const LL2_URL =
-  "https://ll.thespacedevs.com/2.2.0/launch/?mode=detailed&limit=10&location__ids=12,27&ordering=net";
+const LIST_URL =
+  "https://ll.thespacedevs.com/2.2.0/launch/?mode=list&limit=10&location__ids=12,27&ordering=net";
 
 // Helper to safely read nested paths
 function safe(obj, path) {
   return path.split(".").reduce((o, p) => (o ? o[p] : undefined), obj);
 }
 
-// Try all known LL2 booster locations
+// Extract booster info from detailed launch object
 function extractBoosters(launch) {
   const candidates = [
-    safe(launch, "rocket.firststage"),
     safe(launch, "rocket.firststages"),
+    safe(launch, "rocket.firststage"),
     safe(launch, "rocket.first_stage"),
-    safe(launch, "rocket.first_stages"),
     safe(launch, "rocket.first_stage_cores"),
     safe(launch, "rocket.stages.first_stage"),
-    safe(launch, "rocket.firststage.core"),
-    safe(launch, "firststage"),          // very old LL2
     safe(launch, "first_stage"),
   ];
 
-  // Flatten and remove nulls
   const stages = candidates.flat().filter(Boolean);
   if (!stages.length) return [];
 
@@ -40,51 +36,72 @@ function extractBoosters(launch) {
   });
 }
 
-async function fetchLaunches() {
-  console.log("🔄 Fetching Launch Library 2…");
-  const res = await fetch(LL2_URL);
-  if (!res.ok) throw new Error("Failed to fetch LL2");
+async function fetchLaunchList() {
+  console.log("🔄 Fetching LL2 launch list…");
+  const res = await fetch(LIST_URL);
+  if (!res.ok) throw new Error("Failed launch list");
   const data = await res.json();
   return data.results || [];
 }
 
-function simplify(launches) {
-  return launches.map((l) => ({
-    id: l.id,
-    name: l.name || "",
-    net: l.net || null,
-    window_start: l.window_start || null,
-    window_end: l.window_end || null,
-    provider: l.launch_service_provider?.name || "",
-    vehicle: l.rocket?.configuration?.full_name || "",
-    orbit: l.mission?.orbit?.name || "",
-    probability: l.probability,
-    status: l.status?.name || "",
-    image: l.image || null,
-    pad: l.pad?.name || "",
-    location: l.pad?.location?.name || "",
-    direction: l.mission?.orbit?.abbrev || "",
-    agency_launches_this_year: l.agency_launch_attempt_count_year || null,
-    net_precision: l.net_precision?.abbrev || null,
+// Fetch detailed record for each launch
+async function fetchDetails(id) {
+  const url = `https://ll.thespacedevs.com/2.2.0/launch/${id}/?mode=detailed`;
+  const res = await fetch(url);
+  if (!res.ok) {
+    console.warn("⚠️ Failed detailed fetch for", id);
+    return null;
+  }
+  return await res.json();
+}
 
+function simplify(d) {
+  return {
+    id: d.id,
+    name: d.name || "",
+    net: d.net || null,
+    window_start: d.window_start || null,
+    window_end: d.window_end || null,
+    provider: d.launch_service_provider?.name || "",
+    vehicle: d.rocket?.configuration?.full_name || "",
+    orbit: d.mission?.orbit?.name || "",
+    probability: d.probability,
+    status: d.status?.name || "",
+    image: d.image || null,
+    pad: d.pad?.name || "",
+    location: d.pad?.location?.name || "",
+    direction: d.mission?.orbit?.abbrev || "",
+    agency_launches_this_year: d.agency_launch_attempt_count_year || null,
 
-    // NEW booster block (safe, optional)
-    boosters: extractBoosters(l)
-  }));
+    // ⭐ NEW
+    net_precision: d.net_precision?.abbrev || null,
+
+    // ⭐ NEW
+    boosters: extractBoosters(d)
+  };
 }
 
 async function main() {
   try {
-    const launches = await fetchLaunches();
-    const simplified = simplify(launches);
+    const list = await fetchLaunchList();
+
+    console.log(`📄 ${list.length} launches found`);
+    const detailed = [];
+
+    // Fetch each launch fully
+    for (const l of list) {
+      const d = await fetchDetails(l.id);
+      if (d) detailed.push(simplify(d));
+    }
 
     const output = {
       timestamp: new Date().toISOString(),
-      launches: simplified
+      launches: detailed
     };
 
     fs.writeFileSync("launches.json", JSON.stringify(output, null, 2));
     console.log("✅ launches.json updated!");
+
   } catch (err) {
     console.error("❌ Error:", err);
     process.exit(1);
