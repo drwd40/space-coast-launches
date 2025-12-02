@@ -1,23 +1,6 @@
 {
-  "timestamp": "2025-12-02T07:37:02.555Z",
+  "timestamp": "2025-12-02T07:45:56.469Z",
   "launches": [
-    {
-      "id": "4d61413a-5fb6-4d68-8719-d247e95a76bd",
-      "name": "Falcon 9 Block 5 | Starlink Group 6-86",
-      "net": "2025-12-01T07:44:10Z",
-      "window_start": "2025-12-01T05:00:00Z",
-      "window_end": "2025-12-01T09:00:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Low Earth Orbit",
-      "probability": null,
-      "status": "Launch Successful",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-      "pad": "Launch Complex 39A",
-      "location": "Kennedy Space Center, FL, USA",
-      "direction": "Southeast — LEO",
-      "agency_launches_this_year": 158
-    },
     {
       "id": "d1ee3587-a7f7-455c-9dc3-1624352262b4",
       "name": "Falcon 9 Block 5 | Starlink Group 6-95",
@@ -169,6 +152,23 @@
       "pad": "Launch Complex 36A",
       "location": "Cape Canaveral SFS, FL, USA",
       "direction": "Southeast — LEO",
+      "agency_launches_this_year": 1
+    },
+    {
+      "id": "41699701-2ef4-4b0c-ac9d-6757820cde87",
+      "name": "SLS Block 1 | Artemis II",
+      "net": "2026-02-06T01:09:00Z",
+      "window_start": "2026-02-06T01:09:00Z",
+      "window_end": "2026-02-06T01:41:00Z",
+      "provider": "National Aeronautics and Space Administration",
+      "vehicle": "Space Launch System Block 1",
+      "orbit": "Lunar flyby",
+      "probability": null,
+      "status": "To Be Confirmed",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/space_launch_sy_image_20220331082429.jpeg",
+      "pad": "Launch Complex 39B",
+      "location": "Kennedy Space Center, FL, USA",
+      "direction": "Lunar flyby",
       "agency_launches_this_year": 1
     }
   ]
