@@ -1,97 +1,102 @@
+// build-launches.js — CommonJS version for GitHub Actions
+
 const fetch = require("node-fetch");
 const fs = require("fs");
 
-// 1) Summary list – lightweight
-const LL2_URL =
+// ===========================
+// 1) Correct LL2 Upcoming URL
+// ===========================
+const UPCOMING_URL =
   "https://ll.thespacedevs.com/2.2.0/launch/upcoming/?location__ids=12,27&limit=10&mode=detailed&ordering=net";
 
-
-// Helper: safe nested access
+// Helper to safely read nested fields
 function safe(obj, path) {
   return path.split(".").reduce((o, p) => (o ? o[p] : undefined), obj);
 }
 
-// 2) Fetch full detail for one launch
-async function fetchDetails(id) {
-  const url = `https://ll.thespacedevs.com/2.2.0/launch/${id}/?mode=detailed`;
-  const res = await fetch(url);
-  if (!res.ok) throw new Error("Failed detail fetch for " + id);
-  return res.json();
-}
-
-// 3) Extract booster & landing info
-function extractBoosters(l) {
-  const candidateRoots = [
-    safe(l, "rocket.launcher_stage"),
-    safe(l, "rocket.firststage"),
-    safe(l, "rocket.firststages"),
-    safe(l, "firststage"),
+// Booster extraction (SpaceX only, optional fields)
+function extractBoosters(launch) {
+  const candidates = [
+    safe(launch, "rocket.firststage"),
+    safe(launch, "rocket.firststages"),
+    safe(launch, "rocket.first_stage"),
+    safe(launch, "rocket.first_stages"),
+    safe(launch, "rocket.first_stage_cores"),
+    safe(launch, "rocket.stages.first_stage"),
+    safe(launch, "rocket.launcher_stage"), // the correct LL2 Falcon 9 structure
   ];
 
-  const stages = candidateRoots
-    .flat()
-    .filter(Boolean);
+  const stages = candidates.flat().filter(Boolean);
+  if (!stages.length) return [];
 
-  return stages.map((fs) => {
-    const landing = fs.landing || {};
+  return stages.map((stage) => {
+    const landing = stage.landing || {};
+
     return {
-      core: fs.launcher?.serial_number || null,
+      core: stage.launcher?.serial_number || null,
+      flight: stage.launcher?.flights || null,
       landing_attempt: landing.attempt ?? null,
       landing_success: landing.success ?? null,
-      landing_type: landing.type?.abbrev || null,
-      landing_location: landing.location?.name || null
+      landing_type: landing.type?.abbrev || landing.type?.name || null,
+      landing_location: landing.location?.name || null,
+      droneship: landing.location?.abbrev || null,
+      description: landing.description || null,
     };
   });
 }
 
-// 4) Make simplified object
-function simplify(l) {
-  return {
+// Fetch LL2
+async function fetchLaunches() {
+  console.log("🔄 Fetching Launch Library 2 upcoming launches…");
+
+  const res = await fetch(UPCOMING_URL);
+  if (!res.ok) throw new Error("LL2 fetch failed: " + res.status);
+
+  const json = await res.json();
+  return json.results || [];
+}
+
+// Simplify the massive LL2 object
+function simplify(launches) {
+  return launches.map((l) => ({
     id: l.id,
     name: l.name || "",
     net: l.net || null,
     net_precision: l.net_precision?.abbrev || null,
     window_start: l.window_start || null,
     window_end: l.window_end || null,
+
     provider: l.launch_service_provider?.name || "",
     vehicle: l.rocket?.configuration?.full_name || "",
     orbit: l.mission?.orbit?.name || "",
-    probability: l.probability,
+    probability: l.probability ?? null,
     status: l.status?.name || "",
     image: l.image || null,
+
     pad: l.pad?.name || "",
     location: l.pad?.location?.name || "",
     direction: l.mission?.orbit?.abbrev || "",
+
     agency_launches_this_year: l.agency_launch_attempt_count_year || null,
 
-    boosters: extractBoosters(l)
-  };
+    // boosters: ALWAYS extracted (may be empty array)
+    boosters: extractBoosters(l),
+  }));
 }
 
-// 5) Main
+// Main runner
 async function main() {
   try {
-    console.log("🔽 Fetching summary list…");
-    const listRes = await fetch(LIST_URL);
-    const listJson = await listRes.json();
-    const summary = listJson.results || [];
-
-    console.log(`Found ${summary.length} launches`);
-
-    const detailed = [];
-    for (const s of summary) {
-      console.log("🔎 Fetching details:", s.id);
-      const full = await fetchDetails(s.id);
-      detailed.push(simplify(full));
-    }
+    const launches = await fetchLaunches();
+    const simplified = simplify(launches);
 
     const output = {
       timestamp: new Date().toISOString(),
-      launches: detailed
+      launches: simplified,
     };
 
     fs.writeFileSync("launches.json", JSON.stringify(output, null, 2));
-    console.log("✅ launches.json updated!");
+    console.log("✅ launches.json updated successfully!");
 
   } catch (err) {
     console.error("❌ ERROR:", err);
