@@ -45,6 +45,50 @@ function extractBoosters(launch) {
   });
 }
 
+// === Determine trajectory direction (azimuth) ===
+function inferTrajectoryDirection(launch) {
+  const name = launch.name?.toUpperCase() || "";
+  const orbitAbbrev = launch.mission?.orbit?.abbrev?.toUpperCase() || "";
+  const inclination = launch.mission?.orbit?.inclination || null;
+
+  // 1. Starlink: infer by group number
+  const starlinkMatch = name.match(/STARLINK\s+GROUP\s+(\d+)-(\d+)/i);
+  if (starlinkMatch) {
+    const group = parseInt(starlinkMatch[1], 10);
+
+    // Group families
+    if (group === 6 || group === 5) return "Southeast";
+    if (group === 4 || group === 1) return "Northeast";
+    if (group === 2) return "North-Northeast";
+  }
+
+  // 2. ISS missions (Dragon Crew or CRS)
+  if (/DRAGON|CREW-|CRS-|ISS/i.test(name)) {
+    return "Northeast";
+  }
+
+  // 3. GEO missions
+  if (orbitAbbrev === "GEO" || orbitAbbrev === "GTO") {
+    return "East";
+  }
+
+  // 4. SSO missions (polar)
+  if (orbitAbbrev === "SSO" || orbitAbbrev === "POLAR") {
+    return "South-Southeast";
+  }
+
+  // 5. Fallback using inclination if available
+  if (inclination) {
+    if (inclination < 20) return "East";
+    if (inclination < 40) return "Southeast";
+    if (inclination < 60) return "Northeast";
+    return "North";
+  }
+
+  // 6. Unknown
+  return null;
+}
+
 // Fetch LL2
 async function fetchLaunches() {
   console.log("🔄 Fetching Launch Library 2 upcoming launches…");
