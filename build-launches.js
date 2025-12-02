@@ -65,6 +65,8 @@ function simplify(launches) {
     location: l.pad?.location?.name || "",
     direction: l.mission?.orbit?.abbrev || "",
     agency_launches_this_year: l.agency_launch_attempt_count_year || null,
+    net_precision: l.net_precision?.abbrev || null,
+
 
     // NEW booster block (safe, optional)
     boosters: extractBoosters(l)
