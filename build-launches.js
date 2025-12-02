@@ -1,97 +1,87 @@
 import fetch from "node-fetch";
 import fs from "fs";
 
+// 1) Summary list – lightweight
 const LIST_URL =
-  "https://ll.thespacedevs.com/2.2.0/launch/?mode=list&limit=10&location__ids=12,27&ordering=net";
+  "https://ll.thespacedevs.com/2.2.0/launch/?limit=10&ordering=net&location__ids=12,27";
 
-// Helper to safely read nested paths
+// Helper: safe nested access
 function safe(obj, path) {
   return path.split(".").reduce((o, p) => (o ? o[p] : undefined), obj);
 }
 
-// Extract booster info from detailed launch object
-function extractBoosters(launch) {
-  const candidates = [
-    safe(launch, "rocket.firststages"),
-    safe(launch, "rocket.firststage"),
-    safe(launch, "rocket.first_stage"),
-    safe(launch, "rocket.first_stage_cores"),
-    safe(launch, "rocket.stages.first_stage"),
-    safe(launch, "first_stage"),
+// 2) Fetch full detail for one launch
+async function fetchDetails(id) {
+  const url = `https://ll.thespacedevs.com/2.2.0/launch/${id}/?mode=detailed`;
+  const res = await fetch(url);
+  if (!res.ok) throw new Error("Failed detail fetch for " + id);
+  return res.json();
+}
+
+// 3) Extract booster & landing info
+function extractBoosters(l) {
+  const candidateRoots = [
+    safe(l, "rocket.launcher_stage"),
+    safe(l, "rocket.firststage"),
+    safe(l, "rocket.firststages"),
+    safe(l, "firststage"),
   ];
 
-  const stages = candidates.flat().filter(Boolean);
-  if (!stages.length) return [];
+  const stages = candidateRoots
+    .flat()
+    .filter(Boolean);
 
   return stages.map((fs) => {
     const landing = fs.landing || {};
-
     return {
-      core: fs.launcher?.serial_number || fs.core || null,
+      core: fs.launcher?.serial_number || null,
       landing_attempt: landing.attempt ?? null,
       landing_success: landing.success ?? null,
-      landing_type: landing.type || null,
+      landing_type: landing.type?.abbrev || null,
       landing_location: landing.location?.name || null
     };
   });
 }
 
-async function fetchLaunchList() {
-  console.log("🔄 Fetching LL2 launch list…");
-  const res = await fetch(LIST_URL);
-  if (!res.ok) throw new Error("Failed launch list");
-  const data = await res.json();
-  return data.results || [];
-}
-
-// Fetch detailed record for each launch
-async function fetchDetails(id) {
-  const url = `https://ll.thespacedevs.com/2.2.0/launch/${id}/?mode=detailed`;
-  const res = await fetch(url);
-  if (!res.ok) {
-    console.warn("⚠️ Failed detailed fetch for", id);
-    return null;
-  }
-  return await res.json();
-}
-
-function simplify(d) {
+// 4) Make simplified object
+function simplify(l) {
   return {
-    id: d.id,
-    name: d.name || "",
-    net: d.net || null,
-    window_start: d.window_start || null,
-    window_end: d.window_end || null,
-    provider: d.launch_service_provider?.name || "",
-    vehicle: d.rocket?.configuration?.full_name || "",
-    orbit: d.mission?.orbit?.name || "",
-    probability: d.probability,
-    status: d.status?.name || "",
-    image: d.image || null,
-    pad: d.pad?.name || "",
-    location: d.pad?.location?.name || "",
-    direction: d.mission?.orbit?.abbrev || "",
-    agency_launches_this_year: d.agency_launch_attempt_count_year || null,
+    id: l.id,
+    name: l.name || "",
+    net: l.net || null,
+    net_precision: l.net_precision?.abbrev || null,
+    window_start: l.window_start || null,
+    window_end: l.window_end || null,
+    provider: l.launch_service_provider?.name || "",
+    vehicle: l.rocket?.configuration?.full_name || "",
+    orbit: l.mission?.orbit?.name || "",
+    probability: l.probability,
+    status: l.status?.name || "",
+    image: l.image || null,
+    pad: l.pad?.name || "",
+    location: l.pad?.location?.name || "",
+    direction: l.mission?.orbit?.abbrev || "",
+    agency_launches_this_year: l.agency_launch_attempt_count_year || null,
 
-    // ⭐ NEW
-    net_precision: d.net_precision?.abbrev || null,
-
-    // ⭐ NEW
-    boosters: extractBoosters(d)
+    boosters: extractBoosters(l)
   };
 }
 
+// 5) Main
 async function main() {
   try {
-    const list = await fetchLaunchList();
+    console.log("🔽 Fetching summary list…");
+    const listRes = await fetch(LIST_URL);
+    const listJson = await listRes.json();
+    const summary = listJson.results || [];
 
-    console.log(`📄 ${list.length} launches found`);
+    console.log(`Found ${summary.length} launches`);
+
     const detailed = [];
-
-    // Fetch each launch fully
-    for (const l of list) {
-      const d = await fetchDetails(l.id);
-      if (d) detailed.push(simplify(d));
+    for (const s of summary) {
+      console.log("🔎 Fetching details:", s.id);
+      const full = await fetchDetails(s.id);
+      detailed.push(simplify(full));
     }
 
     const output = {
@@ -103,7 +93,7 @@ async function main() {
     console.log("✅ launches.json updated!");
 
   } catch (err) {
-    console.error("❌ Error:", err);
+    console.error("❌ ERROR:", err);
     process.exit(1);
   }
 }
