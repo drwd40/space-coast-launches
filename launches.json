@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-12-03T23:53:34.809Z",
+  "timestamp": "2025-12-04T00:04:48.710Z",
   "launches": [
     {
       "id": "c1fb73cf-ad9a-4305-bd11-d61fff369afe",
@@ -84,23 +84,23 @@
       "boosters": []
     },
     {
-      "id": "4cc237b2-c61a-491e-9532-466cce81f524",
-      "name": "Unknown | ViaSat-3 F3 (ViaSat-3 Asia-Pacific)",
+      "id": "4c78e865-8f03-4f47-a081-b507da270d19",
+      "name": "Falcon 9 Block 5 | USSF-31",
       "net": "2025-12-31T00:00:00Z",
       "net_precision": "Y",
       "window_start": "2025-12-31T00:00:00Z",
       "window_end": "2025-12-31T00:00:00Z",
-      "provider": "Unknown",
-      "vehicle": "Unknown Launch Vehicle",
-      "orbit": "Geostationary Transfer Orbit",
-      "orbit_abbrev": "GTO",
+      "provider": "SpaceX",
+      "vehicle": "Falcon 9 Block 5",
+      "orbit": "Geostationary Orbit",
+      "orbit_abbrev": "Direct-GEO",
       "probability": null,
       "status": "To Be Determined",
-      "image": null,
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "pad": "Unknown Pad",
       "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": "East",
-      "agency_launches_this_year": 1,
+      "trajectory_direction": null,
+      "agency_launches_this_year": 173,
       "boosters": []
     },
     {
@@ -166,23 +166,23 @@
       ]
     },
     {
-      "id": "4c78e865-8f03-4f47-a081-b507da270d19",
-      "name": "Falcon 9 Block 5 | USSF-31",
+      "id": "4cc237b2-c61a-491e-9532-466cce81f524",
+      "name": "Unknown | ViaSat-3 F3 (ViaSat-3 Asia-Pacific)",
       "net": "2025-12-31T00:00:00Z",
       "net_precision": "Y",
       "window_start": "2025-12-31T00:00:00Z",
       "window_end": "2025-12-31T00:00:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Geostationary Orbit",
-      "orbit_abbrev": "Direct-GEO",
+      "provider": "Unknown",
+      "vehicle": "Unknown Launch Vehicle",
+      "orbit": "Geostationary Transfer Orbit",
+      "orbit_abbrev": "GTO",
       "probability": null,
       "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "image": null,
       "pad": "Unknown Pad",
       "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 173,
+      "trajectory_direction": "East",
+      "agency_launches_this_year": 1,
       "boosters": []
     },
     {
