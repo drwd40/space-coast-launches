@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-12-05T19:02:47.955Z",
+  "timestamp": "2025-12-05T19:13:59.965Z",
   "launches": [
     {
       "id": "c1fb73cf-ad9a-4305-bd11-d61fff369afe",
@@ -126,6 +126,37 @@
       ]
     },
     {
+      "id": "49e52470-1dd4-45a9-b549-cfb417031823",
+      "name": "Falcon 9 Block 5 | Starlink Group 6-82",
+      "net": "2025-12-15T02:43:00Z",
+      "net_precision": "MIN",
+      "window_start": "2025-12-15T02:43:00Z",
+      "window_end": "2025-12-15T06:43:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon 9 Block 5",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
+      "probability": null,
+      "status": "Go for Launch",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+      "pad": "Space Launch Complex 40",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": "Southeast",
+      "agency_launches_this_year": 169,
+      "boosters": [
+        {
+          "core": "B1092",
+          "flight": 8,
+          "landing_attempt": true,
+          "landing_success": null,
+          "landing_type": "ASDS",
+          "landing_location": "A Shortfall of Gravitas",
+          "droneship": "ASOG",
+          "description": "The Falcon 9 first stage B1092 will attempt landing on ASDS ASOG after its 9th flight."
+        }
+      ]
+    },
+    {
       "id": "0dcbd5ee-2728-4c79-8dc5-051ea11b888f",
       "name": "Atlas V 551 | Amazon Leo (LA-04)",
       "net": "2025-12-15T08:35:00Z",
@@ -246,26 +277,6 @@
           "description": "New Glenn booster GS1-SN002 will attempt to land on Jacklyn after its second flight."
         }
       ]
-    },
-    {
-      "id": "41699701-2ef4-4b0c-ac9d-6757820cde87",
-      "name": "SLS Block 1 | Artemis II",
-      "net": "2026-02-06T01:09:00Z",
-      "net_precision": "MIN",
-      "window_start": "2026-02-06T01:09:00Z",
-      "window_end": "2026-02-06T01:41:00Z",
-      "provider": "National Aeronautics and Space Administration",
-      "vehicle": "Space Launch System Block 1",
-      "orbit": "Lunar flyby",
-      "orbit_abbrev": "Lunar flyby",
-      "probability": null,
-      "status": "To Be Confirmed",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/space_launch_sy_image_20220331082429.jpeg",
-      "pad": "Launch Complex 39B",
-      "location": "Kennedy Space Center, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 1,
-      "boosters": []
     }
   ]
 }
