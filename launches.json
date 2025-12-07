@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-12-07T00:47:10.461Z",
+  "timestamp": "2025-12-07T01:20:32.666Z",
   "launches": [
     {
       "id": "c1fb73cf-ad9a-4305-bd11-d61fff369afe",
@@ -213,7 +213,7 @@
       "pad": "Unknown Pad",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
-      "agency_launches_this_year": 175,
+      "agency_launches_this_year": 172,
       "boosters": []
     },
     {
@@ -233,7 +233,7 @@
       "pad": "Unknown Pad",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": "East",
-      "agency_launches_this_year": 175,
+      "agency_launches_this_year": 172,
       "boosters": [
         {
           "core": "Unknown F9",
