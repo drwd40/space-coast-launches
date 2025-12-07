@@ -1,10 +1,10 @@
 {
-  "timestamp": "2025-12-07T22:40:14.070Z",
+  "timestamp": "2025-12-07T22:47:52.673Z",
   "launches": [
     {
       "id": "c1fb73cf-ad9a-4305-bd11-d61fff369afe",
       "name": "Falcon 9 Block 5 | Starlink Group 6-92",
-      "net": "2025-12-07T23:13:10Z",
+      "net": "2025-12-08T00:02:50Z",
       "net_precision": "SEC",
       "window_start": "2025-12-07T21:40:00Z",
       "window_end": "2025-12-08T01:40:00Z",
@@ -13,7 +13,7 @@
       "orbit": "Low Earth Orbit",
       "orbit_abbrev": "LEO",
       "probability": 30,
-      "status": "On Hold",
+      "status": "Go for Launch",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
       "pad": "Launch Complex 39A",
       "location": "Kennedy Space Center, FL, USA",
