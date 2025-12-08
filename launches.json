@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-12-08T22:24:52.938Z",
+  "timestamp": "2025-12-08T22:36:48.282Z",
   "launches": [
     {
       "id": "c1fb73cf-ad9a-4305-bd11-d61fff369afe",
@@ -13,7 +13,7 @@
       "orbit": "Low Earth Orbit",
       "orbit_abbrev": "LEO",
       "probability": 90,
-      "status": "Go for Launch",
+      "status": "Launch in Flight",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
       "pad": "Launch Complex 39A",
       "location": "Kennedy Space Center, FL, USA",
@@ -24,11 +24,11 @@
           "core": "B1067",
           "flight": 31,
           "landing_attempt": true,
-          "landing_success": null,
+          "landing_success": true,
           "landing_type": "ASDS",
-          "landing_location": "Just Read the Instructions",
-          "droneship": "JRTI",
-          "description": "The Falcon 9 first stage B1067 will attempt landing on ASDS JRTI after its 32nd flight."
+          "landing_location": "A Shortfall of Gravitas",
+          "droneship": "ASOG",
+          "description": "The Falcon 9 first stage B1067 has landed on ASDS ASOG after its 32nd flight."
         }
       ]
     },
