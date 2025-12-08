@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-12-08T22:11:30.786Z",
+  "timestamp": "2025-12-08T22:24:52.938Z",
   "launches": [
     {
       "id": "c1fb73cf-ad9a-4305-bd11-d61fff369afe",
@@ -35,10 +35,10 @@
     {
       "id": "c203e807-0955-4e32-abfe-d5c71cdf5c31",
       "name": "Falcon 9 Block 5 | NROL-77",
-      "net": "2025-12-09T19:16:00Z",
-      "net_precision": "MIN",
-      "window_start": "2025-12-09T19:16:00Z",
-      "window_end": "2025-12-09T19:16:00Z",
+      "net": "2025-12-09T19:16:25Z",
+      "net_precision": "SEC",
+      "window_start": "2025-12-09T19:16:25Z",
+      "window_end": "2025-12-09T19:16:25Z",
       "provider": "SpaceX",
       "vehicle": "Falcon 9 Block 5",
       "orbit": "Unknown",
