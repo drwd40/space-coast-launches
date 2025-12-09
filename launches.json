@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-12-09T17:56:35.239Z",
+  "timestamp": "2025-12-09T18:09:27.527Z",
   "launches": [
     {
       "id": "c1fb73cf-ad9a-4305-bd11-d61fff369afe",
@@ -88,9 +88,9 @@
           "landing_attempt": true,
           "landing_success": null,
           "landing_type": "ASDS",
-          "landing_location": "A Shortfall of Gravitas",
-          "droneship": "ASOG",
-          "description": "The Falcon 9 first stage B1083 will attempt landing on ASDS ASOG after its 16th flight."
+          "landing_location": "Just Read the Instructions",
+          "droneship": "JRTI",
+          "description": "The Falcon 9 first stage B1083 will attempt landing on ASDS JRTI after its 16th flight."
         }
       ]
     },
