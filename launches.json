@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-12-09T22:43:41.053Z",
+  "timestamp": "2025-12-09T22:51:29.803Z",
   "launches": [
     {
       "id": "c203e807-0955-4e32-abfe-d5c71cdf5c31",
@@ -13,7 +13,7 @@
       "orbit": "Unknown",
       "orbit_abbrev": "N/A",
       "probability": 98,
-      "status": "Launch in Flight",
+      "status": "Launch Successful",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_20251209085834.jpeg",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
@@ -22,7 +22,7 @@
       "boosters": [
         {
           "core": "B1096",
-          "flight": 3,
+          "flight": 4,
           "landing_attempt": true,
           "landing_success": true,
           "landing_type": "RTLS",
