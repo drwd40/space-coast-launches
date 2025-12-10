@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-12-10T01:38:13.185Z",
+  "timestamp": "2025-12-10T02:24:10.082Z",
   "launches": [
     {
       "id": "c203e807-0955-4e32-abfe-d5c71cdf5c31",
@@ -162,7 +162,7 @@
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": "Southeast",
-      "agency_launches_this_year": null,
+      "agency_launches_this_year": 171,
       "boosters": [
         {
           "core": "Unknown F9",
@@ -193,7 +193,7 @@
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
-      "agency_launches_this_year": 171,
+      "agency_launches_this_year": 175,
       "boosters": [
         {
           "core": "Unknown F9",
@@ -255,7 +255,7 @@
       "pad": "Unknown Pad",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
-      "agency_launches_this_year": 174,
+      "agency_launches_this_year": 175,
       "boosters": []
     },
     {
