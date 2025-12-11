@@ -1,11 +1,11 @@
 {
-  "timestamp": "2025-12-11T00:00:47.629Z",
+  "timestamp": "2025-12-11T00:40:00.887Z",
   "launches": [
     {
       "id": "bea05b91-9cfa-48da-8fe0-c85c902f25ee",
       "name": "Falcon 9 Block 5 | Starlink Group 6-90",
-      "net": "2025-12-11T18:59:00Z",
-      "net_precision": "MIN",
+      "net": "2025-12-11T20:26:10Z",
+      "net_precision": "SEC",
       "window_start": "2025-12-11T18:59:00Z",
       "window_end": "2025-12-11T22:59:00Z",
       "provider": "SpaceX",
@@ -146,57 +146,6 @@
       ]
     },
     {
-      "id": "57cc5e9e-97c2-4833-8bcd-e4e62ce63ec6",
-      "name": "Falcon 9 Block 5 | Starlink Group 10-36",
-      "net": "2025-12-31T00:00:00Z",
-      "net_precision": "M",
-      "window_start": "2025-12-31T00:00:00Z",
-      "window_end": "2025-12-31T00:00:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-      "pad": "Space Launch Complex 40",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 175,
-      "boosters": [
-        {
-          "core": "Unknown F9",
-          "flight": null,
-          "landing_attempt": true,
-          "landing_success": null,
-          "landing_type": "ASDS",
-          "landing_location": "Unknown",
-          "droneship": "N/A",
-          "description": "The Falcon 9 first stage will attempt to land on one of two East Coast ASDS after its flight."
-        }
-      ]
-    },
-    {
-      "id": "4cc237b2-c61a-491e-9532-466cce81f524",
-      "name": "Unknown | ViaSat-3 F3 (ViaSat-3 Asia-Pacific)",
-      "net": "2025-12-31T00:00:00Z",
-      "net_precision": "Y",
-      "window_start": "2025-12-31T00:00:00Z",
-      "window_end": "2025-12-31T00:00:00Z",
-      "provider": "Unknown",
-      "vehicle": "Unknown Launch Vehicle",
-      "orbit": "Geostationary Transfer Orbit",
-      "orbit_abbrev": "GTO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": null,
-      "pad": "Unknown Pad",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": "East",
-      "agency_launches_this_year": 1,
-      "boosters": []
-    },
-    {
       "id": "9bfa0324-db74-444f-8dc3-1c7d373ca659",
       "name": "Falcon 9 Block 5 | 5x Astranis MicroGEO",
       "net": "2025-12-31T00:00:00Z",
@@ -228,6 +177,26 @@
       ]
     },
     {
+      "id": "4cc237b2-c61a-491e-9532-466cce81f524",
+      "name": "Unknown | ViaSat-3 F3 (ViaSat-3 Asia-Pacific)",
+      "net": "2025-12-31T00:00:00Z",
+      "net_precision": "Y",
+      "window_start": "2025-12-31T00:00:00Z",
+      "window_end": "2025-12-31T00:00:00Z",
+      "provider": "Unknown",
+      "vehicle": "Unknown Launch Vehicle",
+      "orbit": "Geostationary Transfer Orbit",
+      "orbit_abbrev": "GTO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": null,
+      "pad": "Unknown Pad",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": "East",
+      "agency_launches_this_year": 1,
+      "boosters": []
+    },
+    {
       "id": "4c78e865-8f03-4f47-a081-b507da270d19",
       "name": "Falcon 9 Block 5 | USSF-31",
       "net": "2025-12-31T00:00:00Z",
@@ -246,6 +215,37 @@
       "trajectory_direction": null,
       "agency_launches_this_year": 175,
       "boosters": []
+    },
+    {
+      "id": "57cc5e9e-97c2-4833-8bcd-e4e62ce63ec6",
+      "name": "Falcon 9 Block 5 | Starlink Group 10-36",
+      "net": "2025-12-31T00:00:00Z",
+      "net_precision": "M",
+      "window_start": "2025-12-31T00:00:00Z",
+      "window_end": "2025-12-31T00:00:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon 9 Block 5",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+      "pad": "Space Launch Complex 40",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 175,
+      "boosters": [
+        {
+          "core": "Unknown F9",
+          "flight": null,
+          "landing_attempt": true,
+          "landing_success": null,
+          "landing_type": "ASDS",
+          "landing_location": "Unknown",
+          "droneship": "N/A",
+          "description": "The Falcon 9 first stage will attempt to land on one of two East Coast ASDS after its flight."
+        }
+      ]
     },
     {
       "id": "98ec4234-8c4e-4365-b6c5-6b89da53f8dd",
