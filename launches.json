@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-12-14T18:32:57.621Z",
+  "timestamp": "2025-12-14T18:45:41.628Z",
   "launches": [
     {
       "id": "49e52470-1dd4-45a9-b549-cfb417031823",
@@ -33,26 +33,6 @@
       ]
     },
     {
-      "id": "0dcbd5ee-2728-4c79-8dc5-051ea11b888f",
-      "name": "Atlas V 551 | Amazon Leo (LA-04)",
-      "net": "2025-12-15T08:49:00Z",
-      "net_precision": "MIN",
-      "window_start": "2025-12-15T08:49:00Z",
-      "window_end": "2025-12-15T09:18:00Z",
-      "provider": "United Launch Alliance",
-      "vehicle": "Atlas V 551",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": 20,
-      "status": "Go for Launch",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas2520v2520551_image_20190224012316.jpeg",
-      "pad": "Space Launch Complex 41",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 6,
-      "boosters": []
-    },
-    {
       "id": "9d12fbac-53de-4517-9191-4697fbc07dd2",
       "name": "Falcon 9 Block 5 | Starlink Group 6-99",
       "net": "2025-12-15T13:11:00Z",
@@ -82,6 +62,26 @@
           "description": "The Falcon 9 first stage B1094 will attempt landing on ASDS JRTI after its 6th flight."
         }
       ]
+    },
+    {
+      "id": "0dcbd5ee-2728-4c79-8dc5-051ea11b888f",
+      "name": "Atlas V 551 | Amazon Leo (LA-04)",
+      "net": "2025-12-16T08:28:00Z",
+      "net_precision": "MIN",
+      "window_start": "2025-12-16T08:28:00Z",
+      "window_end": "2025-12-16T08:57:00Z",
+      "provider": "United Launch Alliance",
+      "vehicle": "Atlas V 551",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
+      "probability": 95,
+      "status": "Go for Launch",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas2520v2520551_image_20190224012316.jpeg",
+      "pad": "Space Launch Complex 41",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 6,
+      "boosters": []
     },
     {
       "id": "ae315ab0-ecda-4c54-99c6-0a8818f55b0d",
