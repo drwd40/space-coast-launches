@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-12-15T05:15:14.733Z",
+  "timestamp": "2025-12-15T05:30:37.319Z",
   "launches": [
     {
       "id": "49e52470-1dd4-45a9-b549-cfb417031823",
@@ -13,7 +13,7 @@
       "orbit": "Low Earth Orbit",
       "orbit_abbrev": "LEO",
       "probability": 30,
-      "status": "Go for Launch",
+      "status": "Launch in Flight",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
@@ -115,26 +115,6 @@
       ]
     },
     {
-      "id": "4cc237b2-c61a-491e-9532-466cce81f524",
-      "name": "Unknown | ViaSat-3 F3 (ViaSat-3 Asia-Pacific)",
-      "net": "2025-12-31T00:00:00Z",
-      "net_precision": "Y",
-      "window_start": "2025-12-31T00:00:00Z",
-      "window_end": "2025-12-31T00:00:00Z",
-      "provider": "Unknown",
-      "vehicle": "Unknown Launch Vehicle",
-      "orbit": "Geostationary Transfer Orbit",
-      "orbit_abbrev": "GTO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": null,
-      "pad": "Unknown Pad",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": "East",
-      "agency_launches_this_year": 1,
-      "boosters": []
-    },
-    {
       "id": "57cc5e9e-97c2-4833-8bcd-e4e62ce63ec6",
       "name": "Falcon 9 Block 5 | Starlink Group 10-36",
       "net": "2025-12-31T00:00:00Z",
@@ -164,6 +144,26 @@
           "description": "The Falcon 9 first stage will attempt to land on one of two East Coast ASDS after its flight."
         }
       ]
+    },
+    {
+      "id": "4cc237b2-c61a-491e-9532-466cce81f524",
+      "name": "Unknown | ViaSat-3 F3 (ViaSat-3 Asia-Pacific)",
+      "net": "2025-12-31T00:00:00Z",
+      "net_precision": "Y",
+      "window_start": "2025-12-31T00:00:00Z",
+      "window_end": "2025-12-31T00:00:00Z",
+      "provider": "Unknown",
+      "vehicle": "Unknown Launch Vehicle",
+      "orbit": "Geostationary Transfer Orbit",
+      "orbit_abbrev": "GTO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": null,
+      "pad": "Unknown Pad",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": "East",
+      "agency_launches_this_year": 1,
+      "boosters": []
     },
     {
       "id": "4c78e865-8f03-4f47-a081-b507da270d19",
