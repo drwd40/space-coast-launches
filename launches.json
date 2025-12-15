@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-12-15T22:45:59.042Z",
+  "timestamp": "2025-12-15T22:53:55.011Z",
   "launches": [
     {
       "id": "49e52470-1dd4-45a9-b549-cfb417031823",
@@ -69,7 +69,7 @@
       "pad": "Launch Complex 39A",
       "location": "Kennedy Space Center, FL, USA",
       "trajectory_direction": "Southeast",
-      "agency_launches_this_year": 170,
+      "agency_launches_this_year": 169,
       "boosters": [
         {
           "core": "B1094",
