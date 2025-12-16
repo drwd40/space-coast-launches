@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-12-16T06:36:58.539Z",
+  "timestamp": "2025-12-16T06:53:19.530Z",
   "launches": [
     {
       "id": "0dcbd5ee-2728-4c79-8dc5-051ea11b888f",
@@ -12,7 +12,7 @@
       "vehicle": "Atlas V 551",
       "orbit": "Low Earth Orbit",
       "orbit_abbrev": "LEO",
-      "probability": 95,
+      "probability": 90,
       "status": "Go for Launch",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas_v_on_the__image_20251215165035.jpg",
       "pad": "Space Launch Complex 41",
@@ -237,16 +237,16 @@
       ]
     },
     {
-      "id": "98f70f28-397a-4c0d-aeb2-e7f8a88e0323",
-      "name": "Vulcan | GPS III SV09",
+      "id": "649bf8ed-f2a6-4923-aaf0-6086ad0227f5",
+      "name": "Vulcan | WGS-11",
       "net": "2026-03-31T00:00:00Z",
       "net_precision": "Q1",
       "window_start": "2026-03-31T00:00:00Z",
       "window_end": "2026-03-31T00:00:00Z",
       "provider": "United Launch Alliance",
       "vehicle": "Vulcan",
-      "orbit": "Medium Earth Orbit",
-      "orbit_abbrev": "MEO",
+      "orbit": "Geosynchronous Transfer Orbit",
+      "orbit_abbrev": "GSTO",
       "probability": null,
       "status": "To Be Determined",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
