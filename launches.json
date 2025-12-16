@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-12-16T08:13:10.702Z",
+  "timestamp": "2025-12-16T08:28:49.953Z",
   "launches": [
     {
       "id": "0dcbd5ee-2728-4c79-8dc5-051ea11b888f",
@@ -13,7 +13,7 @@
       "orbit": "Low Earth Orbit",
       "orbit_abbrev": "LEO",
       "probability": 90,
-      "status": "Go for Launch",
+      "status": "Launch in Flight",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas_v_on_the__image_20251216072231.jpeg",
       "pad": "Space Launch Complex 41",
       "location": "Cape Canaveral SFS, FL, USA",
