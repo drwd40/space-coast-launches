@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-12-17T14:43:52.841Z",
+  "timestamp": "2025-12-17T14:55:17.013Z",
   "launches": [
     {
       "id": "9d12fbac-53de-4517-9191-4697fbc07dd2",
@@ -13,7 +13,7 @@
       "orbit": "Low Earth Orbit",
       "orbit_abbrev": "LEO",
       "probability": 95,
-      "status": "Launch in Flight",
+      "status": "Launch Successful",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
       "pad": "Launch Complex 39A",
       "location": "Kennedy Space Center, FL, USA",
@@ -22,7 +22,7 @@
       "boosters": [
         {
           "core": "B1094",
-          "flight": 5,
+          "flight": 6,
           "landing_attempt": true,
           "landing_success": true,
           "landing_type": "ASDS",
