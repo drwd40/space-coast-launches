@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-12-17T13:25:52.598Z",
+  "timestamp": "2025-12-17T13:42:51.437Z",
   "launches": [
     {
       "id": "9d12fbac-53de-4517-9191-4697fbc07dd2",
@@ -13,7 +13,7 @@
       "orbit": "Low Earth Orbit",
       "orbit_abbrev": "LEO",
       "probability": 95,
-      "status": "Go for Launch",
+      "status": "Launch in Flight",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
       "pad": "Launch Complex 39A",
       "location": "Kennedy Space Center, FL, USA",
