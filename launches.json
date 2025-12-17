@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-12-17T18:01:19.622Z",
+  "timestamp": "2025-12-17T18:15:06.213Z",
   "launches": [
     {
       "id": "9d12fbac-53de-4517-9191-4697fbc07dd2",
@@ -29,6 +29,37 @@
           "landing_location": "Just Read the Instructions",
           "droneship": "JRTI",
           "description": "The Falcon 9 first stage B1094 has landed on ASDS JRTI after its 6th flight."
+        }
+      ]
+    },
+    {
+      "id": "57cc5e9e-97c2-4833-8bcd-e4e62ce63ec6",
+      "name": "Falcon 9 Block 5 | Starlink Group 10-36",
+      "net": "2025-12-19T22:46:00Z",
+      "net_precision": "MIN",
+      "window_start": "2025-12-19T22:46:00Z",
+      "window_end": "2025-12-20T02:46:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon 9 Block 5",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
+      "probability": null,
+      "status": "To Be Confirmed",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+      "pad": "Space Launch Complex 40",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 173,
+      "boosters": [
+        {
+          "core": "Unknown F9",
+          "flight": null,
+          "landing_attempt": true,
+          "landing_success": null,
+          "landing_type": "ASDS",
+          "landing_location": "Unknown",
+          "droneship": "N/A",
+          "description": "The Falcon 9 first stage will attempt to land on one of two East Coast ASDS after its flight."
         }
       ]
     },
@@ -82,37 +113,6 @@
       "trajectory_direction": "East",
       "agency_launches_this_year": 1,
       "boosters": []
-    },
-    {
-      "id": "57cc5e9e-97c2-4833-8bcd-e4e62ce63ec6",
-      "name": "Falcon 9 Block 5 | Starlink Group 10-36",
-      "net": "2025-12-31T00:00:00Z",
-      "net_precision": "M",
-      "window_start": "2025-12-31T00:00:00Z",
-      "window_end": "2025-12-31T00:00:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-      "pad": "Space Launch Complex 40",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 173,
-      "boosters": [
-        {
-          "core": "Unknown F9",
-          "flight": null,
-          "landing_attempt": true,
-          "landing_success": null,
-          "landing_type": "ASDS",
-          "landing_location": "Unknown",
-          "droneship": "N/A",
-          "description": "The Falcon 9 first stage will attempt to land on one of two East Coast ASDS after its flight."
-        }
-      ]
     },
     {
       "id": "98ec4234-8c4e-4365-b6c5-6b89da53f8dd",
@@ -197,6 +197,26 @@
       ]
     },
     {
+      "id": "b32689fe-b156-4ccd-b824-fd555d12ba24",
+      "name": "Vulcan | USSF-57",
+      "net": "2026-03-31T00:00:00Z",
+      "net_precision": "M",
+      "window_start": "2026-03-31T00:00:00Z",
+      "window_end": "2026-03-31T00:00:00Z",
+      "provider": "United Launch Alliance",
+      "vehicle": "Vulcan",
+      "orbit": "Geostationary Transfer Orbit",
+      "orbit_abbrev": "GTO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
+      "pad": "Space Launch Complex 41",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": "East",
+      "agency_launches_this_year": 5,
+      "boosters": []
+    },
+    {
       "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
       "name": "Vulcan VC6L | Amazon Leo (LV-01)",
       "net": "2026-03-31T00:00:00Z",
@@ -234,26 +254,6 @@
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": "East",
       "agency_launches_this_year": 10,
-      "boosters": []
-    },
-    {
-      "id": "550f778d-6c2d-41fc-b182-6f0cd8feda93",
-      "name": "Vulcan | USSF-87",
-      "net": "2026-03-31T00:00:00Z",
-      "net_precision": "Q1",
-      "window_start": "2026-03-31T00:00:00Z",
-      "window_end": "2026-03-31T00:00:00Z",
-      "provider": "United Launch Alliance",
-      "vehicle": "Vulcan",
-      "orbit": "Geostationary Orbit",
-      "orbit_abbrev": "Direct-GEO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
-      "pad": "Space Launch Complex 41",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 5,
       "boosters": []
     }
   ]
