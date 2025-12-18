@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-12-18T23:40:37.522Z",
+  "timestamp": "2025-12-18T23:48:29.297Z",
   "launches": [
     {
       "id": "ae315ab0-ecda-4c54-99c6-0a8818f55b0d",
@@ -186,22 +186,22 @@
       "boosters": []
     },
     {
-      "id": "b32689fe-b156-4ccd-b824-fd555d12ba24",
-      "name": "Vulcan | USSF-57",
+      "id": "98f70f28-397a-4c0d-aeb2-e7f8a88e0323",
+      "name": "Vulcan | GPS III SV09",
       "net": "2026-03-31T00:00:00Z",
-      "net_precision": "M",
+      "net_precision": "Q1",
       "window_start": "2026-03-31T00:00:00Z",
       "window_end": "2026-03-31T00:00:00Z",
       "provider": "United Launch Alliance",
       "vehicle": "Vulcan",
-      "orbit": "Geostationary Transfer Orbit",
-      "orbit_abbrev": "GTO",
+      "orbit": "Medium Earth Orbit",
+      "orbit_abbrev": "MEO",
       "probability": null,
       "status": "To Be Determined",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
       "pad": "Space Launch Complex 41",
       "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": "East",
+      "trajectory_direction": null,
       "agency_launches_this_year": 5,
       "boosters": []
     },
@@ -226,24 +226,35 @@
       "boosters": []
     },
     {
-      "id": "98f70f28-397a-4c0d-aeb2-e7f8a88e0323",
-      "name": "Vulcan | GPS III SV09",
+      "id": "53769468-bfd3-45c7-a52b-46a68ed7510f",
+      "name": "Falcon 9 Block 5 | BlueBird Block 2 #2",
       "net": "2026-03-31T00:00:00Z",
       "net_precision": "Q1",
       "window_start": "2026-03-31T00:00:00Z",
       "window_end": "2026-03-31T00:00:00Z",
-      "provider": "United Launch Alliance",
-      "vehicle": "Vulcan",
-      "orbit": "Medium Earth Orbit",
-      "orbit_abbrev": "MEO",
+      "provider": "SpaceX",
+      "vehicle": "Falcon 9 Block 5",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
       "probability": null,
       "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
-      "pad": "Space Launch Complex 41",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/f9_on_slc-40_2_image_20240919072420.jpg",
+      "pad": "Unknown Pad",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
-      "agency_launches_this_year": 5,
-      "boosters": []
+      "agency_launches_this_year": 10,
+      "boosters": [
+        {
+          "core": "Unknown F9",
+          "flight": null,
+          "landing_attempt": null,
+          "landing_success": null,
+          "landing_type": null,
+          "landing_location": null,
+          "droneship": null,
+          "description": null
+        }
+      ]
     }
   ]
 }
