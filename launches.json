@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-12-18T16:27:36.482Z",
+  "timestamp": "2025-12-18T16:45:18.165Z",
   "launches": [
     {
       "id": "57cc5e9e-97c2-4833-8bcd-e4e62ce63ec6",
@@ -35,10 +35,10 @@
     {
       "id": "ae315ab0-ecda-4c54-99c6-0a8818f55b0d",
       "name": "Falcon 9 Block 5 | Starlink Group 6-88",
-      "net": "2025-12-21T05:00:00Z",
+      "net": "2025-12-28T05:00:00Z",
       "net_precision": "MIN",
-      "window_start": "2025-12-21T05:00:00Z",
-      "window_end": "2025-12-21T08:17:00Z",
+      "window_start": "2025-12-28T05:00:00Z",
+      "window_end": "2025-12-28T08:17:00Z",
       "provider": "SpaceX",
       "vehicle": "Falcon 9 Block 5",
       "orbit": "Low Earth Orbit",
@@ -49,7 +49,7 @@
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": "Southeast",
-      "agency_launches_this_year": 172,
+      "agency_launches_this_year": 173,
       "boosters": [
         {
           "core": "B1101",
