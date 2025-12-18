@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-12-17T23:54:00.459Z",
+  "timestamp": "2025-12-18T00:07:34.279Z",
   "launches": [
     {
       "id": "9d12fbac-53de-4517-9191-4697fbc07dd2",
@@ -197,22 +197,42 @@
       ]
     },
     {
-      "id": "b32689fe-b156-4ccd-b824-fd555d12ba24",
-      "name": "Vulcan | USSF-57",
+      "id": "649bf8ed-f2a6-4923-aaf0-6086ad0227f5",
+      "name": "Vulcan | WGS-11",
       "net": "2026-03-31T00:00:00Z",
-      "net_precision": "M",
+      "net_precision": "Q1",
       "window_start": "2026-03-31T00:00:00Z",
       "window_end": "2026-03-31T00:00:00Z",
       "provider": "United Launch Alliance",
       "vehicle": "Vulcan",
-      "orbit": "Geostationary Transfer Orbit",
-      "orbit_abbrev": "GTO",
+      "orbit": "Geosynchronous Transfer Orbit",
+      "orbit_abbrev": "GSTO",
       "probability": null,
       "status": "To Be Determined",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
       "pad": "Space Launch Complex 41",
       "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": "East",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 5,
+      "boosters": []
+    },
+    {
+      "id": "550f778d-6c2d-41fc-b182-6f0cd8feda93",
+      "name": "Vulcan | USSF-87",
+      "net": "2026-03-31T00:00:00Z",
+      "net_precision": "Q1",
+      "window_start": "2026-03-31T00:00:00Z",
+      "window_end": "2026-03-31T00:00:00Z",
+      "provider": "United Launch Alliance",
+      "vehicle": "Vulcan",
+      "orbit": "Geostationary Orbit",
+      "orbit_abbrev": "Direct-GEO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
+      "pad": "Space Launch Complex 41",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
       "agency_launches_this_year": 5,
       "boosters": []
     },
@@ -234,26 +254,6 @@
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
       "agency_launches_this_year": 5,
-      "boosters": []
-    },
-    {
-      "id": "0f6780cf-edae-4d7c-99d6-ce7de784d140",
-      "name": "Falcon 9 Block 5 | MRV-1",
-      "net": "2026-03-31T00:00:00Z",
-      "net_precision": "Q1",
-      "window_start": "2026-03-31T00:00:00Z",
-      "window_end": "2026-03-31T00:00:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Geostationary Transfer Orbit",
-      "orbit_abbrev": "GTO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-      "pad": "Unknown Pad",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": "East",
-      "agency_launches_this_year": 10,
       "boosters": []
     }
   ]
