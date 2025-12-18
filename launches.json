@@ -1,37 +1,6 @@
 {
-  "timestamp": "2025-12-18T13:37:51.661Z",
+  "timestamp": "2025-12-18T13:52:21.628Z",
   "launches": [
-    {
-      "id": "9d12fbac-53de-4517-9191-4697fbc07dd2",
-      "name": "Falcon 9 Block 5 | Starlink Group 6-99",
-      "net": "2025-12-17T13:42:10Z",
-      "net_precision": "SEC",
-      "window_start": "2025-12-17T12:19:00Z",
-      "window_end": "2025-12-17T16:19:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": 95,
-      "status": "Launch Successful",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-      "pad": "Launch Complex 39A",
-      "location": "Kennedy Space Center, FL, USA",
-      "trajectory_direction": "Southeast",
-      "agency_launches_this_year": 169,
-      "boosters": [
-        {
-          "core": "B1094",
-          "flight": 6,
-          "landing_attempt": true,
-          "landing_success": true,
-          "landing_type": "ASDS",
-          "landing_location": "Just Read the Instructions",
-          "droneship": "JRTI",
-          "description": "The Falcon 9 first stage B1094 has landed on ASDS JRTI after its 6th flight."
-        }
-      ]
-    },
     {
       "id": "57cc5e9e-97c2-4833-8bcd-e4e62ce63ec6",
       "name": "Falcon 9 Block 5 | Starlink Group 10-36",
@@ -197,26 +166,6 @@
       "boosters": []
     },
     {
-      "id": "550f778d-6c2d-41fc-b182-6f0cd8feda93",
-      "name": "Vulcan | USSF-87",
-      "net": "2026-03-31T00:00:00Z",
-      "net_precision": "Q1",
-      "window_start": "2026-03-31T00:00:00Z",
-      "window_end": "2026-03-31T00:00:00Z",
-      "provider": "United Launch Alliance",
-      "vehicle": "Vulcan",
-      "orbit": "Geostationary Orbit",
-      "orbit_abbrev": "Direct-GEO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
-      "pad": "Space Launch Complex 41",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 5,
-      "boosters": []
-    },
-    {
       "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
       "name": "Vulcan VC6L | Amazon Leo (LV-01)",
       "net": "2026-03-31T00:00:00Z",
@@ -253,6 +202,46 @@
       "pad": "Space Launch Complex 41",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": "East",
+      "agency_launches_this_year": 5,
+      "boosters": []
+    },
+    {
+      "id": "550f778d-6c2d-41fc-b182-6f0cd8feda93",
+      "name": "Vulcan | USSF-87",
+      "net": "2026-03-31T00:00:00Z",
+      "net_precision": "Q1",
+      "window_start": "2026-03-31T00:00:00Z",
+      "window_end": "2026-03-31T00:00:00Z",
+      "provider": "United Launch Alliance",
+      "vehicle": "Vulcan",
+      "orbit": "Geostationary Orbit",
+      "orbit_abbrev": "Direct-GEO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
+      "pad": "Space Launch Complex 41",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 5,
+      "boosters": []
+    },
+    {
+      "id": "98f70f28-397a-4c0d-aeb2-e7f8a88e0323",
+      "name": "Vulcan | GPS III SV09",
+      "net": "2026-03-31T00:00:00Z",
+      "net_precision": "Q1",
+      "window_start": "2026-03-31T00:00:00Z",
+      "window_end": "2026-03-31T00:00:00Z",
+      "provider": "United Launch Alliance",
+      "vehicle": "Vulcan",
+      "orbit": "Medium Earth Orbit",
+      "orbit_abbrev": "MEO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
+      "pad": "Space Launch Complex 41",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
       "agency_launches_this_year": 5,
       "boosters": []
     }
