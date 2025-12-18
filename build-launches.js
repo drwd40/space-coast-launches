@@ -55,10 +55,10 @@ function inferTrajectoryDirection(launch) {
   const starlinkMatch = name.match(/STARLINK\s+GROUP\s+(\d+)-(\d+)/i);
   if (starlinkMatch) {
     const group = parseInt(starlinkMatch[1], 10);
-
-    // Group families
-    if (group === 6 || group === 5) return "Southeast";
-    if (group === 4 || group === 1) return "Northeast";
+    
+    // Group families (Starlink shells)
+    if ([5, 6, 10].includes(group)) return "Southeast";
+    if ([1, 4].includes(group)) return "Northeast";
     if (group === 2) return "North-Northeast";
   }
 
