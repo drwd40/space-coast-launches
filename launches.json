@@ -1,24 +1,24 @@
 {
-  "timestamp": "2025-12-19T19:13:55.457Z",
+  "timestamp": "2025-12-19T19:25:27.325Z",
   "launches": [
     {
       "id": "ae315ab0-ecda-4c54-99c6-0a8818f55b0d",
       "name": "Falcon 9 Block 5 | Starlink Group 6-88",
-      "net": "2025-12-28T05:00:00Z",
-      "net_precision": "MIN",
-      "window_start": "2025-12-28T05:00:00Z",
-      "window_end": "2025-12-28T08:17:00Z",
+      "net": "2026-01-03T00:00:00Z",
+      "net_precision": "DAY",
+      "window_start": "2026-01-03T00:00:00Z",
+      "window_end": "2026-01-03T00:00:00Z",
       "provider": "SpaceX",
       "vehicle": "Falcon 9 Block 5",
       "orbit": "Low Earth Orbit",
       "orbit_abbrev": "LEO",
       "probability": null,
-      "status": "Go for Launch",
+      "status": "To Be Determined",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": "Southeast",
-      "agency_launches_this_year": 172,
+      "agency_launches_this_year": 1,
       "boosters": [
         {
           "core": "B1101",
