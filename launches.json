@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-02T22:02:49.551Z",
+  "timestamp": "2026-01-02T22:14:12.174Z",
   "launches": [
     {
       "id": "ae315ab0-ecda-4c54-99c6-0a8818f55b0d",
@@ -26,9 +26,9 @@
           "landing_attempt": true,
           "landing_success": null,
           "landing_type": "ASDS",
-          "landing_location": "A Shortfall of Gravitas",
-          "droneship": "ASOG",
-          "description": "The Falcon 9 first stage B1101 will land on ASDS ASOG after its 1st flight."
+          "landing_location": "Just Read the Instructions",
+          "droneship": "JRTI",
+          "description": "The Falcon 9 first stage B1101 will land on ASDS JRTI after its 1st flight."
         }
       ]
     },
@@ -241,10 +241,10 @@
     {
       "id": "41699701-2ef4-4b0c-ac9d-6757820cde87",
       "name": "SLS Block 1 | Artemis II",
-      "net": "2026-02-06T01:09:00Z",
+      "net": "2026-02-07T02:45:00Z",
       "net_precision": "MIN",
-      "window_start": "2026-02-06T01:09:00Z",
-      "window_end": "2026-02-06T01:41:00Z",
+      "window_start": "2026-02-07T02:45:00Z",
+      "window_end": "2026-02-07T02:45:00Z",
       "provider": "National Aeronautics and Space Administration",
       "vehicle": "Space Launch System Block 1",
       "orbit": "Lunar flyby",
