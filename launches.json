@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-03T18:35:31.251Z",
+  "timestamp": "2026-01-03T18:48:28.657Z",
   "launches": [
     {
       "id": "ae315ab0-ecda-4c54-99c6-0a8818f55b0d",
@@ -35,10 +35,10 @@
     {
       "id": "7e36b745-9e50-43ce-9911-ee33aa540f72",
       "name": "Falcon 9 Block 5 | Starlink Group 6-96",
-      "net": "2026-01-07T18:55:00Z",
+      "net": "2026-01-08T18:29:00Z",
       "net_precision": "MIN",
-      "window_start": "2026-01-07T18:55:00Z",
-      "window_end": "2026-01-07T22:55:00Z",
+      "window_start": "2026-01-08T18:29:00Z",
+      "window_end": "2026-01-08T22:29:00Z",
       "provider": "SpaceX",
       "vehicle": "Falcon 9 Block 5",
       "orbit": "Low Earth Orbit",
