@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-01-04T05:42:22.630Z",
+  "timestamp": "2026-01-04T05:52:36.088Z",
   "launches": [
     {
       "id": "ae315ab0-ecda-4c54-99c6-0a8818f55b0d",
       "name": "Falcon 9 Block 5 | Starlink Group 6-88",
-      "net": "2026-01-04T06:21:50Z",
+      "net": "2026-01-04T06:48:10Z",
       "net_precision": "SEC",
       "window_start": "2026-01-04T05:00:00Z",
       "window_end": "2026-01-04T08:17:00Z",
@@ -12,7 +12,7 @@
       "vehicle": "Falcon 9 Block 5",
       "orbit": "Low Earth Orbit",
       "orbit_abbrev": "LEO",
-      "probability": 30,
+      "probability": 70,
       "status": "Go for Launch",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
       "pad": "Space Launch Complex 40",
