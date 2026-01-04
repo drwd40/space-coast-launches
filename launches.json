@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-04T06:47:35.433Z",
+  "timestamp": "2026-01-04T06:58:42.282Z",
   "launches": [
     {
       "id": "ae315ab0-ecda-4c54-99c6-0a8818f55b0d",
@@ -13,7 +13,7 @@
       "orbit": "Low Earth Orbit",
       "orbit_abbrev": "LEO",
       "probability": 70,
-      "status": "Go for Launch",
+      "status": "Launch in Flight",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
@@ -24,11 +24,11 @@
           "core": "B1101",
           "flight": null,
           "landing_attempt": true,
-          "landing_success": null,
+          "landing_success": true,
           "landing_type": "ASDS",
           "landing_location": "Just Read the Instructions",
           "droneship": "JRTI",
-          "description": "The Falcon 9 first stage B1101 will land on ASDS JRTI after its 1st flight."
+          "description": "The Falcon 9 first stage B1101 has landed on ASDS JRTI after its 1st flight."
         }
       ]
     },
@@ -126,37 +126,6 @@
       ]
     },
     {
-      "id": "53769468-bfd3-45c7-a52b-46a68ed7510f",
-      "name": "Falcon 9 Block 5 | BlueBird Block 2 #2",
-      "net": "2026-01-31T00:00:00Z",
-      "net_precision": "M",
-      "window_start": "2026-01-31T00:00:00Z",
-      "window_end": "2026-01-31T00:00:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/f9_on_slc-40_2_image_20240919072420.jpg",
-      "pad": "Space Launch Complex 40",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 9,
-      "boosters": [
-        {
-          "core": "Unknown F9",
-          "flight": null,
-          "landing_attempt": null,
-          "landing_success": null,
-          "landing_type": null,
-          "landing_location": null,
-          "droneship": null,
-          "description": null
-        }
-      ]
-    },
-    {
       "id": "57cc5e9e-97c2-4833-8bcd-e4e62ce63ec6",
       "name": "Falcon 9 Block 5 | Starlink Group 10-36",
       "net": "2026-01-31T00:00:00Z",
@@ -184,6 +153,37 @@
           "landing_location": "Unknown",
           "droneship": "N/A",
           "description": "The Falcon 9 first stage will attempt to land on one of two East Coast ASDS after its flight."
+        }
+      ]
+    },
+    {
+      "id": "53769468-bfd3-45c7-a52b-46a68ed7510f",
+      "name": "Falcon 9 Block 5 | BlueBird Block 2 #2",
+      "net": "2026-01-31T00:00:00Z",
+      "net_precision": "M",
+      "window_start": "2026-01-31T00:00:00Z",
+      "window_end": "2026-01-31T00:00:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon 9 Block 5",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/f9_on_slc-40_2_image_20240919072420.jpg",
+      "pad": "Space Launch Complex 40",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 9,
+      "boosters": [
+        {
+          "core": "Unknown F9",
+          "flight": null,
+          "landing_attempt": null,
+          "landing_success": null,
+          "landing_type": null,
+          "landing_location": null,
+          "droneship": null,
+          "description": null
         }
       ]
     },
