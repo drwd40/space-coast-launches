@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-06T00:00:21.757Z",
+  "timestamp": "2026-01-06T00:40:32.448Z",
   "launches": [
     {
       "id": "7e36b745-9e50-43ce-9911-ee33aa540f72",
@@ -157,26 +157,6 @@
       ]
     },
     {
-      "id": "550f778d-6c2d-41fc-b182-6f0cd8feda93",
-      "name": "Vulcan | USSF-87",
-      "net": "2026-01-31T00:00:00Z",
-      "net_precision": "M",
-      "window_start": "2026-01-31T00:00:00Z",
-      "window_end": "2026-01-31T00:00:00Z",
-      "provider": "United Launch Alliance",
-      "vehicle": "Vulcan",
-      "orbit": "Geostationary Orbit",
-      "orbit_abbrev": "Direct-GEO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
-      "pad": "Space Launch Complex 41",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 1,
-      "boosters": []
-    },
-    {
       "id": "53769468-bfd3-45c7-a52b-46a68ed7510f",
       "name": "Falcon 9 Block 5 | BlueBird Block 2 #2",
       "net": "2026-01-31T00:00:00Z",
@@ -206,6 +186,26 @@
           "description": null
         }
       ]
+    },
+    {
+      "id": "550f778d-6c2d-41fc-b182-6f0cd8feda93",
+      "name": "Vulcan | USSF-87",
+      "net": "2026-01-31T00:00:00Z",
+      "net_precision": "M",
+      "window_start": "2026-01-31T00:00:00Z",
+      "window_end": "2026-01-31T00:00:00Z",
+      "provider": "United Launch Alliance",
+      "vehicle": "Vulcan",
+      "orbit": "Geostationary Orbit",
+      "orbit_abbrev": "Direct-GEO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
+      "pad": "Space Launch Complex 41",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 1,
+      "boosters": []
     },
     {
       "id": "41699701-2ef4-4b0c-ac9d-6757820cde87",
