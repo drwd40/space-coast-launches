@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-01-08T14:11:29.416Z",
+  "timestamp": "2026-01-08T14:26:13.519Z",
   "launches": [
     {
       "id": "7e36b745-9e50-43ce-9911-ee33aa540f72",
       "name": "Falcon 9 Block 5 | Starlink Group 6-96",
-      "net": "2026-01-08T21:59:00Z",
-      "net_precision": "SEC",
-      "window_start": "2026-01-08T18:29:00Z",
-      "window_end": "2026-01-08T22:29:00Z",
+      "net": "2026-01-09T18:03:00Z",
+      "net_precision": "MIN",
+      "window_start": "2026-01-09T18:03:00Z",
+      "window_end": "2026-01-09T22:03:00Z",
       "provider": "SpaceX",
       "vehicle": "Falcon 9 Block 5",
       "orbit": "Low Earth Orbit",
@@ -35,10 +35,10 @@
     {
       "id": "0fb47674-d5c3-4681-ae0a-bff4c8e43d6a",
       "name": "Falcon 9 Block 5 | Starlink Group 6-97",
-      "net": "2026-01-10T18:34:00Z",
+      "net": "2026-01-11T18:08:00Z",
       "net_precision": "MIN",
-      "window_start": "2026-01-10T18:34:00Z",
-      "window_end": "2026-01-10T22:34:00Z",
+      "window_start": "2026-01-11T18:08:00Z",
+      "window_end": "2026-01-11T22:08:00Z",
       "provider": "SpaceX",
       "vehicle": "Falcon 9 Block 5",
       "orbit": "Low Earth Orbit",
@@ -49,7 +49,7 @@
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": "Southeast",
-      "agency_launches_this_year": 4,
+      "agency_launches_this_year": 5,
       "boosters": [
         {
           "core": "B1078",
@@ -66,10 +66,10 @@
     {
       "id": "b8d9ff2b-a972-4e50-8fff-6c189dbe34cd",
       "name": "Falcon 9 Block 5 | Starlink Group 6-98",
-      "net": "2026-01-13T18:28:00Z",
+      "net": "2026-01-14T18:01:00Z",
       "net_precision": "MIN",
-      "window_start": "2026-01-13T18:28:00Z",
-      "window_end": "2026-01-13T22:28:00Z",
+      "window_start": "2026-01-14T18:01:00Z",
+      "window_end": "2026-01-14T22:01:00Z",
       "provider": "SpaceX",
       "vehicle": "Falcon 9 Block 5",
       "orbit": "Low Earth Orbit",
