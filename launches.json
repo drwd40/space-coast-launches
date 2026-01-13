@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-13T18:10:10.722Z",
+  "timestamp": "2026-01-13T18:25:11.219Z",
   "launches": [
     {
       "id": "0fb47674-d5c3-4681-ae0a-bff4c8e43d6a",
@@ -43,7 +43,7 @@
       "vehicle": "Falcon 9 Block 5",
       "orbit": "Low Earth Orbit",
       "orbit_abbrev": "LEO",
-      "probability": null,
+      "probability": 40,
       "status": "Go for Launch",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
       "pad": "Space Launch Complex 40",
