@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-01-22T15:34:50.632Z",
+  "timestamp": "2026-01-22T15:50:04.679Z",
   "launches": [
     {
       "id": "98f70f28-397a-4c0d-aeb2-e7f8a88e0323",
       "name": "Falcon 9 Block 5 | GPS III SV09",
-      "net": "2026-01-26T04:38:00Z",
+      "net": "2026-01-26T04:46:00Z",
       "net_precision": "MIN",
-      "window_start": "2026-01-26T04:38:00Z",
-      "window_end": "2026-01-26T05:56:00Z",
+      "window_start": "2026-01-26T04:46:00Z",
+      "window_end": "2026-01-26T05:01:00Z",
       "provider": "SpaceX",
       "vehicle": "Falcon 9 Block 5",
       "orbit": "Medium Earth Orbit",
       "orbit_abbrev": "MEO",
       "probability": null,
-      "status": "To Be Confirmed",
+      "status": "Go for Launch",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
@@ -21,14 +21,14 @@
       "agency_launches_this_year": 11,
       "boosters": [
         {
-          "core": "Unknown F9",
-          "flight": null,
+          "core": "B1096",
+          "flight": 4,
           "landing_attempt": true,
           "landing_success": null,
           "landing_type": "ASDS",
-          "landing_location": "Unknown",
-          "droneship": "N/A",
-          "description": "The Falcon 9 first stage will land on one of two East Coast ASDS after its flight."
+          "landing_location": "A Shortfall of Gravitas",
+          "droneship": "ASOG",
+          "description": "The Falcon 9 first stage B1096 will land on ASDS ASOG after its 5th flight."
         }
       ]
     },
