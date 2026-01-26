@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-01-26T01:15:45.106Z",
+  "timestamp": "2026-01-26T02:02:15.856Z",
   "launches": [
     {
       "id": "98f70f28-397a-4c0d-aeb2-e7f8a88e0323",
       "name": "Falcon 9 Block 5 | GPS III SV09",
-      "net": "2026-01-27T04:42:00Z",
-      "net_precision": "MIN",
+      "net": "2026-01-27T04:42:23Z",
+      "net_precision": "SEC",
       "window_start": "2026-01-27T04:42:00Z",
       "window_end": "2026-01-27T04:57:00Z",
       "provider": "SpaceX",
