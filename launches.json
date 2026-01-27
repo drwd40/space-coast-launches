@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-26T23:56:15.158Z",
+  "timestamp": "2026-01-27T00:29:32.549Z",
   "launches": [
     {
       "id": "98f70f28-397a-4c0d-aeb2-e7f8a88e0323",
@@ -197,37 +197,6 @@
       ]
     },
     {
-      "id": "57cc5e9e-97c2-4833-8bcd-e4e62ce63ec6",
-      "name": "Falcon 9 Block 5 | Starlink Group 10-36",
-      "net": "2026-02-28T00:00:00Z",
-      "net_precision": "M",
-      "window_start": "2026-02-28T00:00:00Z",
-      "window_end": "2026-02-28T00:00:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-      "pad": "Space Launch Complex 40",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": "Southeast",
-      "agency_launches_this_year": 20,
-      "boosters": [
-        {
-          "core": "Unknown F9",
-          "flight": null,
-          "landing_attempt": true,
-          "landing_success": null,
-          "landing_type": "ASDS",
-          "landing_location": "Unknown",
-          "droneship": "N/A",
-          "description": "The Falcon 9 first stage will land on one of two East Coast ASDS after its flight."
-        }
-      ]
-    },
-    {
       "id": "53769468-bfd3-45c7-a52b-46a68ed7510f",
       "name": "New Glenn | BlueBird Block 2 #2",
       "net": "2026-02-28T00:00:00Z",
@@ -259,19 +228,50 @@
       ]
     },
     {
-      "id": "649bf8ed-f2a6-4923-aaf0-6086ad0227f5",
-      "name": "Vulcan | WGS-11",
+      "id": "57cc5e9e-97c2-4833-8bcd-e4e62ce63ec6",
+      "name": "Falcon 9 Block 5 | Starlink Group 10-36",
+      "net": "2026-02-28T00:00:00Z",
+      "net_precision": "M",
+      "window_start": "2026-02-28T00:00:00Z",
+      "window_end": "2026-02-28T00:00:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon 9 Block 5",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+      "pad": "Space Launch Complex 40",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": "Southeast",
+      "agency_launches_this_year": 20,
+      "boosters": [
+        {
+          "core": "Unknown F9",
+          "flight": null,
+          "landing_attempt": true,
+          "landing_success": null,
+          "landing_type": "ASDS",
+          "landing_location": "Unknown",
+          "droneship": "N/A",
+          "description": "The Falcon 9 first stage will land on one of two East Coast ASDS after its flight."
+        }
+      ]
+    },
+    {
+      "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
+      "name": "Vulcan VC6L | Amazon Leo (LV-01)",
       "net": "2026-03-31T00:00:00Z",
       "net_precision": "Q1",
       "window_start": "2026-03-31T00:00:00Z",
       "window_end": "2026-03-31T00:00:00Z",
       "provider": "United Launch Alliance",
-      "vehicle": "Vulcan",
-      "orbit": "Geosynchronous Transfer Orbit",
-      "orbit_abbrev": "GSTO",
+      "vehicle": "Vulcan VC6L",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
       "probability": null,
       "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_vc6l_image_20220406123130.jpg",
       "pad": "Space Launch Complex 41",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
