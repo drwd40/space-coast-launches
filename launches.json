@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-28T05:02:58.020Z",
+  "timestamp": "2026-01-28T05:17:23.426Z",
   "launches": [
     {
       "id": "98f70f28-397a-4c0d-aeb2-e7f8a88e0323",
@@ -14,7 +14,7 @@
       "orbit_abbrev": "MEO",
       "probability": 99,
       "status": "Launch in Flight",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_20260128051232.jpg",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
@@ -24,11 +24,11 @@
           "core": "B1096",
           "flight": 4,
           "landing_attempt": true,
-          "landing_success": null,
+          "landing_success": true,
           "landing_type": "ASDS",
           "landing_location": "A Shortfall of Gravitas",
           "droneship": "ASOG",
-          "description": "The Falcon 9 first stage B1096 will land on ASDS ASOG after its 5th flight."
+          "description": "The Falcon 9 first stage B1096 has landed on ASDS ASOG after its 5th flight."
         }
       ]
     },
