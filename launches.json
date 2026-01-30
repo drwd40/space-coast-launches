@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-30T16:20:13.331Z",
+  "timestamp": "2026-01-30T16:39:10.406Z",
   "launches": [
     {
       "id": "5d4e8970-46cd-4c5e-9b9b-391eeb0700a6",
@@ -134,14 +134,14 @@
       "agency_launches_this_year": 19,
       "boosters": [
         {
-          "core": "Unknown F9",
-          "flight": null,
+          "core": "B1101",
+          "flight": 1,
           "landing_attempt": true,
           "landing_success": null,
           "landing_type": "RTLS",
           "landing_location": "Landing Zone  at SLC-40",
           "droneship": "LZ at SLC-40",
-          "description": "The Falcon 9 first stage will attempt to land back at the launch site after this flight."
+          "description": "The Falcon 9 first stage B1101 will attempt to land back at the launch site after its 2nd flight."
         }
       ]
     },
