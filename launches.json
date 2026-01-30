@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-30T01:25:14.797Z",
+  "timestamp": "2026-01-30T02:16:59.733Z",
   "launches": [
     {
       "id": "5d4e8970-46cd-4c5e-9b9b-391eeb0700a6",
@@ -182,7 +182,7 @@
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": "Southeast",
-      "agency_launches_this_year": 21,
+      "agency_launches_this_year": 22,
       "boosters": [
         {
           "core": "Unknown F9",
