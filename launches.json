@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-03T06:49:58.780Z",
+  "timestamp": "2026-02-03T07:12:39.841Z",
   "launches": [
     {
       "id": "a0ed15aa-4d23-48ac-a712-950228663b43",
@@ -62,26 +62,6 @@
           "description": "The Falcon 9 first stage B1077 will land on ASDS JRTI after its 26th flight."
         }
       ]
-    },
-    {
-      "id": "41699701-2ef4-4b0c-ac9d-6757820cde87",
-      "name": "SLS Block 1 | Artemis II",
-      "net": "2026-02-09T04:20:00Z",
-      "net_precision": "MIN",
-      "window_start": "2026-02-09T04:20:00Z",
-      "window_end": "2026-02-09T06:20:00Z",
-      "provider": "National Aeronautics and Space Administration",
-      "vehicle": "Space Launch System Block 1",
-      "orbit": "Lunar flyby",
-      "orbit_abbrev": "Lunar flyby",
-      "probability": null,
-      "status": "To Be Confirmed",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/space_launch_sy_image_20220331082429.jpeg",
-      "pad": "Launch Complex 39B",
-      "location": "Kennedy Space Center, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 1,
-      "boosters": []
     },
     {
       "id": "862b54e3-7bf8-48e5-8cd1-d77257d5fde9",
@@ -195,6 +175,26 @@
           "description": "The Falcon 9 first stage will land on one of two East Coast ASDS after its flight."
         }
       ]
+    },
+    {
+      "id": "41699701-2ef4-4b0c-ac9d-6757820cde87",
+      "name": "SLS Block 1 | Artemis II",
+      "net": "2026-03-07T01:29:00Z",
+      "net_precision": "MIN",
+      "window_start": "2026-03-07T01:29:00Z",
+      "window_end": "2026-03-07T03:29:00Z",
+      "provider": "National Aeronautics and Space Administration",
+      "vehicle": "Space Launch System Block 1",
+      "orbit": "Lunar flyby",
+      "orbit_abbrev": "Lunar flyby",
+      "probability": null,
+      "status": "To Be Confirmed",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/space_launch_sy_image_20220331082429.jpeg",
+      "pad": "Launch Complex 39B",
+      "location": "Kennedy Space Center, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 1,
+      "boosters": []
     },
     {
       "id": "2c5686ec-b0fd-4987-935d-587e3c85fa2d",
