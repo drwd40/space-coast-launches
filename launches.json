@@ -1,68 +1,6 @@
 {
-  "timestamp": "2026-02-03T15:16:14.671Z",
+  "timestamp": "2026-02-03T15:36:17.131Z",
   "launches": [
-    {
-      "id": "a0ed15aa-4d23-48ac-a712-950228663b43",
-      "name": "Falcon 9 Block 5 | Starlink Group 6-103",
-      "net": "2026-02-05T21:20:00Z",
-      "net_precision": "MIN",
-      "window_start": "2026-02-05T21:20:00Z",
-      "window_end": "2026-02-06T01:20:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": 85,
-      "status": "Go for Launch",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-      "pad": "Space Launch Complex 40",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": "Southeast",
-      "agency_launches_this_year": 15,
-      "boosters": [
-        {
-          "core": "B1090",
-          "flight": 9,
-          "landing_attempt": true,
-          "landing_success": null,
-          "landing_type": "ASDS",
-          "landing_location": "A Shortfall of Gravitas",
-          "droneship": "ASOG",
-          "description": "The Falcon 9 first stage B1090 will land on ASDS ASOG after its 10th flight."
-        }
-      ]
-    },
-    {
-      "id": "49532577-7d26-49df-ada3-12a85bb8189e",
-      "name": "Falcon 9 Block 5 | Starlink Group 6-104",
-      "net": "2026-02-08T10:46:00Z",
-      "net_precision": "MIN",
-      "window_start": "2026-02-08T10:46:00Z",
-      "window_end": "2026-02-08T14:46:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": null,
-      "status": "Go for Launch",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-      "pad": "Space Launch Complex 40",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": "Southeast",
-      "agency_launches_this_year": 17,
-      "boosters": [
-        {
-          "core": "B1077",
-          "flight": 25,
-          "landing_attempt": true,
-          "landing_success": null,
-          "landing_type": "ASDS",
-          "landing_location": "Just Read the Instructions",
-          "droneship": "JRTI",
-          "description": "The Falcon 9 first stage B1077 will land on ASDS JRTI after its 26th flight."
-        }
-      ]
-    },
     {
       "id": "862b54e3-7bf8-48e5-8cd1-d77257d5fde9",
       "name": "Falcon 9 Block 5 | Crew-12",
@@ -80,7 +18,7 @@
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": "Northeast",
-      "agency_launches_this_year": 19,
+      "agency_launches_this_year": 17,
       "boosters": [
         {
           "core": "B1101",
@@ -113,6 +51,68 @@
       "trajectory_direction": null,
       "agency_launches_this_year": 1,
       "boosters": []
+    },
+    {
+      "id": "a0ed15aa-4d23-48ac-a712-950228663b43",
+      "name": "Falcon 9 Block 5 | Starlink Group 6-103",
+      "net": "2026-02-14T00:00:00Z",
+      "net_precision": "DAY",
+      "window_start": "2026-02-14T00:00:00Z",
+      "window_end": "2026-02-14T00:00:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon 9 Block 5",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
+      "probability": 85,
+      "status": "Go for Launch",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+      "pad": "Space Launch Complex 40",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": "Southeast",
+      "agency_launches_this_year": 18,
+      "boosters": [
+        {
+          "core": "B1090",
+          "flight": 9,
+          "landing_attempt": true,
+          "landing_success": null,
+          "landing_type": "ASDS",
+          "landing_location": "A Shortfall of Gravitas",
+          "droneship": "ASOG",
+          "description": "The Falcon 9 first stage B1090 will land on ASDS ASOG after its 10th flight."
+        }
+      ]
+    },
+    {
+      "id": "49532577-7d26-49df-ada3-12a85bb8189e",
+      "name": "Falcon 9 Block 5 | Starlink Group 6-104",
+      "net": "2026-02-16T00:00:00Z",
+      "net_precision": "DAY",
+      "window_start": "2026-02-16T00:00:00Z",
+      "window_end": "2026-02-16T00:00:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon 9 Block 5",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
+      "probability": null,
+      "status": "Go for Launch",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+      "pad": "Space Launch Complex 40",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": "Southeast",
+      "agency_launches_this_year": 20,
+      "boosters": [
+        {
+          "core": "B1077",
+          "flight": 25,
+          "landing_attempt": true,
+          "landing_success": null,
+          "landing_type": "ASDS",
+          "landing_location": "Just Read the Instructions",
+          "droneship": "JRTI",
+          "description": "The Falcon 9 first stage B1077 will land on ASDS JRTI after its 26th flight."
+        }
+      ]
     },
     {
       "id": "53769468-bfd3-45c7-a52b-46a68ed7510f",
