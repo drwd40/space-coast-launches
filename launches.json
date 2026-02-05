@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-05T14:31:50.883Z",
+  "timestamp": "2026-02-05T14:55:04.248Z",
   "launches": [
     {
       "id": "862b54e3-7bf8-48e5-8cd1-d77257d5fde9",
@@ -117,31 +117,31 @@
     {
       "id": "57cc5e9e-97c2-4833-8bcd-e4e62ce63ec6",
       "name": "Falcon 9 Block 5 | Starlink Group 10-36",
-      "net": "2026-02-28T00:00:00Z",
-      "net_precision": "M",
-      "window_start": "2026-02-28T00:00:00Z",
-      "window_end": "2026-02-28T00:00:00Z",
+      "net": "2026-02-17T22:00:00Z",
+      "net_precision": "MIN",
+      "window_start": "2026-02-17T22:00:00Z",
+      "window_end": "2026-02-18T02:00:00Z",
       "provider": "SpaceX",
       "vehicle": "Falcon 9 Block 5",
       "orbit": "Low Earth Orbit",
       "orbit_abbrev": "LEO",
       "probability": null,
-      "status": "To Be Determined",
+      "status": "Go for Launch",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": "Southeast",
-      "agency_launches_this_year": 22,
+      "agency_launches_this_year": 21,
       "boosters": [
         {
-          "core": "Unknown F9",
-          "flight": null,
+          "core": "B1092",
+          "flight": 9,
           "landing_attempt": true,
           "landing_success": null,
           "landing_type": "ASDS",
-          "landing_location": "Unknown",
-          "droneship": "N/A",
-          "description": "The Falcon 9 first stage will land on one of two East Coast ASDS after its flight."
+          "landing_location": "Just Read the Instructions",
+          "droneship": "JRTI",
+          "description": "The Falcon 9 first stage B1092 will land on ASDS JRTI after its 10th flight."
         }
       ]
     },
