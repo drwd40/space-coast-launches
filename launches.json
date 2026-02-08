@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-07T23:59:33.427Z",
+  "timestamp": "2026-02-08T01:01:00.188Z",
   "launches": [
     {
       "id": "862b54e3-7bf8-48e5-8cd1-d77257d5fde9",
@@ -197,26 +197,6 @@
       "boosters": []
     },
     {
-      "id": "2c5686ec-b0fd-4987-935d-587e3c85fa2d",
-      "name": "Vulcan | GPS III SV10",
-      "net": "2026-03-31T00:00:00Z",
-      "net_precision": "M",
-      "window_start": "2026-03-31T00:00:00Z",
-      "window_end": "2026-03-31T00:00:00Z",
-      "provider": "United Launch Alliance",
-      "vehicle": "Vulcan",
-      "orbit": "Medium Earth Orbit",
-      "orbit_abbrev": "MEO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
-      "pad": "Space Launch Complex 41",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 3,
-      "boosters": []
-    },
-    {
       "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
       "name": "Vulcan VC6L | Amazon Leo (LV-01)",
       "net": "2026-03-31T00:00:00Z",
@@ -230,6 +210,26 @@
       "probability": null,
       "status": "To Be Determined",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_vc6l_image_20220406123130.jpg",
+      "pad": "Space Launch Complex 41",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 3,
+      "boosters": []
+    },
+    {
+      "id": "2c5686ec-b0fd-4987-935d-587e3c85fa2d",
+      "name": "Vulcan | GPS III SV10",
+      "net": "2026-03-31T00:00:00Z",
+      "net_precision": "M",
+      "window_start": "2026-03-31T00:00:00Z",
+      "window_end": "2026-03-31T00:00:00Z",
+      "provider": "United Launch Alliance",
+      "vehicle": "Vulcan",
+      "orbit": "Medium Earth Orbit",
+      "orbit_abbrev": "MEO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
       "pad": "Space Launch Complex 41",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
