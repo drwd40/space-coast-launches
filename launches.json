@@ -1,37 +1,6 @@
 {
-  "timestamp": "2026-02-09T14:32:12.270Z",
+  "timestamp": "2026-02-09T14:56:35.283Z",
   "launches": [
-    {
-      "id": "862b54e3-7bf8-48e5-8cd1-d77257d5fde9",
-      "name": "Falcon 9 Block 5 | Crew-12",
-      "net": "2026-02-11T11:01:04Z",
-      "net_precision": "SEC",
-      "window_start": "2026-02-11T11:01:04Z",
-      "window_end": "2026-02-11T11:01:04Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": null,
-      "status": "Go for Launch",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_at_slc_image_20260208171226.jpg",
-      "pad": "Space Launch Complex 40",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": "Northeast",
-      "agency_launches_this_year": 16,
-      "boosters": [
-        {
-          "core": "B1101",
-          "flight": 1,
-          "landing_attempt": true,
-          "landing_success": null,
-          "landing_type": "RTLS",
-          "landing_location": "Landing Zone 40",
-          "droneship": "LZ-40",
-          "description": "The Falcon 9 first stage B1101 will attempt to land back at the launch site after its 2nd flight."
-        }
-      ]
-    },
     {
       "id": "550f778d-6c2d-41fc-b182-6f0cd8feda93",
       "name": "Vulcan VC4S | USSF-87",
@@ -51,6 +20,37 @@
       "trajectory_direction": null,
       "agency_launches_this_year": 1,
       "boosters": []
+    },
+    {
+      "id": "862b54e3-7bf8-48e5-8cd1-d77257d5fde9",
+      "name": "Falcon 9 Block 5 | Crew-12",
+      "net": "2026-02-12T10:38:00Z",
+      "net_precision": "MIN",
+      "window_start": "2026-02-12T10:38:00Z",
+      "window_end": "2026-02-12T10:38:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon 9 Block 5",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
+      "probability": null,
+      "status": "Go for Launch",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_at_slc_image_20260208171226.jpg",
+      "pad": "Space Launch Complex 40",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": "Northeast",
+      "agency_launches_this_year": 17,
+      "boosters": [
+        {
+          "core": "B1101",
+          "flight": 1,
+          "landing_attempt": true,
+          "landing_success": null,
+          "landing_type": "RTLS",
+          "landing_location": "Landing Zone 40",
+          "droneship": "LZ-40",
+          "description": "The Falcon 9 first stage B1101 will attempt to land back at the launch site after its 2nd flight."
+        }
+      ]
     },
     {
       "id": "a0ed15aa-4d23-48ac-a712-950228663b43",
@@ -197,26 +197,6 @@
       "boosters": []
     },
     {
-      "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
-      "name": "Vulcan VC6L | Amazon Leo (LV-01)",
-      "net": "2026-03-31T00:00:00Z",
-      "net_precision": "Q1",
-      "window_start": "2026-03-31T00:00:00Z",
-      "window_end": "2026-03-31T00:00:00Z",
-      "provider": "United Launch Alliance",
-      "vehicle": "Vulcan VC6L",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_vc6l_image_20220406123130.jpg",
-      "pad": "Space Launch Complex 41",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 3,
-      "boosters": []
-    },
-    {
       "id": "2c5686ec-b0fd-4987-935d-587e3c85fa2d",
       "name": "Vulcan | GPS III SV10",
       "net": "2026-03-31T00:00:00Z",
@@ -230,6 +210,26 @@
       "probability": null,
       "status": "To Be Determined",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
+      "pad": "Space Launch Complex 41",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 3,
+      "boosters": []
+    },
+    {
+      "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
+      "name": "Vulcan VC6L | Amazon Leo (LV-01)",
+      "net": "2026-03-31T00:00:00Z",
+      "net_precision": "Q1",
+      "window_start": "2026-03-31T00:00:00Z",
+      "window_end": "2026-03-31T00:00:00Z",
+      "provider": "United Launch Alliance",
+      "vehicle": "Vulcan VC6L",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_vc6l_image_20220406123130.jpg",
       "pad": "Space Launch Complex 41",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
