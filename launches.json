@@ -1,18 +1,18 @@
 {
-  "timestamp": "2026-02-09T15:25:03.873Z",
+  "timestamp": "2026-02-09T15:48:22.832Z",
   "launches": [
     {
       "id": "550f778d-6c2d-41fc-b182-6f0cd8feda93",
       "name": "Vulcan VC4S | USSF-87",
-      "net": "2026-02-12T08:00:00Z",
+      "net": "2026-02-12T08:30:00Z",
       "net_precision": "MIN",
-      "window_start": "2026-02-12T08:00:00Z",
-      "window_end": "2026-02-12T12:50:00Z",
+      "window_start": "2026-02-12T08:30:00Z",
+      "window_end": "2026-02-12T10:30:00Z",
       "provider": "United Launch Alliance",
       "vehicle": "Vulcan VC4S",
       "orbit": "Geostationary Orbit",
       "orbit_abbrev": "Direct-GEO",
-      "probability": null,
+      "probability": 90,
       "status": "Go for Launch",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_vc4s_v-0_image_20250812014341.jpeg",
       "pad": "Space Launch Complex 41",
