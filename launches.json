@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-02-12T07:32:10.805Z",
+  "timestamp": "2026-02-12T07:56:07.836Z",
   "launches": [
     {
       "id": "550f778d-6c2d-41fc-b182-6f0cd8feda93",
       "name": "Vulcan VC4S | USSF-87",
-      "net": "2026-02-12T08:30:00Z",
+      "net": "2026-02-12T09:22:00Z",
       "net_precision": "MIN",
       "window_start": "2026-02-12T08:30:00Z",
       "window_end": "2026-02-12T10:30:00Z",
@@ -14,7 +14,7 @@
       "orbit_abbrev": "Direct-GEO",
       "probability": 95,
       "status": "Go for Launch",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_vc4s_v-0_image_20250812014341.jpeg",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_on_slc-4_image_20260212075307.jpg",
       "pad": "Space Launch Complex 41",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
