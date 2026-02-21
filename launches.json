@@ -1,37 +1,6 @@
 {
-  "timestamp": "2026-02-21T01:34:05.253Z",
+  "timestamp": "2026-02-21T02:28:58.251Z",
   "launches": [
-    {
-      "id": "57cc5e9e-97c2-4833-8bcd-e4e62ce63ec6",
-      "name": "Falcon 9 Block 5 | Starlink Group 10-36",
-      "net": "2026-02-20T01:41:40Z",
-      "net_precision": "SEC",
-      "window_start": "2026-02-19T22:00:00Z",
-      "window_end": "2026-02-20T02:00:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": 99,
-      "status": "Launch Successful",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-      "pad": "Space Launch Complex 40",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": "Southeast",
-      "agency_launches_this_year": 20,
-      "boosters": [
-        {
-          "core": "B1077",
-          "flight": 26,
-          "landing_attempt": true,
-          "landing_success": true,
-          "landing_type": "ASDS",
-          "landing_location": "Just Read the Instructions",
-          "droneship": "JRTI",
-          "description": "The Falcon 9 first stage B1077 has landed on ASDS JRTI after its 26th flight."
-        }
-      ]
-    },
     {
       "id": "49532577-7d26-49df-ada3-12a85bb8189e",
       "name": "Falcon 9 Block 5 | Starlink Group 6-104",
@@ -208,26 +177,6 @@
       ]
     },
     {
-      "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
-      "name": "Vulcan VC6L | Amazon Leo (LV-01)",
-      "net": "2026-03-31T00:00:00Z",
-      "net_precision": "Q1",
-      "window_start": "2026-03-31T00:00:00Z",
-      "window_end": "2026-03-31T00:00:00Z",
-      "provider": "United Launch Alliance",
-      "vehicle": "Vulcan VC6L",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_vc6l_image_20220406123130.jpg",
-      "pad": "Space Launch Complex 41",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 3,
-      "boosters": []
-    },
-    {
       "id": "2c5686ec-b0fd-4987-935d-587e3c85fa2d",
       "name": "Vulcan | GPS III SV10",
       "net": "2026-03-31T00:00:00Z",
@@ -275,6 +224,57 @@
           "landing_location": "Jacklyn",
           "droneship": "LPV1",
           "description": "New Glenn booster GS1-SN002 will land on Jacklyn after its 2nd flight."
+        }
+      ]
+    },
+    {
+      "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
+      "name": "Vulcan VC6L | Amazon Leo (LV-01)",
+      "net": "2026-03-31T00:00:00Z",
+      "net_precision": "Q1",
+      "window_start": "2026-03-31T00:00:00Z",
+      "window_end": "2026-03-31T00:00:00Z",
+      "provider": "United Launch Alliance",
+      "vehicle": "Vulcan VC6L",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_vc6l_image_20220406123130.jpg",
+      "pad": "Space Launch Complex 41",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 3,
+      "boosters": []
+    },
+    {
+      "id": "5ed6ab75-8c5b-4013-93e1-1deb56b14f1d",
+      "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-24",
+      "net": "2026-04-03T00:00:00Z",
+      "net_precision": "DAY",
+      "window_start": "2026-04-03T00:00:00Z",
+      "window_end": "2026-04-03T00:00:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon 9 Block 5",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "pad": "Unknown Pad",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": "Northeast",
+      "agency_launches_this_year": 36,
+      "boosters": [
+        {
+          "core": "Unknown F9",
+          "flight": null,
+          "landing_attempt": true,
+          "landing_success": null,
+          "landing_type": "RTLS",
+          "landing_location": "Landing Zone 40",
+          "droneship": "LZ-40",
+          "description": "The Falcon 9 first stage will attempt to land back at the launch site after its flight."
         }
       ]
     }
