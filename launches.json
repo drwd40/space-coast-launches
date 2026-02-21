@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-21T17:25:23.786Z",
+  "timestamp": "2026-02-21T17:40:20.332Z",
   "launches": [
     {
       "id": "49532577-7d26-49df-ada3-12a85bb8189e",
@@ -126,26 +126,6 @@
       ]
     },
     {
-      "id": "41699701-2ef4-4b0c-ac9d-6757820cde87",
-      "name": "SLS Block 1 | Artemis II",
-      "net": "2026-03-07T01:29:00Z",
-      "net_precision": "MIN",
-      "window_start": "2026-03-07T01:29:00Z",
-      "window_end": "2026-03-07T03:29:00Z",
-      "provider": "National Aeronautics and Space Administration",
-      "vehicle": "Space Launch System Block 1",
-      "orbit": "Lunar flyby",
-      "orbit_abbrev": "Lunar flyby",
-      "probability": null,
-      "status": "To Be Confirmed",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/space_launch_sy_image_20220331082429.jpeg",
-      "pad": "Launch Complex 39B",
-      "location": "Kennedy Space Center, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 1,
-      "boosters": []
-    },
-    {
       "id": "8701f102-a33e-450b-87b1-660679aab736",
       "name": "Falcon 9 Block 5 | EchoStar 25",
       "net": "2026-03-08T00:00:00Z",
@@ -246,6 +226,26 @@
           "description": "New Glenn booster GS1-SN002 will land on Jacklyn after its 2nd flight."
         }
       ]
+    },
+    {
+      "id": "41699701-2ef4-4b0c-ac9d-6757820cde87",
+      "name": "SLS Block 1 | Artemis II",
+      "net": "2026-04-01T22:24:00Z",
+      "net_precision": "MIN",
+      "window_start": "2026-04-01T22:24:00Z",
+      "window_end": "2026-04-02T00:24:00Z",
+      "provider": "National Aeronautics and Space Administration",
+      "vehicle": "Space Launch System Block 1",
+      "orbit": "Lunar flyby",
+      "orbit_abbrev": "Lunar flyby",
+      "probability": null,
+      "status": "To Be Confirmed",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/space_launch_sy_image_20220331082429.jpeg",
+      "pad": "Launch Complex 39B",
+      "location": "Kennedy Space Center, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 1,
+      "boosters": []
     },
     {
       "id": "5ed6ab75-8c5b-4013-93e1-1deb56b14f1d",
