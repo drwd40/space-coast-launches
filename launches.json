@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-24T23:05:46.186Z",
+  "timestamp": "2026-02-24T23:19:33.078Z",
   "launches": [
     {
       "id": "db5c6392-a8b5-4f97-8a38-cc147f086f00",
@@ -24,11 +24,11 @@
           "core": "B1092",
           "flight": 9,
           "landing_attempt": true,
-          "landing_success": null,
+          "landing_success": true,
           "landing_type": "ASDS",
           "landing_location": "Just Read the Instructions",
           "droneship": "JRTI",
-          "description": "The Falcon 9 first stage B1092 will land on ASDS JRTI after its 10th flight."
+          "description": "The Falcon 9 first stage B1092 has landed on ASDS JRTI after its 10th flight."
         }
       ]
     },
