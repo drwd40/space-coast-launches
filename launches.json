@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-23T23:53:31.279Z",
+  "timestamp": "2026-02-24T00:06:51.761Z",
   "launches": [
     {
       "id": "db5c6392-a8b5-4f97-8a38-cc147f086f00",
@@ -97,10 +97,10 @@
     {
       "id": "5d5e17f4-292b-45f6-ab53-05437cf63ce0",
       "name": "Falcon 9 Block 5 | Starlink Group 10-40",
-      "net": "2026-03-04T08:40:00Z",
+      "net": "2026-03-04T06:58:00Z",
       "net_precision": "MIN",
-      "window_start": "2026-03-04T08:40:00Z",
-      "window_end": "2026-03-04T12:40:00Z",
+      "window_start": "2026-03-04T06:58:00Z",
+      "window_end": "2026-03-04T10:58:00Z",
       "provider": "SpaceX",
       "vehicle": "Falcon 9 Block 5",
       "orbit": "Low Earth Orbit",
@@ -157,37 +157,6 @@
       ]
     },
     {
-      "id": "53769468-bfd3-45c7-a52b-46a68ed7510f",
-      "name": "New Glenn | BlueBird Block 2 #2",
-      "net": "2026-03-31T00:00:00Z",
-      "net_precision": "M",
-      "window_start": "2026-03-31T00:00:00Z",
-      "window_end": "2026-03-31T00:00:00Z",
-      "provider": "Blue Origin",
-      "vehicle": "New Glenn",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new_glenn_on_th_image_20251113164507.jpg",
-      "pad": "Launch Complex 36A",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 2,
-      "boosters": [
-        {
-          "core": "GS1-SN002",
-          "flight": 1,
-          "landing_attempt": true,
-          "landing_success": null,
-          "landing_type": "ASDS",
-          "landing_location": "Jacklyn",
-          "droneship": "LPV1",
-          "description": "New Glenn booster GS1-SN002 will land on Jacklyn after its 2nd flight."
-        }
-      ]
-    },
-    {
       "id": "2c5686ec-b0fd-4987-935d-587e3c85fa2d",
       "name": "Vulcan | GPS III SV10",
       "net": "2026-03-31T00:00:00Z",
@@ -226,6 +195,37 @@
       "trajectory_direction": null,
       "agency_launches_this_year": 3,
       "boosters": []
+    },
+    {
+      "id": "53769468-bfd3-45c7-a52b-46a68ed7510f",
+      "name": "New Glenn | BlueBird Block 2 #2",
+      "net": "2026-03-31T00:00:00Z",
+      "net_precision": "M",
+      "window_start": "2026-03-31T00:00:00Z",
+      "window_end": "2026-03-31T00:00:00Z",
+      "provider": "Blue Origin",
+      "vehicle": "New Glenn",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new_glenn_on_th_image_20251113164507.jpg",
+      "pad": "Launch Complex 36A",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 2,
+      "boosters": [
+        {
+          "core": "GS1-SN002",
+          "flight": 1,
+          "landing_attempt": true,
+          "landing_success": null,
+          "landing_type": "ASDS",
+          "landing_location": "Jacklyn",
+          "droneship": "LPV1",
+          "description": "New Glenn booster GS1-SN002 will land on Jacklyn after its 2nd flight."
+        }
+      ]
     },
     {
       "id": "41699701-2ef4-4b0c-ac9d-6757820cde87",
