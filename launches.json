@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-25T17:01:05.584Z",
+  "timestamp": "2026-02-25T17:30:10.965Z",
   "launches": [
     {
       "id": "db5c6392-a8b5-4f97-8a38-cc147f086f00",
@@ -228,6 +228,37 @@
       "boosters": []
     },
     {
+      "id": "5ed6ab75-8c5b-4013-93e1-1deb56b14f1d",
+      "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-24",
+      "net": "2026-04-01T15:00:00Z",
+      "net_precision": "HR",
+      "window_start": "2026-04-01T15:00:00Z",
+      "window_end": "2026-04-01T15:00:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon 9 Block 5",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
+      "probability": null,
+      "status": "To Be Confirmed",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "pad": "Unknown Pad",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": "Northeast",
+      "agency_launches_this_year": 37,
+      "boosters": [
+        {
+          "core": "Unknown F9",
+          "flight": null,
+          "landing_attempt": true,
+          "landing_success": null,
+          "landing_type": "RTLS",
+          "landing_location": "Landing Zone 40",
+          "droneship": "LZ-40",
+          "description": "The Falcon 9 first stage will attempt to land back at the launch site after its flight."
+        }
+      ]
+    },
+    {
       "id": "41699701-2ef4-4b0c-ac9d-6757820cde87",
       "name": "SLS Block 1 | Artemis II",
       "net": "2026-04-01T22:24:00Z",
@@ -246,37 +277,6 @@
       "trajectory_direction": null,
       "agency_launches_this_year": 1,
       "boosters": []
-    },
-    {
-      "id": "5ed6ab75-8c5b-4013-93e1-1deb56b14f1d",
-      "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-24",
-      "net": "2026-04-03T00:00:00Z",
-      "net_precision": "DAY",
-      "window_start": "2026-04-03T00:00:00Z",
-      "window_end": "2026-04-03T00:00:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-      "pad": "Unknown Pad",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": "Northeast",
-      "agency_launches_this_year": 37,
-      "boosters": [
-        {
-          "core": "Unknown F9",
-          "flight": null,
-          "landing_attempt": true,
-          "landing_success": null,
-          "landing_type": "RTLS",
-          "landing_location": "Landing Zone 40",
-          "droneship": "LZ-40",
-          "description": "The Falcon 9 first stage will attempt to land back at the launch site after its flight."
-        }
-      ]
     }
   ]
 }
