@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-27T18:20:32.039Z",
+  "timestamp": "2026-02-27T18:39:54.366Z",
   "launches": [
     {
       "id": "aeccc82e-4a01-46dc-a893-1d6d098973e2",
@@ -97,31 +97,31 @@
     {
       "id": "8701f102-a33e-450b-87b1-660679aab736",
       "name": "Falcon 9 Block 5 | EchoStar 25",
-      "net": "2026-03-08T00:00:00Z",
-      "net_precision": "DAY",
-      "window_start": "2026-03-08T00:00:00Z",
-      "window_end": "2026-03-08T00:00:00Z",
+      "net": "2026-03-10T03:14:00Z",
+      "net_precision": "MIN",
+      "window_start": "2026-03-10T03:14:00Z",
+      "window_end": "2026-03-10T05:43:00Z",
       "provider": "SpaceX",
       "vehicle": "Falcon 9 Block 5",
       "orbit": "Geostationary Transfer Orbit",
       "orbit_abbrev": "GTO",
       "probability": null,
-      "status": "To Be Determined",
+      "status": "Go for Launch",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": "East",
-      "agency_launches_this_year": 30,
+      "agency_launches_this_year": 31,
       "boosters": [
         {
-          "core": "Unknown F9",
-          "flight": null,
-          "landing_attempt": null,
+          "core": "B1085",
+          "flight": 13,
+          "landing_attempt": true,
           "landing_success": null,
-          "landing_type": null,
-          "landing_location": null,
-          "droneship": null,
-          "description": null
+          "landing_type": "ASDS",
+          "landing_location": "A Shortfall of Gravitas",
+          "droneship": "ASOG",
+          "description": "The Falcon 9 1st stage B1085 will land on ASDS ASOG after its 14th flight."
         }
       ]
     },
