@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-28T23:54:38.751Z",
+  "timestamp": "2026-03-01T00:20:20.360Z",
   "launches": [
     {
       "id": "3f71a8a7-118f-460c-953b-984de24aba5c",
@@ -126,6 +126,26 @@
       ]
     },
     {
+      "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
+      "name": "Vulcan VC6L | Amazon Leo (LV-01)",
+      "net": "2026-03-31T00:00:00Z",
+      "net_precision": "Q1",
+      "window_start": "2026-03-31T00:00:00Z",
+      "window_end": "2026-03-31T00:00:00Z",
+      "provider": "United Launch Alliance",
+      "vehicle": "Vulcan VC6L",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_vc6l_image_20220406123130.jpg",
+      "pad": "Space Launch Complex 41",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 3,
+      "boosters": []
+    },
+    {
       "id": "53769468-bfd3-45c7-a52b-46a68ed7510f",
       "name": "New Glenn | BlueBird Block 2 #2",
       "net": "2026-03-31T00:00:00Z",
@@ -155,26 +175,6 @@
           "description": "New Glenn booster GS1-SN002 will land on Jacklyn after its 2nd flight."
         }
       ]
-    },
-    {
-      "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
-      "name": "Vulcan VC6L | Amazon Leo (LV-01)",
-      "net": "2026-03-31T00:00:00Z",
-      "net_precision": "Q1",
-      "window_start": "2026-03-31T00:00:00Z",
-      "window_end": "2026-03-31T00:00:00Z",
-      "provider": "United Launch Alliance",
-      "vehicle": "Vulcan VC6L",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_vc6l_image_20220406123130.jpg",
-      "pad": "Space Launch Complex 41",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 3,
-      "boosters": []
     },
     {
       "id": "2c5686ec-b0fd-4987-935d-587e3c85fa2d",
