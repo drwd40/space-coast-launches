@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-02T02:12:00.322Z",
+  "timestamp": "2026-03-02T03:13:45.478Z",
   "launches": [
     {
       "id": "3f71a8a7-118f-460c-953b-984de24aba5c",
@@ -13,7 +13,7 @@
       "orbit": "Low Earth Orbit",
       "orbit_abbrev": "LEO",
       "probability": 90,
-      "status": "Go for Launch",
+      "status": "Launch in Flight",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
@@ -24,11 +24,11 @@
           "core": "B1078",
           "flight": 25,
           "landing_attempt": true,
-          "landing_success": null,
+          "landing_success": true,
           "landing_type": "ASDS",
           "landing_location": "Just Read the Instructions",
           "droneship": "JRTI",
-          "description": "The Falcon 9 first stage B1078 will land on ASDS JRTI after its 26th flight."
+          "description": "The Falcon 9 first stage B1078 has landed on ASDS JRTI after its 26th flight."
         }
       ]
     },
@@ -126,26 +126,6 @@
       ]
     },
     {
-      "id": "2c5686ec-b0fd-4987-935d-587e3c85fa2d",
-      "name": "Vulcan | GPS III SV10",
-      "net": "2026-03-31T00:00:00Z",
-      "net_precision": "M",
-      "window_start": "2026-03-31T00:00:00Z",
-      "window_end": "2026-03-31T00:00:00Z",
-      "provider": "United Launch Alliance",
-      "vehicle": "Vulcan",
-      "orbit": "Medium Earth Orbit",
-      "orbit_abbrev": "MEO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
-      "pad": "Space Launch Complex 41",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 3,
-      "boosters": []
-    },
-    {
       "id": "53769468-bfd3-45c7-a52b-46a68ed7510f",
       "name": "New Glenn | BlueBird Block 2 #2",
       "net": "2026-03-31T00:00:00Z",
@@ -190,6 +170,26 @@
       "probability": null,
       "status": "To Be Determined",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_vc6l_image_20220406123130.jpg",
+      "pad": "Space Launch Complex 41",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 3,
+      "boosters": []
+    },
+    {
+      "id": "2c5686ec-b0fd-4987-935d-587e3c85fa2d",
+      "name": "Vulcan | GPS III SV10",
+      "net": "2026-03-31T00:00:00Z",
+      "net_precision": "M",
+      "window_start": "2026-03-31T00:00:00Z",
+      "window_end": "2026-03-31T00:00:00Z",
+      "provider": "United Launch Alliance",
+      "vehicle": "Vulcan",
+      "orbit": "Medium Earth Orbit",
+      "orbit_abbrev": "MEO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
       "pad": "Space Launch Complex 41",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
