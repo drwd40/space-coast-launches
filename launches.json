@@ -1,37 +1,6 @@
 {
-  "timestamp": "2026-03-05T10:42:54.132Z",
+  "timestamp": "2026-03-05T11:02:48.069Z",
   "launches": [
-    {
-      "id": "5d5e17f4-292b-45f6-ab53-05437cf63ce0",
-      "name": "Falcon 9 Block 5 | Starlink Group 10-40",
-      "net": "2026-03-04T10:52:20Z",
-      "net_precision": "SEC",
-      "window_start": "2026-03-04T06:58:00Z",
-      "window_end": "2026-03-04T10:58:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": null,
-      "status": "Launch Successful",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-      "pad": "Space Launch Complex 40",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": "Southeast",
-      "agency_launches_this_year": 28,
-      "boosters": [
-        {
-          "core": "B1080",
-          "flight": 25,
-          "landing_attempt": true,
-          "landing_success": true,
-          "landing_type": "ASDS",
-          "landing_location": "A Shortfall of Gravitas",
-          "droneship": "ASOG",
-          "description": "The Falcon 9 first stage B1080 has landed on ASDS ASOG after its 25th flight."
-        }
-      ]
-    },
     {
       "id": "8701f102-a33e-450b-87b1-660679aab736",
       "name": "Falcon 9 Block 5 | EchoStar 25",
@@ -265,6 +234,26 @@
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
       "agency_launches_this_year": 4,
+      "boosters": []
+    },
+    {
+      "id": "b32689fe-b156-4ccd-b824-fd555d12ba24",
+      "name": "Vulcan | USSF-57",
+      "net": "2026-05-31T00:00:00Z",
+      "net_precision": "M",
+      "window_start": "2026-05-31T00:00:00Z",
+      "window_end": "2026-05-31T00:00:00Z",
+      "provider": "United Launch Alliance",
+      "vehicle": "Vulcan",
+      "orbit": "Geostationary Transfer Orbit",
+      "orbit_abbrev": "GTO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
+      "pad": "Space Launch Complex 41",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": "East",
+      "agency_launches_this_year": 5,
       "boosters": []
     }
   ]
