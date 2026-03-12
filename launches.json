@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-03-12T11:59:02.393Z",
+  "timestamp": "2026-03-12T12:22:57.726Z",
   "launches": [
     {
       "id": "6f2868b8-1000-48e5-893b-700c1371b4fb",
       "name": "Falcon 9 Block 5 | Starlink Group 10-48",
-      "net": "2026-03-13T10:00:00Z",
-      "net_precision": "MIN",
+      "net": "2026-03-13T12:09:50Z",
+      "net_precision": "SEC",
       "window_start": "2026-03-13T10:00:00Z",
       "window_end": "2026-03-13T14:00:00Z",
       "provider": "SpaceX",
@@ -18,7 +18,7 @@
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": "Southeast",
-      "agency_launches_this_year": 31,
+      "agency_launches_this_year": 32,
       "boosters": [
         {
           "core": "B1095",
