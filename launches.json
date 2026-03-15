@@ -1,37 +1,6 @@
 {
-  "timestamp": "2026-03-15T12:20:49.566Z",
+  "timestamp": "2026-03-15T12:40:51.237Z",
   "launches": [
-    {
-      "id": "6f2868b8-1000-48e5-893b-700c1371b4fb",
-      "name": "Falcon 9 Block 5 | Starlink Group 10-48",
-      "net": "2026-03-14T12:37:10Z",
-      "net_precision": "SEC",
-      "window_start": "2026-03-14T10:00:00Z",
-      "window_end": "2026-03-14T14:00:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": 75,
-      "status": "Launch Successful",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-      "pad": "Space Launch Complex 40",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": "Southeast",
-      "agency_launches_this_year": 32,
-      "boosters": [
-        {
-          "core": "B1095",
-          "flight": 6,
-          "landing_attempt": true,
-          "landing_success": true,
-          "landing_type": "ASDS",
-          "landing_location": "Just Read the Instructions",
-          "droneship": "JRTI",
-          "description": "The Falcon 9 first stage B1095 has landed on ASDS JRTI after its 6th flight."
-        }
-      ]
-    },
     {
       "id": "f5df8e48-7612-4757-bd1b-cdb5b5a1936b",
       "name": "Falcon 9 Block 5 | Starlink Group 10-46",
@@ -264,6 +233,57 @@
           "landing_location": "Landing Zone 40",
           "droneship": "LZ-40",
           "description": "The Falcon 9 first stage will attempt to land back at the launch site after its flight."
+        }
+      ]
+    },
+    {
+      "id": "4cc237b2-c61a-491e-9532-466cce81f524",
+      "name": "Falcon Heavy | ViaSat-3 F3 (ViaSat-3 Asia-Pacific)",
+      "net": "2026-04-30T00:00:00Z",
+      "net_precision": "M",
+      "window_start": "2026-04-30T00:00:00Z",
+      "window_end": "2026-04-30T00:00:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon Heavy",
+      "orbit": "Geostationary Transfer Orbit",
+      "orbit_abbrev": "GTO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_image_20220129192819.jpeg",
+      "pad": "Launch Complex 39A",
+      "location": "Kennedy Space Center, FL, USA",
+      "trajectory_direction": "East",
+      "agency_launches_this_year": 46,
+      "boosters": [
+        {
+          "core": "Unknown FH",
+          "flight": null,
+          "landing_attempt": null,
+          "landing_success": null,
+          "landing_type": null,
+          "landing_location": null,
+          "droneship": null,
+          "description": null
+        },
+        {
+          "core": "Unknown FH",
+          "flight": null,
+          "landing_attempt": null,
+          "landing_success": null,
+          "landing_type": null,
+          "landing_location": null,
+          "droneship": null,
+          "description": null
+        },
+        {
+          "core": "Unknown FH",
+          "flight": null,
+          "landing_attempt": null,
+          "landing_success": null,
+          "landing_type": null,
+          "landing_location": null,
+          "droneship": null,
+          "description": null
         }
       ]
     }
