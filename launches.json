@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-19T15:17:42.739Z",
+  "timestamp": "2026-03-19T15:38:42.129Z",
   "launches": [
     {
       "id": "890f714a-aa3c-487f-ae81-b7e654276cd5",
@@ -13,7 +13,7 @@
       "orbit": "Low Earth Orbit",
       "orbit_abbrev": "LEO",
       "probability": 60,
-      "status": "Launch in Flight",
+      "status": "Launch Successful",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
@@ -22,7 +22,7 @@
       "boosters": [
         {
           "core": "B1077",
-          "flight": 26,
+          "flight": 27,
           "landing_attempt": true,
           "landing_success": true,
           "landing_type": "ASDS",
