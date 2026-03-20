@@ -1,37 +1,6 @@
 {
-  "timestamp": "2026-03-20T14:05:32.358Z",
+  "timestamp": "2026-03-20T14:26:41.603Z",
   "launches": [
-    {
-      "id": "890f714a-aa3c-487f-ae81-b7e654276cd5",
-      "name": "Falcon 9 Block 5 | Starlink Group 10-33",
-      "net": "2026-03-19T14:20:10Z",
-      "net_precision": "SEC",
-      "window_start": "2026-03-19T10:35:00Z",
-      "window_end": "2026-03-19T14:35:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": 60,
-      "status": "Launch Successful",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-      "pad": "Space Launch Complex 40",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": "Southeast",
-      "agency_launches_this_year": 35,
-      "boosters": [
-        {
-          "core": "B1077",
-          "flight": 27,
-          "landing_attempt": true,
-          "landing_success": true,
-          "landing_type": "ASDS",
-          "landing_location": "Just Read the Instructions",
-          "droneship": "JRTI",
-          "description": "The Falcon 9 first stage B1077 has landed on ASDS JRTI after its 27th flight."
-        }
-      ]
-    },
     {
       "id": "2ab15fcb-7a74-429d-bab0-43635b723cfd",
       "name": "Falcon 9 Block 5 | Starlink Group 10-62",
@@ -297,6 +266,37 @@
       "trajectory_direction": "East",
       "agency_launches_this_year": 62,
       "boosters": []
+    },
+    {
+      "id": "be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3",
+      "name": "Falcon 9 Block 5 | 9 x Globalstar-3",
+      "net": "2026-06-30T00:00:00Z",
+      "net_precision": "H1",
+      "window_start": "2026-06-30T00:00:00Z",
+      "window_end": "2026-06-30T00:00:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon 9 Block 5",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "pad": "Unknown Pad",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 62,
+      "boosters": [
+        {
+          "core": "Unknown F9",
+          "flight": null,
+          "landing_attempt": null,
+          "landing_success": null,
+          "landing_type": null,
+          "landing_location": null,
+          "droneship": null,
+          "description": null
+        }
+      ]
     }
   ]
 }
