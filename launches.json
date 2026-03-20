@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-20T18:42:42.004Z",
+  "timestamp": "2026-03-20T19:05:46.273Z",
   "launches": [
     {
       "id": "2ab15fcb-7a74-429d-bab0-43635b723cfd",
@@ -166,6 +166,37 @@
       ]
     },
     {
+      "id": "2c5686ec-b0fd-4987-935d-587e3c85fa2d",
+      "name": "Falcon 9 Block 5 | GPS III SV10",
+      "net": "2026-04-30T00:00:00Z",
+      "net_precision": "M",
+      "window_start": "2026-04-30T00:00:00Z",
+      "window_end": "2026-04-30T00:00:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon 9 Block 5",
+      "orbit": "Medium Earth Orbit",
+      "orbit_abbrev": "MEO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "pad": "Space Launch Complex 40",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 45,
+      "boosters": [
+        {
+          "core": "Unknown F9",
+          "flight": null,
+          "landing_attempt": true,
+          "landing_success": null,
+          "landing_type": "ASDS",
+          "landing_location": "Unknown",
+          "droneship": "N/A",
+          "description": "The Falcon 9 first stage will land on one of two East Coast ASDS after its flight."
+        }
+      ]
+    },
+    {
       "id": "4cc237b2-c61a-491e-9532-466cce81f524",
       "name": "Falcon Heavy | ViaSat-3 F3 (ViaSat-3 Asia-Pacific)",
       "net": "2026-04-30T00:00:00Z",
@@ -266,37 +297,6 @@
       "trajectory_direction": "East",
       "agency_launches_this_year": 62,
       "boosters": []
-    },
-    {
-      "id": "be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3",
-      "name": "Falcon 9 Block 5 | 9 x Globalstar-3",
-      "net": "2026-06-30T00:00:00Z",
-      "net_precision": "H1",
-      "window_start": "2026-06-30T00:00:00Z",
-      "window_end": "2026-06-30T00:00:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-      "pad": "Unknown Pad",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 62,
-      "boosters": [
-        {
-          "core": "Unknown F9",
-          "flight": null,
-          "landing_attempt": null,
-          "landing_success": null,
-          "landing_type": null,
-          "landing_location": null,
-          "droneship": null,
-          "description": null
-        }
-      ]
     }
   ]
 }
