@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-28T00:01:08.972Z",
+  "timestamp": "2026-03-28T00:50:31.367Z",
   "launches": [
     {
       "id": "8a9f7ce9-4ab5-4227-95f1-9f328def8828",
@@ -155,6 +155,57 @@
       "boosters": []
     },
     {
+      "id": "4cc237b2-c61a-491e-9532-466cce81f524",
+      "name": "Falcon Heavy | ViaSat-3 F3 (ViaSat-3 Asia-Pacific)",
+      "net": "2026-04-30T00:00:00Z",
+      "net_precision": "M",
+      "window_start": "2026-04-30T00:00:00Z",
+      "window_end": "2026-04-30T00:00:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon Heavy",
+      "orbit": "Geostationary Transfer Orbit",
+      "orbit_abbrev": "GTO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_image_20220129192819.jpeg",
+      "pad": "Launch Complex 39A",
+      "location": "Kennedy Space Center, FL, USA",
+      "trajectory_direction": "East",
+      "agency_launches_this_year": 47,
+      "boosters": [
+        {
+          "core": "Unknown FH",
+          "flight": null,
+          "landing_attempt": null,
+          "landing_success": null,
+          "landing_type": null,
+          "landing_location": null,
+          "droneship": null,
+          "description": null
+        },
+        {
+          "core": "Unknown FH",
+          "flight": null,
+          "landing_attempt": null,
+          "landing_success": null,
+          "landing_type": null,
+          "landing_location": null,
+          "droneship": null,
+          "description": null
+        },
+        {
+          "core": "Unknown FH",
+          "flight": null,
+          "landing_attempt": null,
+          "landing_success": null,
+          "landing_type": null,
+          "landing_location": null,
+          "droneship": null,
+          "description": null
+        }
+      ]
+    },
+    {
       "id": "53769468-bfd3-45c7-a52b-46a68ed7510f",
       "name": "New Glenn | BlueBird Block 2 #2",
       "net": "2026-04-30T00:00:00Z",
@@ -213,57 +264,6 @@
           "landing_location": "Unknown",
           "droneship": "N/A",
           "description": "The Falcon 9 first stage will land on one of two East Coast ASDS after its flight."
-        }
-      ]
-    },
-    {
-      "id": "4cc237b2-c61a-491e-9532-466cce81f524",
-      "name": "Falcon Heavy | ViaSat-3 F3 (ViaSat-3 Asia-Pacific)",
-      "net": "2026-04-30T00:00:00Z",
-      "net_precision": "M",
-      "window_start": "2026-04-30T00:00:00Z",
-      "window_end": "2026-04-30T00:00:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon Heavy",
-      "orbit": "Geostationary Transfer Orbit",
-      "orbit_abbrev": "GTO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_image_20220129192819.jpeg",
-      "pad": "Launch Complex 39A",
-      "location": "Kennedy Space Center, FL, USA",
-      "trajectory_direction": "East",
-      "agency_launches_this_year": 47,
-      "boosters": [
-        {
-          "core": "Unknown FH",
-          "flight": null,
-          "landing_attempt": null,
-          "landing_success": null,
-          "landing_type": null,
-          "landing_location": null,
-          "droneship": null,
-          "description": null
-        },
-        {
-          "core": "Unknown FH",
-          "flight": null,
-          "landing_attempt": null,
-          "landing_success": null,
-          "landing_type": null,
-          "landing_location": null,
-          "droneship": null,
-          "description": null
-        },
-        {
-          "core": "Unknown FH",
-          "flight": null,
-          "landing_attempt": null,
-          "landing_success": null,
-          "landing_type": null,
-          "landing_location": null,
-          "droneship": null,
-          "description": null
         }
       ]
     },
