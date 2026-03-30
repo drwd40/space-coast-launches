@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-30T00:02:08.270Z",
+  "timestamp": "2026-03-30T00:57:37.122Z",
   "launches": [
     {
       "id": "10fbecb2-7624-44bc-85ce-9a22b9b9f2ec",
@@ -207,16 +207,6 @@
         {
           "core": "Unknown FH",
           "flight": null,
-          "landing_attempt": false,
-          "landing_success": null,
-          "landing_type": "EXP",
-          "landing_location": "Atlantic Ocean",
-          "droneship": "ATL",
-          "description": "The Falcon Heavy center core will be expended."
-        },
-        {
-          "core": "Unknown FH",
-          "flight": null,
           "landing_attempt": true,
           "landing_success": null,
           "landing_type": "RTLS",
@@ -233,6 +223,16 @@
           "landing_location": "Landing Zone 2",
           "droneship": "LZ-2",
           "description": "The Falcon Heavy side booster will land back at the launch site after its flight."
+        },
+        {
+          "core": "Unknown FH",
+          "flight": null,
+          "landing_attempt": false,
+          "landing_success": null,
+          "landing_type": "EXP",
+          "landing_location": "Atlantic Ocean",
+          "droneship": "ATL",
+          "description": "The Falcon Heavy center core will be expended."
         }
       ]
     },
