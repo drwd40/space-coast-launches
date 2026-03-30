@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-30T20:41:12.169Z",
+  "timestamp": "2026-03-30T21:02:16.034Z",
   "launches": [
     {
       "id": "10fbecb2-7624-44bc-85ce-9a22b9b9f2ec",
@@ -36,7 +36,7 @@
       "id": "41699701-2ef4-4b0c-ac9d-6757820cde87",
       "name": "SLS Block 1 | Artemis II",
       "net": "2026-04-01T22:24:00Z",
-      "net_precision": "MIN",
+      "net_precision": "SEC",
       "window_start": "2026-04-01T22:24:00Z",
       "window_end": "2026-04-02T00:24:00Z",
       "provider": "National Aeronautics and Space Administration",
