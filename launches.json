@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-01T22:38:24.897Z",
+  "timestamp": "2026-04-01T22:57:25.192Z",
   "launches": [
     {
       "id": "41699701-2ef4-4b0c-ac9d-6757820cde87",
@@ -13,7 +13,7 @@
       "orbit": "Lunar flyby",
       "orbit_abbrev": "Lunar flyby",
       "probability": 90,
-      "status": "Go for Launch",
+      "status": "Launch in Flight",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/space_launch_sy_image_20220331082429.jpeg",
       "pad": "Launch Complex 39B",
       "location": "Kennedy Space Center, FL, USA",
