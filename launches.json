@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-01T12:35:54.859Z",
+  "timestamp": "2026-04-01T13:03:49.604Z",
   "launches": [
     {
       "id": "41699701-2ef4-4b0c-ac9d-6757820cde87",
@@ -106,16 +106,16 @@
     {
       "id": "53769468-bfd3-45c7-a52b-46a68ed7510f",
       "name": "New Glenn | BlueBird Block 2 #2",
-      "net": "2026-04-10T00:00:00Z",
-      "net_precision": "DAY",
-      "window_start": "2026-04-10T00:00:00Z",
-      "window_end": "2026-04-10T00:00:00Z",
+      "net": "2026-04-12T10:45:00Z",
+      "net_precision": "MIN",
+      "window_start": "2026-04-12T10:45:00Z",
+      "window_end": "2026-04-12T13:43:00Z",
       "provider": "Blue Origin",
       "vehicle": "New Glenn",
       "orbit": "Low Earth Orbit",
       "orbit_abbrev": "LEO",
       "probability": null,
-      "status": "To Be Determined",
+      "status": "To Be Confirmed",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new_glenn_on_th_image_20251113164507.jpg",
       "pad": "Launch Complex 36A",
       "location": "Cape Canaveral SFS, FL, USA",
