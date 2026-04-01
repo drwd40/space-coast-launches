@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-04-01T22:19:28.951Z",
+  "timestamp": "2026-04-01T22:38:24.897Z",
   "launches": [
     {
       "id": "41699701-2ef4-4b0c-ac9d-6757820cde87",
       "name": "SLS Block 1 | Artemis II",
-      "net": "2026-04-01T22:24:00Z",
+      "net": "2026-04-01T22:35:12Z",
       "net_precision": "SEC",
       "window_start": "2026-04-01T22:24:00Z",
       "window_end": "2026-04-02T00:24:00Z",
@@ -13,7 +13,7 @@
       "orbit": "Lunar flyby",
       "orbit_abbrev": "Lunar flyby",
       "probability": 90,
-      "status": "On Hold",
+      "status": "Go for Launch",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/space_launch_sy_image_20220331082429.jpeg",
       "pad": "Launch Complex 39B",
       "location": "Kennedy Space Center, FL, USA",
