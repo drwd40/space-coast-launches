@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-02T00:03:11.462Z",
+  "timestamp": "2026-04-02T00:52:10.196Z",
   "launches": [
     {
       "id": "41699701-2ef4-4b0c-ac9d-6757820cde87",
@@ -24,8 +24,8 @@
     {
       "id": "63aa7636-d2b7-457f-a3e6-27e564e42941",
       "name": "Falcon 9 Block 5 | Starlink Group 10-58",
-      "net": "2026-04-02T11:52:00Z",
-      "net_precision": "MIN",
+      "net": "2026-04-02T11:55:10Z",
+      "net_precision": "SEC",
       "window_start": "2026-04-02T11:52:00Z",
       "window_end": "2026-04-02T15:52:00Z",
       "provider": "SpaceX",
