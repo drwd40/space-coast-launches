@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-04-03T22:24:57.888Z",
+  "timestamp": "2026-04-03T22:44:12.639Z",
   "launches": [
     {
       "id": "8a9f7ce9-4ab5-4227-95f1-9f328def8828",
       "name": "Atlas V 551 | Amazon Leo (LA-05)",
-      "net": "2026-04-04T05:45:00Z",
-      "net_precision": "MIN",
+      "net": "2026-04-04T05:45:30Z",
+      "net_precision": "SEC",
       "window_start": "2026-04-04T05:45:00Z",
       "window_end": "2026-04-04T06:14:00Z",
       "provider": "United Launch Alliance",
