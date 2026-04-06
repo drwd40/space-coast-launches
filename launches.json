@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-05T23:52:04.376Z",
+  "timestamp": "2026-04-06T00:03:59.954Z",
   "launches": [
     {
       "id": "5ed6ab75-8c5b-4013-93e1-1deb56b14f1d",
@@ -268,35 +268,24 @@
       "boosters": []
     },
     {
-      "id": "be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3",
-      "name": "Falcon 9 Block 5 | 9 x Globalstar-3",
+      "id": "9eb09815-c237-4fdd-9057-5b161131240c",
+      "name": "Atlas V 551 | Amazon Leo (LA-08)",
       "net": "2026-06-30T00:00:00Z",
-      "net_precision": "H1",
+      "net_precision": "Q2",
       "window_start": "2026-06-30T00:00:00Z",
       "window_end": "2026-06-30T00:00:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
+      "provider": "United Launch Alliance",
+      "vehicle": "Atlas V 551",
       "orbit": "Low Earth Orbit",
       "orbit_abbrev": "LEO",
       "probability": null,
       "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-      "pad": "Unknown Pad",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas2520v2520551_image_20190224012316.jpeg",
+      "pad": "Space Launch Complex 41",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
-      "agency_launches_this_year": 67,
-      "boosters": [
-        {
-          "core": "Unknown F9",
-          "flight": null,
-          "landing_attempt": null,
-          "landing_success": null,
-          "landing_type": null,
-          "landing_location": null,
-          "droneship": null,
-          "description": null
-        }
-      ]
+      "agency_launches_this_year": 5,
+      "boosters": []
     }
   ]
 }
