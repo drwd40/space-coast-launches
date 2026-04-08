@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-08T00:01:26.194Z",
+  "timestamp": "2026-04-08T00:55:27.925Z",
   "launches": [
     {
       "id": "5ed6ab75-8c5b-4013-93e1-1deb56b14f1d",
@@ -131,8 +131,18 @@
       "pad": "Launch Complex 39A",
       "location": "Kennedy Space Center, FL, USA",
       "trajectory_direction": "East",
-      "agency_launches_this_year": 48,
+      "agency_launches_this_year": 49,
       "boosters": [
+        {
+          "core": "Unknown FH",
+          "flight": null,
+          "landing_attempt": false,
+          "landing_success": null,
+          "landing_type": "EXP",
+          "landing_location": "Atlantic Ocean",
+          "droneship": "ATL",
+          "description": "The Falcon Heavy center core will be expended."
+        },
         {
           "core": "Unknown FH",
           "flight": null,
@@ -152,16 +162,6 @@
           "landing_location": "Landing Zone 2",
           "droneship": "LZ-2",
           "description": "The Falcon Heavy side booster will land back at the launch site after its flight."
-        },
-        {
-          "core": "Unknown FH",
-          "flight": null,
-          "landing_attempt": false,
-          "landing_success": null,
-          "landing_type": "EXP",
-          "landing_location": "Atlantic Ocean",
-          "droneship": "ATL",
-          "description": "The Falcon Heavy center core will be expended."
         }
       ]
     },
@@ -182,7 +182,7 @@
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
-      "agency_launches_this_year": 48,
+      "agency_launches_this_year": 49,
       "boosters": [
         {
           "core": "Unknown F9",
@@ -264,7 +264,7 @@
       "pad": "Unknown Pad",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": "East",
-      "agency_launches_this_year": 67,
+      "agency_launches_this_year": 68,
       "boosters": []
     },
     {
