@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-04-10T12:56:56.295Z",
+  "timestamp": "2026-04-10T13:37:44.534Z",
   "launches": [
     {
       "id": "5ed6ab75-8c5b-4013-93e1-1deb56b14f1d",
       "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-24 (S.S. Steven R. Nagel)",
-      "net": "2026-04-11T11:41:00Z",
-      "net_precision": "MIN",
-      "window_start": "2026-04-11T11:41:00Z",
-      "window_end": "2026-04-11T11:41:00Z",
+      "net": "2026-04-11T11:41:21Z",
+      "net_precision": "SEC",
+      "window_start": "2026-04-11T11:41:21Z",
+      "window_end": "2026-04-11T11:41:21Z",
       "provider": "SpaceX",
       "vehicle": "Falcon 9 Block 5",
       "orbit": "Low Earth Orbit",
