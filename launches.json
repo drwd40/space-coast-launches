@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-16T20:24:54.301Z",
+  "timestamp": "2026-04-16T20:46:18.657Z",
   "launches": [
     {
       "id": "53769468-bfd3-45c7-a52b-46a68ed7510f",
@@ -7,13 +7,13 @@
       "net": "2026-04-19T10:45:00Z",
       "net_precision": "MIN",
       "window_start": "2026-04-19T10:45:00Z",
-      "window_end": "2026-04-19T13:43:00Z",
+      "window_end": "2026-04-19T12:45:00Z",
       "provider": "Blue Origin",
       "vehicle": "New Glenn",
       "orbit": "Low Earth Orbit",
       "orbit_abbrev": "LEO",
       "probability": null,
-      "status": "To Be Confirmed",
+      "status": "Go for Launch",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new_glenn_on_th_image_20251113164507.jpg",
       "pad": "Launch Complex 36A",
       "location": "Cape Canaveral SFS, FL, USA",
