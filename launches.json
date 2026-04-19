@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-19T19:49:40.764Z",
+  "timestamp": "2026-04-19T20:04:10.717Z",
   "launches": [
     {
       "id": "53769468-bfd3-45c7-a52b-46a68ed7510f",
@@ -13,7 +13,7 @@
       "orbit": "Low Earth Orbit",
       "orbit_abbrev": "LEO",
       "probability": 90,
-      "status": "Launch in Flight",
+      "status": "Launch Failure",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new_glenn_on_th_image_20251113164507.jpg",
       "pad": "Launch Complex 36A",
       "location": "Cape Canaveral SFS, FL, USA",
@@ -22,7 +22,7 @@
       "boosters": [
         {
           "core": "GS1-SN002",
-          "flight": 1,
+          "flight": 2,
           "landing_attempt": true,
           "landing_success": true,
           "landing_type": "ASDS",
