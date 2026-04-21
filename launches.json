@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-21T06:26:07.621Z",
+  "timestamp": "2026-04-21T07:07:55.444Z",
   "launches": [
     {
       "id": "2c5686ec-b0fd-4987-935d-587e3c85fa2d",
@@ -13,7 +13,7 @@
       "orbit": "Medium Earth Orbit",
       "orbit_abbrev": "MEO",
       "probability": 90,
-      "status": "Go for Launch",
+      "status": "Launch in Flight",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
@@ -24,11 +24,11 @@
           "core": "B1095",
           "flight": 6,
           "landing_attempt": true,
-          "landing_success": null,
+          "landing_success": true,
           "landing_type": "ASDS",
           "landing_location": "Just Read the Instructions",
           "droneship": "JRTI",
-          "description": "The Falcon 9 first stage B1095 will land on ASDS JRTI after its 7th flight."
+          "description": "The Falcon 9 first stage B1095 has landed on ASDS JRTI after its 7th flight."
         }
       ]
     },
