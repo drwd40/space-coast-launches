@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-04-26T14:55:08.421Z",
+  "timestamp": "2026-04-26T15:16:33.988Z",
   "launches": [
     {
       "id": "4cc237b2-c61a-491e-9532-466cce81f524",
       "name": "Falcon Heavy | ViaSat-3 F3 (ViaSat-3 Asia-Pacific)",
       "net": "2026-04-27T14:21:00Z",
-      "net_precision": "MIN",
+      "net_precision": "SEC",
       "window_start": "2026-04-27T14:21:00Z",
       "window_end": "2026-04-27T15:46:00Z",
       "provider": "SpaceX",
