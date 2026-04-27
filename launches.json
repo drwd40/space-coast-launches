@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-27T04:05:51.774Z",
+  "timestamp": "2026-04-27T05:18:21.218Z",
   "launches": [
     {
       "id": "4cc237b2-c61a-491e-9532-466cce81f524",
@@ -14,7 +14,7 @@
       "orbit_abbrev": "GTO",
       "probability": 70,
       "status": "Go for Launch",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_image_20220129192819.jpeg",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_on_image_20260427051334.jpg",
       "pad": "Launch Complex 39A",
       "location": "Kennedy Space Center, FL, USA",
       "trajectory_direction": "East",
