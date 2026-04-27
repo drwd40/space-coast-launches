@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-27T17:56:39.554Z",
+  "timestamp": "2026-04-27T18:36:25.198Z",
   "launches": [
     {
       "id": "7e89e423-6f47-40a0-b075-c6fc1d9cf228",
@@ -24,16 +24,16 @@
     {
       "id": "4cc237b2-c61a-491e-9532-466cce81f524",
       "name": "Falcon Heavy | ViaSat-3 F3 (ViaSat-3 Asia-Pacific)",
-      "net": "2026-04-28T14:17:00Z",
+      "net": "2026-04-29T14:13:00Z",
       "net_precision": "SEC",
-      "window_start": "2026-04-28T14:17:00Z",
-      "window_end": "2026-04-28T15:42:00Z",
+      "window_start": "2026-04-29T14:13:00Z",
+      "window_end": "2026-04-29T15:38:00Z",
       "provider": "SpaceX",
       "vehicle": "Falcon Heavy",
       "orbit": "Geostationary Transfer Orbit",
       "orbit_abbrev": "GTO",
-      "probability": 90,
-      "status": "To Be Confirmed",
+      "probability": null,
+      "status": "Go for Launch",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_on_image_20260427051334.jpg",
       "pad": "Launch Complex 39A",
       "location": "Kennedy Space Center, FL, USA",
