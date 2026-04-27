@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-27T13:23:48.587Z",
+  "timestamp": "2026-04-27T14:13:06.868Z",
   "launches": [
     {
       "id": "4cc237b2-c61a-491e-9532-466cce81f524",
@@ -12,7 +12,7 @@
       "vehicle": "Falcon Heavy",
       "orbit": "Geostationary Transfer Orbit",
       "orbit_abbrev": "GTO",
-      "probability": 70,
+      "probability": 55,
       "status": "Go for Launch",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_on_image_20260427051334.jpg",
       "pad": "Launch Complex 39A",
