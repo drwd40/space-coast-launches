@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-28T01:04:46.111Z",
+  "timestamp": "2026-04-28T01:46:55.897Z",
   "launches": [
     {
       "id": "7e89e423-6f47-40a0-b075-c6fc1d9cf228",
@@ -13,7 +13,7 @@
       "orbit": "Low Earth Orbit",
       "orbit_abbrev": "LEO",
       "probability": 80,
-      "status": "Launch in Flight",
+      "status": "Launch Successful",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas2520v2520551_image_20190224012316.jpeg",
       "pad": "Space Launch Complex 41",
       "location": "Cape Canaveral SFS, FL, USA",
@@ -135,12 +135,12 @@
       ]
     },
     {
-      "id": "9eb09815-c237-4fdd-9057-5b161131240c",
-      "name": "Atlas V 551 | Amazon Leo (LA-08)",
-      "net": "2026-06-30T00:00:00Z",
-      "net_precision": "Q2",
-      "window_start": "2026-06-30T00:00:00Z",
-      "window_end": "2026-06-30T00:00:00Z",
+      "id": "ff0a6a32-6513-4e85-9fd8-a2d022add74d",
+      "name": "Atlas V 551 | Amazon Leo (LA-07)",
+      "net": "2026-05-22T00:00:00Z",
+      "net_precision": "DAY",
+      "window_start": "2026-05-22T00:00:00Z",
+      "window_end": "2026-05-22T00:00:00Z",
       "provider": "United Launch Alliance",
       "vehicle": "Atlas V 551",
       "orbit": "Low Earth Orbit",
@@ -155,8 +155,8 @@
       "boosters": []
     },
     {
-      "id": "ff0a6a32-6513-4e85-9fd8-a2d022add74d",
-      "name": "Atlas V 551 | Amazon Leo (LA-07)",
+      "id": "9eb09815-c237-4fdd-9057-5b161131240c",
+      "name": "Atlas V 551 | Amazon Leo (LA-08)",
       "net": "2026-06-30T00:00:00Z",
       "net_precision": "Q2",
       "window_start": "2026-06-30T00:00:00Z",
