@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-28T23:55:39.240Z",
+  "timestamp": "2026-04-29T00:45:42.010Z",
   "launches": [
     {
       "id": "7e89e423-6f47-40a0-b075-c6fc1d9cf228",
@@ -41,16 +41,6 @@
       "agency_launches_this_year": 51,
       "boosters": [
         {
-          "core": "B1098",
-          "flight": null,
-          "landing_attempt": false,
-          "landing_success": null,
-          "landing_type": "EXP",
-          "landing_location": "Atlantic Ocean",
-          "droneship": "ATL",
-          "description": "The Falcon Heavy center core B1098 will be expended."
-        },
-        {
           "core": "B1072",
           "flight": 1,
           "landing_attempt": true,
@@ -69,6 +59,16 @@
           "landing_location": "Landing Zone 2",
           "droneship": "LZ-2",
           "description": "The Falcon Heavy side booster B1075 will land back at the launch site at Landing Zone 2 after its 22nd flight."
+        },
+        {
+          "core": "B1098",
+          "flight": null,
+          "landing_attempt": false,
+          "landing_success": null,
+          "landing_type": "EXP",
+          "landing_location": "Atlantic Ocean",
+          "droneship": "ATL",
+          "description": "The Falcon Heavy center core B1098 will be expended."
         }
       ]
     },
@@ -117,7 +117,7 @@
       "probability": null,
       "status": "To Be Confirmed",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20210520085648.jpeg",
-      "pad": "Unknown Pad",
+      "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": "Northeast",
       "agency_launches_this_year": 56,
@@ -125,12 +125,12 @@
         {
           "core": "Unknown F9",
           "flight": null,
-          "landing_attempt": null,
+          "landing_attempt": true,
           "landing_success": null,
-          "landing_type": null,
-          "landing_location": null,
-          "droneship": null,
-          "description": null
+          "landing_type": "RTLS",
+          "landing_location": "Landing Zone 40",
+          "droneship": "LZ-40",
+          "description": "The Falcon 9 first stage will land back at the launch site at Landing Zone 40 after its flight."
         }
       ]
     },
