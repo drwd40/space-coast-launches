@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-29T16:22:54.404Z",
+  "timestamp": "2026-04-29T16:58:38.193Z",
   "launches": [
     {
       "id": "4cc237b2-c61a-491e-9532-466cce81f524",
@@ -48,7 +48,7 @@
           "landing_type": "EXP",
           "landing_location": "Atlantic Ocean",
           "droneship": "ATL",
-          "description": "The Falcon Heavy center core B1098 will be expended."
+          "description": "The Falcon Heavy center core B1098 has been expended."
         }
       ]
     },
