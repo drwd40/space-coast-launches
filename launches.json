@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-08T04:03:04.892Z",
+  "timestamp": "2026-05-08T05:09:58.325Z",
   "launches": [
     {
       "id": "e60aa241-1f2c-4459-ba94-2f576c3e5632",
@@ -86,10 +86,10 @@
     {
       "id": "be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3",
       "name": "Falcon 9 Block 5 | 9 x Globalstar-3",
-      "net": "2026-06-30T00:00:00Z",
-      "net_precision": "H1",
-      "window_start": "2026-06-30T00:00:00Z",
-      "window_end": "2026-06-30T00:00:00Z",
+      "net": "2026-05-31T00:00:00Z",
+      "net_precision": "M",
+      "window_start": "2026-05-31T00:00:00Z",
+      "window_end": "2026-05-31T00:00:00Z",
       "provider": "SpaceX",
       "vehicle": "Falcon 9 Block 5",
       "orbit": "Low Earth Orbit",
@@ -100,7 +100,7 @@
       "pad": "Unknown Pad",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
-      "agency_launches_this_year": 73,
+      "agency_launches_this_year": 62,
       "boosters": [
         {
           "core": "Unknown F9",
