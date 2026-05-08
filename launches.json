@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-08T19:57:40.844Z",
+  "timestamp": "2026-05-08T20:30:17.817Z",
   "launches": [
     {
       "id": "e60aa241-1f2c-4459-ba94-2f576c3e5632",
@@ -34,7 +34,7 @@
     },
     {
       "id": "be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3",
-      "name": "Falcon 9 Block 5 | 9 x Globalstar 2-R",
+      "name": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)",
       "net": "2026-05-17T12:50:00Z",
       "net_precision": "MIN",
       "window_start": "2026-05-17T12:50:00Z",
@@ -48,7 +48,7 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
+      "trajectory_direction": "Northeast",
       "agency_launches_this_year": 60,
       "boosters": [
         {
