@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-11T15:33:07.188Z",
+  "timestamp": "2026-05-11T16:28:59.267Z",
   "launches": [
     {
       "id": "e60aa241-1f2c-4459-ba94-2f576c3e5632",
@@ -12,7 +12,7 @@
       "vehicle": "Falcon 9 Block 5",
       "orbit": "Low Earth Orbit",
       "orbit_abbrev": "LEO",
-      "probability": null,
+      "probability": 35,
       "status": "Go for Launch",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20210520085648.jpeg",
       "pad": "Space Launch Complex 40",
@@ -64,26 +64,6 @@
       ]
     },
     {
-      "id": "ff0a6a32-6513-4e85-9fd8-a2d022add74d",
-      "name": "Atlas V 551 | Amazon Leo (LA-07)",
-      "net": "2026-05-22T00:00:00Z",
-      "net_precision": "DAY",
-      "window_start": "2026-05-22T00:00:00Z",
-      "window_end": "2026-05-22T00:00:00Z",
-      "provider": "United Launch Alliance",
-      "vehicle": "Atlas V 551",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas2520v2520551_image_20190224012316.jpeg",
-      "pad": "Space Launch Complex 41",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 4,
-      "boosters": []
-    },
-    {
       "id": "ef65c43b-faf9-4adb-9155-289eaabdd097",
       "name": "Falcon 9 Block 5 | Starlink Group 10-31",
       "net": "2026-05-22T11:00:00Z",
@@ -113,6 +93,26 @@
           "description": "The Falcon 9 first stage B1077 will land on ASDS ASOG after its 28th flight."
         }
       ]
+    },
+    {
+      "id": "ff0a6a32-6513-4e85-9fd8-a2d022add74d",
+      "name": "Atlas V 551 | Amazon Leo (LA-07)",
+      "net": "2026-05-22T18:56:00Z",
+      "net_precision": "MIN",
+      "window_start": "2026-05-22T18:56:00Z",
+      "window_end": "2026-05-22T19:25:00Z",
+      "provider": "United Launch Alliance",
+      "vehicle": "Atlas V 551",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
+      "probability": null,
+      "status": "Go for Launch",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas2520v2520551_image_20190224012316.jpeg",
+      "pad": "Space Launch Complex 41",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 4,
+      "boosters": []
     },
     {
       "id": "c3f48f48-0e0a-4bca-917e-de494cfca35b",
