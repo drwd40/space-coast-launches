@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-12T11:03:16.006Z",
+  "timestamp": "2026-05-12T11:45:35.566Z",
   "launches": [
     {
       "id": "e60aa241-1f2c-4459-ba94-2f576c3e5632",
@@ -49,7 +49,7 @@
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": "Northeast",
-      "agency_launches_this_year": 60,
+      "agency_launches_this_year": 59,
       "boosters": [
         {
           "core": "B1090",
@@ -166,26 +166,6 @@
       "boosters": []
     },
     {
-      "id": "0f6780cf-edae-4d7c-99d6-ce7de784d140",
-      "name": "Falcon 9 Block 5 | MRV-1",
-      "net": "2026-06-30T00:00:00Z",
-      "net_precision": "Q2",
-      "window_start": "2026-06-30T00:00:00Z",
-      "window_end": "2026-06-30T00:00:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Geostationary Transfer Orbit",
-      "orbit_abbrev": "GTO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-      "pad": "Unknown Pad",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": "East",
-      "agency_launches_this_year": 73,
-      "boosters": []
-    },
-    {
       "id": "bf2c3027-a314-403e-a416-2bfd5d165ad1",
       "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
       "net": "2026-08-31T00:00:00Z",
@@ -202,7 +182,7 @@
       "pad": "Unknown Pad",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": "Northeast",
-      "agency_launches_this_year": 75,
+      "agency_launches_this_year": 74,
       "boosters": [
         {
           "core": "Unknown F9",
@@ -277,6 +257,26 @@
           "description": null
         }
       ]
+    },
+    {
+      "id": "cb1762f0-90f4-4902-a5f6-655a7ade25bf",
+      "name": "Falcon 9 Block 5 | SDA Tranche 2 Tracking Layer B",
+      "net": "2026-09-30T00:00:00Z",
+      "net_precision": "Q3",
+      "window_start": "2026-09-30T00:00:00Z",
+      "window_end": "2026-09-30T00:00:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon 9 Block 5",
+      "orbit": "Polar Orbit",
+      "orbit_abbrev": "PO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "pad": "Unknown Pad",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 81,
+      "boosters": []
     }
   ]
 }
