@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-05-12T23:02:14.097Z",
+  "timestamp": "2026-05-12T23:31:42.136Z",
   "launches": [
     {
       "id": "e60aa241-1f2c-4459-ba94-2f576c3e5632",
       "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-34",
-      "net": "2026-05-13T22:50:00Z",
-      "net_precision": "MIN",
-      "window_start": "2026-05-13T22:50:00Z",
-      "window_end": "2026-05-13T22:50:00Z",
+      "net": "2026-05-13T22:50:50Z",
+      "net_precision": "SEC",
+      "window_start": "2026-05-13T22:50:50Z",
+      "window_end": "2026-05-13T22:50:50Z",
       "provider": "SpaceX",
       "vehicle": "Falcon 9 Block 5",
       "orbit": "Low Earth Orbit",
