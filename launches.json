@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-15T21:29:24.964Z",
+  "timestamp": "2026-05-15T21:53:28.621Z",
   "launches": [
     {
       "id": "e60aa241-1f2c-4459-ba94-2f576c3e5632",
@@ -33,37 +33,6 @@
       ]
     },
     {
-      "id": "be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3",
-      "name": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)",
-      "net": "2026-05-20T12:04:00Z",
-      "net_precision": "MIN",
-      "window_start": "2026-05-20T12:04:00Z",
-      "window_end": "2026-05-20T12:18:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": null,
-      "status": "Go for Launch",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-      "pad": "Space Launch Complex 40",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": "Northeast",
-      "agency_launches_this_year": 60,
-      "boosters": [
-        {
-          "core": "B1090",
-          "flight": 11,
-          "landing_attempt": true,
-          "landing_success": null,
-          "landing_type": "ASDS",
-          "landing_location": "A Shortfall of Gravitas",
-          "droneship": "ASOG",
-          "description": "The Falcon 9 first stage B1090 will land on ASDS ASOG after its 12th flight."
-        }
-      ]
-    },
-    {
       "id": "ef65c43b-faf9-4adb-9155-289eaabdd097",
       "name": "Falcon 9 Block 5 | Starlink Group 10-31",
       "net": "2026-05-21T09:26:00Z",
@@ -80,7 +49,7 @@
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": "Southeast",
-      "agency_launches_this_year": 61,
+      "agency_launches_this_year": 60,
       "boosters": [
         {
           "core": "B1077",
@@ -111,7 +80,7 @@
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": "Southeast",
-      "agency_launches_this_year": 63,
+      "agency_launches_this_year": 62,
       "boosters": [
         {
           "core": "B1078",
@@ -144,6 +113,37 @@
       "trajectory_direction": null,
       "agency_launches_this_year": 4,
       "boosters": []
+    },
+    {
+      "id": "be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3",
+      "name": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)",
+      "net": "2026-05-31T00:00:00Z",
+      "net_precision": "M",
+      "window_start": "2026-05-31T00:00:00Z",
+      "window_end": "2026-05-31T00:00:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon 9 Block 5",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "pad": "Space Launch Complex 40",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": "Northeast",
+      "agency_launches_this_year": 64,
+      "boosters": [
+        {
+          "core": "B1090",
+          "flight": 11,
+          "landing_attempt": true,
+          "landing_success": null,
+          "landing_type": "ASDS",
+          "landing_location": "A Shortfall of Gravitas",
+          "droneship": "ASOG",
+          "description": "The Falcon 9 first stage B1090 will land on ASDS ASOG after its 12th flight."
+        }
+      ]
     },
     {
       "id": "c3f48f48-0e0a-4bca-917e-de494cfca35b",
