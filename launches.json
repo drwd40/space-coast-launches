@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-18T01:14:15.385Z",
+  "timestamp": "2026-05-18T02:02:08.646Z",
   "launches": [
     {
       "id": "ef65c43b-faf9-4adb-9155-289eaabdd097",
@@ -248,6 +248,37 @@
       ]
     },
     {
+      "id": "ad358a4d-c541-409b-9366-9c2f2da4aeb9",
+      "name": "Falcon 9 Block 5 | O3b mPower 11-13",
+      "net": "2026-09-30T00:00:00Z",
+      "net_precision": "M",
+      "window_start": "2026-09-30T00:00:00Z",
+      "window_end": "2026-09-30T00:00:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon 9 Block 5",
+      "orbit": "Medium Earth Orbit",
+      "orbit_abbrev": "MEO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "pad": "Unknown Pad",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 83,
+      "boosters": [
+        {
+          "core": "Unknown F9",
+          "flight": null,
+          "landing_attempt": null,
+          "landing_success": null,
+          "landing_type": null,
+          "landing_location": null,
+          "droneship": null,
+          "description": null
+        }
+      ]
+    },
+    {
       "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
       "name": "Vulcan VC6L | Amazon Leo (LV-01)",
       "net": "2026-09-30T00:00:00Z",
@@ -266,37 +297,6 @@
       "trajectory_direction": null,
       "agency_launches_this_year": 6,
       "boosters": []
-    },
-    {
-      "id": "9bfa0324-db74-444f-8dc3-1c7d373ca659",
-      "name": "Falcon 9 Block 5 | 5x Astranis MicroGEO",
-      "net": "2026-09-30T00:00:00Z",
-      "net_precision": "Q3",
-      "window_start": "2026-09-30T00:00:00Z",
-      "window_end": "2026-09-30T00:00:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Geostationary Transfer Orbit",
-      "orbit_abbrev": "GTO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_20241221043403.jpg",
-      "pad": "Unknown Pad",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": "East",
-      "agency_launches_this_year": 83,
-      "boosters": [
-        {
-          "core": "Unknown F9",
-          "flight": null,
-          "landing_attempt": null,
-          "landing_success": null,
-          "landing_type": null,
-          "landing_location": null,
-          "droneship": null,
-          "description": null
-        }
-      ]
     }
   ]
 }
