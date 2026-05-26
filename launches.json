@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-26T18:11:01.739Z",
+  "timestamp": "2026-05-26T19:05:16.090Z",
   "launches": [
     {
       "id": "384fb817-2a18-46ec-b294-613c08ecea52",
@@ -51,6 +51,37 @@
       "trajectory_direction": null,
       "agency_launches_this_year": 4,
       "boosters": []
+    },
+    {
+      "id": "ca3d56b7-2175-48e4-9a6a-2ecc9996d96b",
+      "name": "New Glenn | Amazon Leo (LN-01)",
+      "net": "2026-06-02T18:04:00Z",
+      "net_precision": "MIN",
+      "window_start": "2026-06-02T18:04:00Z",
+      "window_end": "2026-06-02T20:13:00Z",
+      "provider": "Blue Origin",
+      "vehicle": "New Glenn",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
+      "probability": null,
+      "status": "To Be Confirmed",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new_glenn_on_lc_image_20240313170026.jpeg",
+      "pad": "Launch Complex 36A",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 3,
+      "boosters": [
+        {
+          "core": "Unknown NG",
+          "flight": null,
+          "landing_attempt": null,
+          "landing_success": null,
+          "landing_type": null,
+          "landing_location": null,
+          "droneship": null,
+          "description": null
+        }
+      ]
     },
     {
       "id": "cfff5e89-af2e-46b1-9446-7b0f18de4ef7",
@@ -264,37 +295,6 @@
       "pad": "Unknown Pad",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
-      "agency_launches_this_year": 87,
-      "boosters": [
-        {
-          "core": "Unknown F9",
-          "flight": null,
-          "landing_attempt": null,
-          "landing_success": null,
-          "landing_type": null,
-          "landing_location": null,
-          "droneship": null,
-          "description": null
-        }
-      ]
-    },
-    {
-      "id": "9bfa0324-db74-444f-8dc3-1c7d373ca659",
-      "name": "Falcon 9 Block 5 | 5x Astranis MicroGEO",
-      "net": "2026-09-30T00:00:00Z",
-      "net_precision": "Q3",
-      "window_start": "2026-09-30T00:00:00Z",
-      "window_end": "2026-09-30T00:00:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Geostationary Transfer Orbit",
-      "orbit_abbrev": "GTO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_20241221043403.jpg",
-      "pad": "Unknown Pad",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": "East",
       "agency_launches_this_year": 87,
       "boosters": [
         {
