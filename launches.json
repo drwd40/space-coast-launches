@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-29T11:54:57.001Z",
+  "timestamp": "2026-05-29T13:05:29.988Z",
   "launches": [
     {
       "id": "384fb817-2a18-46ec-b294-613c08ecea52",
@@ -13,7 +13,7 @@
       "orbit": "Low Earth Orbit",
       "orbit_abbrev": "LEO",
       "probability": 80,
-      "status": "Go for Launch",
+      "status": "Launch in Flight",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
