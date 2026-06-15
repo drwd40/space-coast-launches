@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-15T22:10:36.768Z",
+  "timestamp": "2026-06-15T22:56:01.541Z",
   "launches": [
     {
       "id": "c3f48f48-0e0a-4bca-917e-de494cfca35b",
@@ -29,6 +29,37 @@
           "landing_location": "A Shortfall of Gravitas",
           "droneship": "ASOG",
           "description": "The Falcon 9 first stage B1077 will land on ASDS ASOG after its 29th flight."
+        }
+      ]
+    },
+    {
+      "id": "74bf8472-9ba1-42d6-9245-b014f8e91de9",
+      "name": "Falcon 9 Block 5 | Project Starfall Demonstration Mission",
+      "net": "2026-06-21T10:43:00Z",
+      "net_precision": "MIN",
+      "window_start": "2026-06-21T10:43:00Z",
+      "window_end": "2026-06-21T15:26:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon 9 Block 5",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
+      "probability": null,
+      "status": "To Be Confirmed",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_20241206131356.jpg",
+      "pad": "Space Launch Complex 40",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": "Northeast",
+      "agency_launches_this_year": 75,
+      "boosters": [
+        {
+          "core": "Unknown F9",
+          "flight": null,
+          "landing_attempt": null,
+          "landing_success": null,
+          "landing_type": null,
+          "landing_location": null,
+          "droneship": null,
+          "description": null
         }
       ]
     },
@@ -80,7 +111,7 @@
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": "Northeast",
-      "agency_launches_this_year": 74,
+      "agency_launches_this_year": 84,
       "boosters": [
         {
           "core": "Unknown F9",
@@ -277,37 +308,6 @@
       "trajectory_direction": null,
       "agency_launches_this_year": 96,
       "boosters": []
-    },
-    {
-      "id": "9bfa0324-db74-444f-8dc3-1c7d373ca659",
-      "name": "Falcon 9 Block 5 | 5x Astranis MicroGEO",
-      "net": "2026-09-30T00:00:00Z",
-      "net_precision": "Q3",
-      "window_start": "2026-09-30T00:00:00Z",
-      "window_end": "2026-09-30T00:00:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Geostationary Transfer Orbit",
-      "orbit_abbrev": "GTO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_20241221043403.jpg",
-      "pad": "Unknown Pad",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": "East",
-      "agency_launches_this_year": 96,
-      "boosters": [
-        {
-          "core": "Unknown F9",
-          "flight": null,
-          "landing_attempt": null,
-          "landing_success": null,
-          "landing_type": null,
-          "landing_location": null,
-          "droneship": null,
-          "description": null
-        }
-      ]
     }
   ]
 }
