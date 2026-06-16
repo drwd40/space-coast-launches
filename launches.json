@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-16T00:14:47.003Z",
+  "timestamp": "2026-06-16T01:32:52.275Z",
   "launches": [
     {
       "id": "c3f48f48-0e0a-4bca-917e-de494cfca35b",
@@ -80,7 +80,7 @@
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": "Northeast",
-      "agency_launches_this_year": 84,
+      "agency_launches_this_year": 85,
       "boosters": [
         {
           "core": "Unknown F9",
@@ -111,7 +111,7 @@
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": "East",
-      "agency_launches_this_year": 84,
+      "agency_launches_this_year": 85,
       "boosters": [
         {
           "core": "Unknown F9",
@@ -162,7 +162,7 @@
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
-      "agency_launches_this_year": 87,
+      "agency_launches_this_year": 88,
       "boosters": [
         {
           "core": "Unknown F9",
@@ -193,7 +193,7 @@
       "pad": "Launch Complex 39A",
       "location": "Kennedy Space Center, FL, USA",
       "trajectory_direction": null,
-      "agency_launches_this_year": 88,
+      "agency_launches_this_year": 89,
       "boosters": [
         {
           "core": "Unknown FH",
@@ -244,7 +244,7 @@
       "pad": "Unknown Pad",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": "Northeast",
-      "agency_launches_this_year": 90,
+      "agency_launches_this_year": 91,
       "boosters": [
         {
           "core": "Unknown F9",
@@ -275,7 +275,7 @@
       "pad": "Unknown Pad",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
-      "agency_launches_this_year": 96,
+      "agency_launches_this_year": 97,
       "boosters": []
     },
     {
@@ -295,7 +295,7 @@
       "pad": "Unknown Pad",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
-      "agency_launches_this_year": 96,
+      "agency_launches_this_year": 97,
       "boosters": [
         {
           "core": "Unknown F9",
