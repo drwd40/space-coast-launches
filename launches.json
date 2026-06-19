@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-19T05:13:39.422Z",
+  "timestamp": "2026-06-19T07:00:13.581Z",
   "launches": [
     {
       "id": "74bf8472-9ba1-42d6-9245-b014f8e91de9",
@@ -7,13 +7,13 @@
       "net": "2026-06-23T10:43:00Z",
       "net_precision": "MIN",
       "window_start": "2026-06-23T10:43:00Z",
-      "window_end": "2026-06-23T12:26:00Z",
+      "window_end": "2026-06-23T11:43:00Z",
       "provider": "SpaceX",
       "vehicle": "Falcon 9 Block 5",
       "orbit": "Low Earth Orbit",
       "orbit_abbrev": "LEO",
       "probability": null,
-      "status": "To Be Confirmed",
+      "status": "Go for Launch",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_20241206131356.jpg",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
