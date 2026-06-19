@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-19T03:24:26.856Z",
+  "timestamp": "2026-06-19T05:13:39.422Z",
   "launches": [
     {
       "id": "74bf8472-9ba1-42d6-9245-b014f8e91de9",
@@ -21,14 +21,14 @@
       "agency_launches_this_year": 75,
       "boosters": [
         {
-          "core": "Unknown F9",
-          "flight": null,
-          "landing_attempt": null,
+          "core": "B1078",
+          "flight": 28,
+          "landing_attempt": true,
           "landing_success": null,
-          "landing_type": null,
-          "landing_location": null,
-          "droneship": null,
-          "description": null
+          "landing_type": "ASDS",
+          "landing_location": "A Shortfall of Gravitas",
+          "droneship": "ASOG",
+          "description": "The Falcon 9 first stage B1078 will land on ASDS ASOG after its 29th flight."
         }
       ]
     },
