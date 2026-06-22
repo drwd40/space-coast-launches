@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-22T12:33:16.054Z",
+  "timestamp": "2026-06-22T14:29:26.206Z",
   "launches": [
     {
       "id": "74bf8472-9ba1-42d6-9245-b014f8e91de9",
@@ -33,6 +33,37 @@
       ]
     },
     {
+      "id": "ce3db8f7-ba9b-4a2a-953c-c6c6ee926541",
+      "name": "Falcon 9 Block 5 | Sirius SXM-11",
+      "net": "2026-06-29T02:25:00Z",
+      "net_precision": "MIN",
+      "window_start": "2026-06-29T02:25:00Z",
+      "window_end": "2026-06-29T07:04:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon 9 Block 5",
+      "orbit": "Geostationary Transfer Orbit",
+      "orbit_abbrev": "GTO",
+      "probability": null,
+      "status": "To Be Confirmed",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_20241206131356.jpg",
+      "pad": "Space Launch Complex 40",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": "East",
+      "agency_launches_this_year": 78,
+      "boosters": [
+        {
+          "core": "Unknown F9",
+          "flight": null,
+          "landing_attempt": null,
+          "landing_success": null,
+          "landing_type": null,
+          "landing_location": null,
+          "droneship": null,
+          "description": null
+        }
+      ]
+    },
+    {
       "id": "be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3",
       "name": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)",
       "net": "2026-06-30T00:00:00Z",
@@ -60,37 +91,6 @@
           "landing_location": "A Shortfall of Gravitas",
           "droneship": "ASOG",
           "description": "The Falcon 9 first stage will land on ASDS ASOG after its flight."
-        }
-      ]
-    },
-    {
-      "id": "ce3db8f7-ba9b-4a2a-953c-c6c6ee926541",
-      "name": "Falcon 9 Block 5 | Sirius SXM-11",
-      "net": "2026-06-30T00:00:00Z",
-      "net_precision": "Q2",
-      "window_start": "2026-06-30T00:00:00Z",
-      "window_end": "2026-06-30T00:00:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Geostationary Transfer Orbit",
-      "orbit_abbrev": "GTO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_20241206131356.jpg",
-      "pad": "Space Launch Complex 40",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": "East",
-      "agency_launches_this_year": 79,
-      "boosters": [
-        {
-          "core": "Unknown F9",
-          "flight": null,
-          "landing_attempt": null,
-          "landing_success": null,
-          "landing_type": null,
-          "landing_location": null,
-          "droneship": null,
-          "description": null
         }
       ]
     },
