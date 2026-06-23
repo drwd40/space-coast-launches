@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-06-23T00:13:29.960Z",
+  "timestamp": "2026-06-23T01:16:48.657Z",
   "launches": [
     {
       "id": "74bf8472-9ba1-42d6-9245-b014f8e91de9",
       "name": "Falcon 9 Block 5 | Project Starfall Demonstration Mission",
-      "net": "2026-06-23T10:43:00Z",
-      "net_precision": "MIN",
+      "net": "2026-06-23T10:53:00Z",
+      "net_precision": "SEC",
       "window_start": "2026-06-23T10:43:00Z",
       "window_end": "2026-06-23T11:43:00Z",
       "provider": "SpaceX",
@@ -131,7 +131,7 @@
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
-      "agency_launches_this_year": 82,
+      "agency_launches_this_year": 83,
       "boosters": [
         {
           "core": "Unknown F9",
@@ -162,7 +162,7 @@
       "pad": "Launch Complex 39A",
       "location": "Kennedy Space Center, FL, USA",
       "trajectory_direction": null,
-      "agency_launches_this_year": 83,
+      "agency_launches_this_year": 84,
       "boosters": [
         {
           "core": "Unknown FH",
