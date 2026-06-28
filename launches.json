@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-28T06:38:50.602Z",
+  "timestamp": "2026-06-28T07:58:07.913Z",
   "launches": [
     {
       "id": "ce3db8f7-ba9b-4a2a-953c-c6c6ee926541",
@@ -12,7 +12,7 @@
       "vehicle": "Falcon 9 Block 5",
       "orbit": "Geostationary Transfer Orbit",
       "orbit_abbrev": "GTO",
-      "probability": null,
+      "probability": 80,
       "status": "Go for Launch",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_20241206131356.jpg",
       "pad": "Space Launch Complex 40",
