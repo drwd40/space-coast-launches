@@ -1,37 +1,6 @@
 {
-  "timestamp": "2026-06-30T02:10:54.836Z",
+  "timestamp": "2026-06-30T03:25:19.546Z",
   "launches": [
-    {
-      "id": "ce3db8f7-ba9b-4a2a-953c-c6c6ee926541",
-      "name": "Falcon 9 Block 5 | Sirius SXM-11",
-      "net": "2026-06-29T02:25:00Z",
-      "net_precision": "MIN",
-      "window_start": "2026-06-29T02:25:00Z",
-      "window_end": "2026-06-29T06:21:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Geostationary Transfer Orbit",
-      "orbit_abbrev": "GTO",
-      "probability": 80,
-      "status": "Launch in Flight",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_20241206131356.jpg",
-      "pad": "Space Launch Complex 40",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": "East",
-      "agency_launches_this_year": 78,
-      "boosters": [
-        {
-          "core": "B1085",
-          "flight": 16,
-          "landing_attempt": true,
-          "landing_success": true,
-          "landing_type": "ASDS",
-          "landing_location": "A Shortfall of Gravitas",
-          "droneship": "ASOG",
-          "description": "The Falcon 9 first stage B1085 has landed on ASDS ASOG after its 17th flight."
-        }
-      ]
-    },
     {
       "id": "9eb09815-c237-4fdd-9057-5b161131240c",
       "name": "Atlas V 551 | Amazon Leo (LA-08)",
@@ -307,6 +276,26 @@
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
       "agency_launches_this_year": 6,
+      "boosters": []
+    },
+    {
+      "id": "cb1762f0-90f4-4902-a5f6-655a7ade25bf",
+      "name": "Falcon 9 Block 5 | SDA Tranche 2 Tracking Layer B",
+      "net": "2026-09-30T00:00:00Z",
+      "net_precision": "Q3",
+      "window_start": "2026-09-30T00:00:00Z",
+      "window_end": "2026-09-30T00:00:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon 9 Block 5",
+      "orbit": "Polar Orbit",
+      "orbit_abbrev": "PO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "pad": "Unknown Pad",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 103,
       "boosters": []
     }
   ]
