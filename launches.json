@@ -1,26 +1,6 @@
 {
-  "timestamp": "2026-07-03T04:08:50.669Z",
+  "timestamp": "2026-07-03T05:33:13.814Z",
   "launches": [
-    {
-      "id": "9eb09815-c237-4fdd-9057-5b161131240c",
-      "name": "Atlas V 551 | Amazon Leo (LA-08)",
-      "net": "2026-07-02T04:30:15Z",
-      "net_precision": "SEC",
-      "window_start": "2026-07-02T04:24:00Z",
-      "window_end": "2026-07-02T04:53:00Z",
-      "provider": "United Launch Alliance",
-      "vehicle": "Atlas V 551",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": 95,
-      "status": "Launch Successful",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas2520v2520551_image_20190224012316.jpeg",
-      "pad": "Space Launch Complex 41",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 5,
-      "boosters": []
-    },
     {
       "id": "1ef27ca1-af91-48bb-b934-3da5abd9f711",
       "name": "Falcon 9 Block 5 | Starlink Group 10-50",
@@ -297,6 +277,37 @@
       "trajectory_direction": null,
       "agency_launches_this_year": 103,
       "boosters": []
+    },
+    {
+      "id": "9bfa0324-db74-444f-8dc3-1c7d373ca659",
+      "name": "Falcon 9 Block 5 | 5x Astranis MicroGEO",
+      "net": "2026-09-30T00:00:00Z",
+      "net_precision": "Q3",
+      "window_start": "2026-09-30T00:00:00Z",
+      "window_end": "2026-09-30T00:00:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon 9 Block 5",
+      "orbit": "Geostationary Transfer Orbit",
+      "orbit_abbrev": "GTO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_20241221043403.jpg",
+      "pad": "Unknown Pad",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": "East",
+      "agency_launches_this_year": 103,
+      "boosters": [
+        {
+          "core": "Unknown F9",
+          "flight": null,
+          "landing_attempt": null,
+          "landing_success": null,
+          "landing_type": null,
+          "landing_location": null,
+          "droneship": null,
+          "description": null
+        }
+      ]
     }
   ]
 }
