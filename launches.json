@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-05T10:48:16.434Z",
+  "timestamp": "2026-07-05T11:22:29.967Z",
   "launches": [
     {
       "id": "1ef27ca1-af91-48bb-b934-3da5abd9f711",
@@ -13,7 +13,7 @@
       "orbit": "Low Earth Orbit",
       "orbit_abbrev": "LEO",
       "probability": 85,
-      "status": "Go for Launch",
+      "status": "Launch in Flight",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
@@ -24,11 +24,11 @@
           "core": "B1090",
           "flight": 12,
           "landing_attempt": true,
-          "landing_success": null,
+          "landing_success": true,
           "landing_type": "ASDS",
           "landing_location": "A Shortfall of Gravitas",
           "droneship": "ASOG",
-          "description": "The Falcon 9 first stage B1090 will land on ASDS ASOG after its 13th flight."
+          "description": "The Falcon 9 first stage B1090 has landed on ASDS ASOG after its 13th flight."
         }
       ]
     },
