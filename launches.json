@@ -1,37 +1,6 @@
 {
-  "timestamp": "2026-07-06T10:21:34.626Z",
+  "timestamp": "2026-07-06T11:49:40.131Z",
   "launches": [
-    {
-      "id": "1ef27ca1-af91-48bb-b934-3da5abd9f711",
-      "name": "Falcon 9 Block 5 | Starlink Group 10-50",
-      "net": "2026-07-05T10:50:00Z",
-      "net_precision": "SEC",
-      "window_start": "2026-07-05T10:36:00Z",
-      "window_end": "2026-07-05T14:36:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": 85,
-      "status": "Launch Successful",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-      "pad": "Space Launch Complex 40",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": "Southeast",
-      "agency_launches_this_year": 80,
-      "boosters": [
-        {
-          "core": "B1090",
-          "flight": 13,
-          "landing_attempt": true,
-          "landing_success": true,
-          "landing_type": "ASDS",
-          "landing_location": "A Shortfall of Gravitas",
-          "droneship": "ASOG",
-          "description": "The Falcon 9 first stage B1090 has landed on ASDS ASOG after its 13th flight."
-        }
-      ]
-    },
     {
       "id": "62d4cd48-ed28-418b-b58c-526781a50a39",
       "name": "Falcon 9 Block 5 | Starlink Group 10-42",
@@ -297,6 +266,37 @@
       "trajectory_direction": null,
       "agency_launches_this_year": 6,
       "boosters": []
+    },
+    {
+      "id": "9bfa0324-db74-444f-8dc3-1c7d373ca659",
+      "name": "Falcon 9 Block 5 | 5x Astranis MicroGEO",
+      "net": "2026-09-30T00:00:00Z",
+      "net_precision": "Q3",
+      "window_start": "2026-09-30T00:00:00Z",
+      "window_end": "2026-09-30T00:00:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon 9 Block 5",
+      "orbit": "Geostationary Transfer Orbit",
+      "orbit_abbrev": "GTO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_20241221043403.jpg",
+      "pad": "Unknown Pad",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": "East",
+      "agency_launches_this_year": 103,
+      "boosters": [
+        {
+          "core": "Unknown F9",
+          "flight": null,
+          "landing_attempt": null,
+          "landing_success": null,
+          "landing_type": null,
+          "landing_location": null,
+          "droneship": null,
+          "description": null
+        }
+      ]
     }
   ]
 }
