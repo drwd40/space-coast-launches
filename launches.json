@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-16T20:30:58.809Z",
+  "timestamp": "2026-07-16T20:55:10.359Z",
   "launches": [
     {
       "id": "0f6780cf-edae-4d7c-99d6-ce7de784d140",
@@ -66,21 +66,21 @@
     {
       "id": "521f3a1c-f977-4306-9b7f-495858719adf",
       "name": "Falcon Heavy | Nancy Grace Roman Space Telescope",
-      "net": "2026-08-30T00:00:00Z",
-      "net_precision": "DAY",
-      "window_start": "2026-08-30T00:00:00Z",
-      "window_end": "2026-08-30T00:00:00Z",
+      "net": "2026-08-30T11:20:00Z",
+      "net_precision": "MIN",
+      "window_start": "2026-08-30T11:20:00Z",
+      "window_end": "2026-08-30T11:20:00Z",
       "provider": "SpaceX",
       "vehicle": "Falcon Heavy",
       "orbit": "Sun-Earth L2",
       "orbit_abbrev": "L2",
       "probability": null,
-      "status": "To Be Determined",
+      "status": "To Be Confirmed",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_image_20220129192819.jpeg",
       "pad": "Launch Complex 39A",
       "location": "Kennedy Space Center, FL, USA",
       "trajectory_direction": null,
-      "agency_launches_this_year": 92,
+      "agency_launches_this_year": 93,
       "boosters": [
         {
           "core": "Unknown FH",
