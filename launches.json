@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-17T13:06:03.131Z",
+  "timestamp": "2026-07-17T13:46:44.116Z",
   "launches": [
     {
       "id": "0f6780cf-edae-4d7c-99d6-ce7de784d140",
@@ -197,26 +197,6 @@
       "boosters": []
     },
     {
-      "id": "cb1762f0-90f4-4902-a5f6-655a7ade25bf",
-      "name": "Falcon 9 Block 5 | SDA Tranche 2 Tracking Layer B",
-      "net": "2026-09-30T00:00:00Z",
-      "net_precision": "Q3",
-      "window_start": "2026-09-30T00:00:00Z",
-      "window_end": "2026-09-30T00:00:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Polar Orbit",
-      "orbit_abbrev": "PO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-      "pad": "Unknown Pad",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 106,
-      "boosters": []
-    },
-    {
       "id": "ad358a4d-c541-409b-9366-9c2f2da4aeb9",
       "name": "Falcon 9 Block 5 | O3b mPower 11-13",
       "net": "2026-09-30T00:00:00Z",
@@ -233,7 +213,7 @@
       "pad": "Unknown Pad",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
-      "agency_launches_this_year": 106,
+      "agency_launches_this_year": 105,
       "boosters": [
         {
           "core": "Unknown F9",
@@ -246,26 +226,6 @@
           "description": null
         }
       ]
-    },
-    {
-      "id": "0a07a23e-606a-4589-bf3e-c3e41bd4de51",
-      "name": "Falcon 9 Block 5 | SDA Tranche 2 Tracking Layer A",
-      "net": "2026-09-30T00:00:00Z",
-      "net_precision": "Q3",
-      "window_start": "2026-09-30T00:00:00Z",
-      "window_end": "2026-09-30T00:00:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Polar Orbit",
-      "orbit_abbrev": "PO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-      "pad": "Unknown Pad",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 106,
-      "boosters": []
     },
     {
       "id": "18441371-8b2e-457c-afb5-1ec1b11ab630",
@@ -284,7 +244,7 @@
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": "Northeast",
-      "agency_launches_this_year": 106,
+      "agency_launches_this_year": 105,
       "boosters": [
         {
           "core": "Unknown F9",
@@ -297,6 +257,77 @@
           "description": "The Falcon 9 first stage will land back at the launch site after its flight."
         }
       ]
+    },
+    {
+      "id": "d3bd7fb2-fac6-49fc-ae52-cee07d2fde67",
+      "name": "Falcon Heavy | Griffin Mission One",
+      "net": "2026-11-30T00:00:00Z",
+      "net_precision": "M",
+      "window_start": "2026-11-30T00:00:00Z",
+      "window_end": "2026-11-30T00:00:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon Heavy",
+      "orbit": "Lunar Orbit",
+      "orbit_abbrev": "LO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_image_20220129192819.jpeg",
+      "pad": "Launch Complex 39A",
+      "location": "Kennedy Space Center, FL, USA",
+      "trajectory_direction": "Northeast",
+      "agency_launches_this_year": 105,
+      "boosters": [
+        {
+          "core": "Unknown FH",
+          "flight": null,
+          "landing_attempt": true,
+          "landing_success": null,
+          "landing_type": "RTLS",
+          "landing_location": "Unknown",
+          "droneship": "N/A",
+          "description": "the sidebooster will attempt to land at the launch site after launch."
+        },
+        {
+          "core": "Unknown FH",
+          "flight": null,
+          "landing_attempt": true,
+          "landing_success": null,
+          "landing_type": "ASDS",
+          "landing_location": "Unknown",
+          "droneship": "N/A",
+          "description": "The center core will attempt to land on an ASDS after launch."
+        },
+        {
+          "core": "Unknown FH",
+          "flight": null,
+          "landing_attempt": true,
+          "landing_success": null,
+          "landing_type": "RTLS",
+          "landing_location": "Unknown",
+          "droneship": "N/A",
+          "description": "the sidebooster will attempt to land at the launch site after launch."
+        }
+      ]
+    },
+    {
+      "id": "0a63b1f5-16e9-44c2-b202-830e86b8e8e7",
+      "name": "Vulcan | USSF-112",
+      "net": "2026-12-31T00:00:00Z",
+      "net_precision": "Y",
+      "window_start": "2026-12-31T00:00:00Z",
+      "window_end": "2026-12-31T00:00:00Z",
+      "provider": "United Launch Alliance",
+      "vehicle": "Vulcan",
+      "orbit": "Unknown",
+      "orbit_abbrev": "N/A",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
+      "pad": "Space Launch Complex 41",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 26,
+      "boosters": []
     }
   ]
 }
