@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-19T23:45:05.441Z",
+  "timestamp": "2026-07-20T00:09:32.527Z",
   "launches": [
     {
       "id": "0f6780cf-edae-4d7c-99d6-ce7de784d140",
@@ -251,20 +251,20 @@
           "flight": null,
           "landing_attempt": true,
           "landing_success": null,
-          "landing_type": "ASDS",
+          "landing_type": "RTLS",
           "landing_location": "Unknown",
           "droneship": "N/A",
-          "description": "The center core will attempt to land on an ASDS after launch."
+          "description": "the sidebooster will attempt to land at the launch site after launch."
         },
         {
           "core": "Unknown FH",
           "flight": null,
           "landing_attempt": true,
           "landing_success": null,
-          "landing_type": "RTLS",
+          "landing_type": "ASDS",
           "landing_location": "Unknown",
           "droneship": "N/A",
-          "description": "the sidebooster will attempt to land at the launch site after launch."
+          "description": "The center core will attempt to land on an ASDS after launch."
         },
         {
           "core": "Unknown FH",
