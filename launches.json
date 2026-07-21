@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-21T19:11:17.092Z",
+  "timestamp": "2026-07-21T19:48:53.840Z",
   "launches": [
     {
       "id": "0f6780cf-edae-4d7c-99d6-ce7de784d140",
@@ -14,7 +14,7 @@
       "orbit_abbrev": "GTO",
       "probability": 75,
       "status": "Go for Launch",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_at_slc_image_20260721192735.jpg",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": "East",
