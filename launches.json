@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-21T21:18:20.874Z",
+  "timestamp": "2026-07-21T21:44:27.953Z",
   "launches": [
     {
       "id": "0f6780cf-edae-4d7c-99d6-ce7de784d140",
@@ -28,7 +28,7 @@
           "landing_type": "EXP",
           "landing_location": "Atlantic Ocean",
           "droneship": "ATL",
-          "description": "The Falcon 9 booster B1069 will be expended during its 32nd mission."
+          "description": "The Falcon 9 booster B1069 was expended during its 32nd mission."
         }
       ]
     },
