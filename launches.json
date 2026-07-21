@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-21T20:47:40.219Z",
+  "timestamp": "2026-07-21T21:18:20.874Z",
   "launches": [
     {
       "id": "0f6780cf-edae-4d7c-99d6-ce7de784d140",
@@ -12,8 +12,8 @@
       "vehicle": "Falcon 9 Block 5",
       "orbit": "Geostationary Transfer Orbit",
       "orbit_abbrev": "GTO",
-      "probability": 75,
-      "status": "Go for Launch",
+      "probability": 90,
+      "status": "Launch in Flight",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_at_slc_image_20260721192735.jpg",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
