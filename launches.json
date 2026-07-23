@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-23T00:06:09.399Z",
+  "timestamp": "2026-07-23T00:53:00.678Z",
   "launches": [
     {
       "id": "24675e3d-2458-48a3-8c70-5196e44d4dc3",
@@ -279,6 +279,37 @@
       ]
     },
     {
+      "id": "e61d353c-db55-4a57-8184-0fab187231e6",
+      "name": "Falcon 9 Block 5 | Globalstar 2-R Mission 2 (x 8)",
+      "net": "2026-12-31T00:00:00Z",
+      "net_precision": "H2",
+      "window_start": "2026-12-31T00:00:00Z",
+      "window_end": "2026-12-31T00:00:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon 9 Block 5",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "pad": "Space Launch Complex 40",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": "Northeast",
+      "agency_launches_this_year": 140,
+      "boosters": [
+        {
+          "core": "Unknown F9",
+          "flight": null,
+          "landing_attempt": true,
+          "landing_success": null,
+          "landing_type": "ASDS",
+          "landing_location": "A Shortfall of Gravitas",
+          "droneship": "ASOG",
+          "description": "The Falcon 9 first stage will land on ASDS ASOG after its flight."
+        }
+      ]
+    },
+    {
       "id": "eb8cbca7-5ae6-430c-8ff6-0f672cfb5bd0",
       "name": "Vulcan | SILENTBARKER 2/NROL-118",
       "net": "2026-12-31T00:00:00Z",
@@ -289,26 +320,6 @@
       "vehicle": "Vulcan",
       "orbit": "Geostationary Orbit",
       "orbit_abbrev": "Direct-GEO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
-      "pad": "Space Launch Complex 41",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 26,
-      "boosters": []
-    },
-    {
-      "id": "d40b57ec-e294-4aa2-9822-33eb222105cb",
-      "name": "Vulcan | USSF-16",
-      "net": "2026-12-31T00:00:00Z",
-      "net_precision": "Y",
-      "window_start": "2026-12-31T00:00:00Z",
-      "window_end": "2026-12-31T00:00:00Z",
-      "provider": "United Launch Alliance",
-      "vehicle": "Vulcan",
-      "orbit": "Unknown",
-      "orbit_abbrev": "N/A",
       "probability": null,
       "status": "To Be Determined",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
