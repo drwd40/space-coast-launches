@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-24T00:50:44.766Z",
+  "timestamp": "2026-07-24T01:26:46.492Z",
   "launches": [
     {
       "id": "24675e3d-2458-48a3-8c70-5196e44d4dc3",
@@ -244,7 +244,7 @@
       "pad": "Launch Complex 39A",
       "location": "Kennedy Space Center, FL, USA",
       "trajectory_direction": "Northeast",
-      "agency_launches_this_year": 105,
+      "agency_launches_this_year": 106,
       "boosters": [
         {
           "core": "Unknown FH",
@@ -295,7 +295,7 @@
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": "Northeast",
-      "agency_launches_this_year": 140,
+      "agency_launches_this_year": 141,
       "boosters": [
         {
           "core": "Unknown F9",
