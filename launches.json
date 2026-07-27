@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-27T16:35:06.018Z",
+  "timestamp": "2026-07-27T17:16:29.123Z",
   "launches": [
     {
       "id": "24675e3d-2458-48a3-8c70-5196e44d4dc3",
@@ -29,6 +29,37 @@
           "landing_location": "Landing Zone 2",
           "droneship": "LZ-2",
           "description": "The Falcon 9 first stage B1096 will land back at the launch site at Landing Zone 2 after its 7th flight."
+        }
+      ]
+    },
+    {
+      "id": "36ab6924-bb36-416a-b71d-cda9e88004be",
+      "name": "Falcon 9 Block 5 | Starlink Group 10-19",
+      "net": "2026-08-10T11:00:00Z",
+      "net_precision": "MIN",
+      "window_start": "2026-08-10T11:00:00Z",
+      "window_end": "2026-08-10T15:00:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon 9 Block 5",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
+      "probability": null,
+      "status": "Go for Launch",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+      "pad": "Space Launch Complex 40",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": "Southeast",
+      "agency_launches_this_year": 96,
+      "boosters": [
+        {
+          "core": "B1085",
+          "flight": 17,
+          "landing_attempt": true,
+          "landing_success": null,
+          "landing_type": "ASDS",
+          "landing_location": "A Shortfall of Gravitas",
+          "droneship": "ASOG",
+          "description": "The Falcon 9 first stage B1085 will land on ASDS ASOG after its 18th flight."
         }
       ]
     },
@@ -292,26 +323,6 @@
       "probability": null,
       "status": "To Be Determined",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas_v_n22_image_20210813082339.jpeg",
-      "pad": "Space Launch Complex 41",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 26,
-      "boosters": []
-    },
-    {
-      "id": "ac92d963-ebfb-4d18-b48c-04102d8dce8e",
-      "name": "Vulcan | NROL-64",
-      "net": "2026-12-31T00:00:00Z",
-      "net_precision": "Y",
-      "window_start": "2026-12-31T00:00:00Z",
-      "window_end": "2026-12-31T00:00:00Z",
-      "provider": "United Launch Alliance",
-      "vehicle": "Vulcan",
-      "orbit": "Unknown",
-      "orbit_abbrev": "N/A",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
       "pad": "Space Launch Complex 41",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
