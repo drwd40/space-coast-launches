@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-07-29T07:46:35.757Z",
+  "timestamp": "2026-07-29T08:47:10.264Z",
   "launches": [
     {
       "id": "24675e3d-2458-48a3-8c70-5196e44d4dc3",
       "name": "Falcon 9 Block 5 | NROL-95",
-      "net": "2026-07-30T07:09:00Z",
-      "net_precision": "MIN",
+      "net": "2026-07-30T07:09:01Z",
+      "net_precision": "SEC",
       "window_start": "2026-07-30T06:37:00Z",
       "window_end": "2026-07-30T07:21:00Z",
       "provider": "SpaceX",
