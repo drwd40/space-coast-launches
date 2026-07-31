@@ -1,37 +1,6 @@
 {
-  "timestamp": "2026-07-31T07:10:48.762Z",
+  "timestamp": "2026-07-31T08:12:04.740Z",
   "launches": [
-    {
-      "id": "24675e3d-2458-48a3-8c70-5196e44d4dc3",
-      "name": "Falcon 9 Block 5 | NROL-95",
-      "net": "2026-07-30T07:10:19Z",
-      "net_precision": "SEC",
-      "window_start": "2026-07-30T06:37:00Z",
-      "window_end": "2026-07-30T07:21:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Unknown",
-      "orbit_abbrev": "N/A",
-      "probability": 70,
-      "status": "Launch Successful",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_at_slc_image_20260729112529.jpeg",
-      "pad": "Space Launch Complex 40",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 91,
-      "boosters": [
-        {
-          "core": "B1096",
-          "flight": 7,
-          "landing_attempt": true,
-          "landing_success": true,
-          "landing_type": "RTLS",
-          "landing_location": "Landing Zone 2",
-          "droneship": "LZ-2",
-          "description": "The Falcon 9 first stage B1096 has landed back at the launch site at Landing Zone 2 after its 7th flight."
-        }
-      ]
-    },
     {
       "id": "56a85c82-ea71-449b-828c-b583f6f4a18b",
       "name": "Falcon 9 Block 5 | BlueBird 11-13 (Block 2 #6-8)",
@@ -327,6 +296,26 @@
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
       "agency_launches_this_year": 26,
+      "boosters": []
+    },
+    {
+      "id": "d6615c37-dcef-45d1-96c1-3d1a5250bf13",
+      "name": "Falcon 9 Block 5 | Telesat Lightspeed 3",
+      "net": "2026-12-31T00:00:00Z",
+      "net_precision": "Y",
+      "window_start": "2026-12-31T00:00:00Z",
+      "window_end": "2026-12-31T00:00:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon 9 Block 5",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "pad": "Unknown Pad",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 145,
       "boosters": []
     }
   ]
