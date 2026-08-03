@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T14:22:23.882Z",
+  "timestamp": "2026-08-03T15:25:52.340Z",
   "launches": [
     {
       "id": "56a85c82-ea71-449b-828c-b583f6f4a18b",
@@ -66,7 +66,7 @@
     {
       "id": "be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3",
       "name": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)",
-      "net": "2026-08-16T01:02:00Z",
+      "net": "2026-08-16T01:12:00Z",
       "net_precision": "MIN",
       "window_start": "2026-08-16T01:02:00Z",
       "window_end": "2026-08-16T02:20:00Z",
