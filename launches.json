@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-05T13:07:20.724Z",
+  "timestamp": "2026-08-05T13:50:23.244Z",
   "launches": [
     {
       "id": "56a85c82-ea71-449b-828c-b583f6f4a18b",
@@ -13,7 +13,7 @@
       "orbit": "Low Earth Orbit",
       "orbit_abbrev": "LEO",
       "probability": 75,
-      "status": "Launch in Flight",
+      "status": "Launch Successful",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/f9_on_slc-40_2_image_20240919072420.jpg",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
@@ -22,7 +22,7 @@
       "boosters": [
         {
           "core": "B1077",
-          "flight": 29,
+          "flight": 30,
           "landing_attempt": true,
           "landing_success": true,
           "landing_type": "ASDS",
