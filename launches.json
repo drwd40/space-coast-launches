@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-10T17:30:23.353Z",
+  "timestamp": "2026-08-10T17:52:51.621Z",
   "launches": [
     {
       "id": "36ab6924-bb36-416a-b71d-cda9e88004be",
@@ -60,6 +60,37 @@
           "landing_location": "Landing Zone 40",
           "droneship": "LZ-40",
           "description": "Falcon 9 first stage B1090 will land back at the launch site at Landing Zone 40 after its 14th flight."
+        }
+      ]
+    },
+    {
+      "id": "bbdc4d47-1de3-428e-9fe1-bbf45d9b1e04",
+      "name": "Falcon 9 Block 5 | Starlink Group 10-39",
+      "net": "2026-08-20T15:19:00Z",
+      "net_precision": "MIN",
+      "window_start": "2026-08-20T15:19:00Z",
+      "window_end": "2026-08-20T19:19:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon 9 Block 5",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
+      "probability": null,
+      "status": "Go for Launch",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+      "pad": "Space Launch Complex 40",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": "Southeast",
+      "agency_launches_this_year": 101,
+      "boosters": [
+        {
+          "core": "B1078",
+          "flight": 29,
+          "landing_attempt": true,
+          "landing_success": null,
+          "landing_type": "ASDS",
+          "landing_location": "A Shortfall of Gravitas",
+          "droneship": "ASOG",
+          "description": "The Falcon 9 first stage B1078 will land on ASDS ASOG after its 30th flight."
         }
       ]
     },
@@ -296,26 +327,6 @@
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
       "agency_launches_this_year": 147,
-      "boosters": []
-    },
-    {
-      "id": "07e945c1-2ec6-4d29-a500-1afbe920440f",
-      "name": "Atlas V N22 | Starliner-1",
-      "net": "2026-12-31T00:00:00Z",
-      "net_precision": "Y",
-      "window_start": "2026-12-31T00:00:00Z",
-      "window_end": "2026-12-31T00:00:00Z",
-      "provider": "United Launch Alliance",
-      "vehicle": "Atlas V N22",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas_v_n22_image_20210813082339.jpeg",
-      "pad": "Space Launch Complex 41",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 26,
       "boosters": []
     }
   ]
