@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-11T16:00:56.802Z",
+  "timestamp": "2026-08-11T16:23:32.899Z",
   "launches": [
     {
       "id": "36ab6924-bb36-416a-b71d-cda9e88004be",
@@ -24,11 +24,11 @@
           "core": "B1085",
           "flight": 17,
           "landing_attempt": true,
-          "landing_success": null,
+          "landing_success": true,
           "landing_type": "ASDS",
           "landing_location": "A Shortfall of Gravitas",
           "droneship": "ASOG",
-          "description": "The Falcon 9 first stage B1085 will land on ASDS ASOG after its 18th flight."
+          "description": "The Falcon 9 first stage B1085 has landed on ASDS ASOG after its 18th flight."
         }
       ]
     },
