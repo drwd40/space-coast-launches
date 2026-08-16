@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-16T01:15:43.152Z",
+  "timestamp": "2026-08-16T01:55:23.202Z",
   "launches": [
     {
       "id": "be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3",
@@ -24,11 +24,11 @@
           "core": "B1090",
           "flight": 13,
           "landing_attempt": true,
-          "landing_success": null,
+          "landing_success": true,
           "landing_type": "RTLS",
           "landing_location": "Landing Zone 40",
           "droneship": "LZ-40",
-          "description": "Falcon 9 first stage B1090 will land back at the launch site at Landing Zone 40 after its 14th flight."
+          "description": "Falcon 9 first stage B1090 has landed back at the launch site at Landing Zone 40 after its 14th flight."
         }
       ]
     },
