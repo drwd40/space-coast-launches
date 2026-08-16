@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-08-16T00:44:52.749Z",
+  "timestamp": "2026-08-16T01:15:43.152Z",
   "launches": [
     {
       "id": "be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3",
       "name": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)",
-      "net": "2026-08-16T01:12:00Z",
-      "net_precision": "MIN",
+      "net": "2026-08-16T01:12:14Z",
+      "net_precision": "SEC",
       "window_start": "2026-08-16T01:12:00Z",
       "window_end": "2026-08-16T01:27:00Z",
       "provider": "SpaceX",
@@ -13,7 +13,7 @@
       "orbit": "Low Earth Orbit",
       "orbit_abbrev": "LEO",
       "probability": 90,
-      "status": "Go for Launch",
+      "status": "Launch in Flight",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
