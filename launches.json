@@ -1,37 +1,6 @@
 {
-  "timestamp": "2026-08-22T15:12:01.237Z",
+  "timestamp": "2026-08-22T15:25:25.434Z",
   "launches": [
-    {
-      "id": "bbdc4d47-1de3-428e-9fe1-bbf45d9b1e04",
-      "name": "Falcon 9 Block 5 | Starlink Group 10-39",
-      "net": "2026-08-21T15:14:22Z",
-      "net_precision": "SEC",
-      "window_start": "2026-08-21T14:57:00Z",
-      "window_end": "2026-08-21T18:57:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": 85,
-      "status": "Launch Successful",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-      "pad": "Space Launch Complex 40",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": "Southeast",
-      "agency_launches_this_year": 101,
-      "boosters": [
-        {
-          "core": "B1078",
-          "flight": 30,
-          "landing_attempt": true,
-          "landing_success": true,
-          "landing_type": "ASDS",
-          "landing_location": "A Shortfall of Gravitas",
-          "droneship": "ASOG",
-          "description": "The Falcon 9 first stage B1078 has landed on ASDS ASOG after its 30th flight."
-        }
-      ]
-    },
     {
       "id": "ad501ebd-a357-4305-90c1-c46c6feb2ecf",
       "name": "Falcon 9 Block 5 | Starlink Group 10-49",
@@ -328,6 +297,37 @@
       "trajectory_direction": null,
       "agency_launches_this_year": 26,
       "boosters": []
+    },
+    {
+      "id": "4d3943e9-c894-46c4-a318-84d526d0ef40",
+      "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-22",
+      "net": "2026-12-31T00:00:00Z",
+      "net_precision": "Y",
+      "window_start": "2026-12-31T00:00:00Z",
+      "window_end": "2026-12-31T00:00:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon 9 Block 5",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "pad": "Unknown Pad",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": "Northeast",
+      "agency_launches_this_year": 152,
+      "boosters": [
+        {
+          "core": "Unknown F9",
+          "flight": null,
+          "landing_attempt": true,
+          "landing_success": null,
+          "landing_type": "RTLS",
+          "landing_location": "Unknown",
+          "droneship": "N/A",
+          "description": "The Falcon 9 first stage will attempt to land back at the launch site after its flight."
+        }
+      ]
     }
   ]
 }
