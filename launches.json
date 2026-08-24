@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-24T00:45:36.798Z",
+  "timestamp": "2026-08-24T01:16:38.090Z",
   "launches": [
     {
       "id": "ad501ebd-a357-4305-90c1-c46c6feb2ecf",
@@ -299,8 +299,8 @@
       "boosters": []
     },
     {
-      "id": "4d3943e9-c894-46c4-a318-84d526d0ef40",
-      "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-22",
+      "id": "d6615c37-dcef-45d1-96c1-3d1a5250bf13",
+      "name": "Falcon 9 Block 5 | Telesat Lightspeed 3",
       "net": "2026-12-31T00:00:00Z",
       "net_precision": "Y",
       "window_start": "2026-12-31T00:00:00Z",
@@ -314,20 +314,9 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "pad": "Unknown Pad",
       "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": "Northeast",
+      "trajectory_direction": null,
       "agency_launches_this_year": 152,
-      "boosters": [
-        {
-          "core": "Unknown F9",
-          "flight": null,
-          "landing_attempt": true,
-          "landing_success": null,
-          "landing_type": "RTLS",
-          "landing_location": "Unknown",
-          "droneship": "N/A",
-          "description": "The Falcon 9 first stage will attempt to land back at the launch site after its flight."
-        }
-      ]
+      "boosters": []
     }
   ]
 }
