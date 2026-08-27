@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-26T23:16:07.377Z",
+  "timestamp": "2026-08-27T00:31:37.497Z",
   "launches": [
     {
       "id": "521f3a1c-f977-4306-9b7f-495858719adf",
@@ -248,6 +248,26 @@
       ]
     },
     {
+      "id": "06201706-da6b-467e-83b2-ef2ff8596e05",
+      "name": "Vulcan | USSF-23",
+      "net": "2026-12-31T00:00:00Z",
+      "net_precision": "Y",
+      "window_start": "2026-12-31T00:00:00Z",
+      "window_end": "2026-12-31T00:00:00Z",
+      "provider": "United Launch Alliance",
+      "vehicle": "Vulcan",
+      "orbit": "Unknown",
+      "orbit_abbrev": "N/A",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
+      "pad": "Space Launch Complex 41",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 26,
+      "boosters": []
+    },
+    {
       "id": "d6615c37-dcef-45d1-96c1-3d1a5250bf13",
       "name": "Falcon 9 Block 5 | Telesat Lightspeed 3",
       "net": "2026-12-31T00:00:00Z",
@@ -295,37 +315,6 @@
           "landing_location": null,
           "droneship": null,
           "description": null
-        }
-      ]
-    },
-    {
-      "id": "4d3943e9-c894-46c4-a318-84d526d0ef40",
-      "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-22",
-      "net": "2026-12-31T00:00:00Z",
-      "net_precision": "Y",
-      "window_start": "2026-12-31T00:00:00Z",
-      "window_end": "2026-12-31T00:00:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-      "pad": "Unknown Pad",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": "Northeast",
-      "agency_launches_this_year": 152,
-      "boosters": [
-        {
-          "core": "Unknown F9",
-          "flight": null,
-          "landing_attempt": true,
-          "landing_success": null,
-          "landing_type": "RTLS",
-          "landing_location": "Unknown",
-          "droneship": "N/A",
-          "description": "The Falcon 9 first stage will attempt to land back at the launch site after its flight."
         }
       ]
     }
