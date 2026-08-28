@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-28T11:34:34.494Z",
+  "timestamp": "2026-08-28T15:39:16.009Z",
   "launches": [
     {
       "id": "521f3a1c-f977-4306-9b7f-495858719adf",
@@ -12,7 +12,7 @@
       "vehicle": "Falcon Heavy",
       "orbit": "Sun-Earth L2",
       "orbit_abbrev": "L2",
-      "probability": null,
+      "probability": 60,
       "status": "Go for Launch",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_image_20220129192819.jpeg",
       "pad": "Launch Complex 39A",
