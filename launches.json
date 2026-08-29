@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-29T15:18:13.359Z",
+  "timestamp": "2026-08-29T15:25:46.408Z",
   "launches": [
     {
       "id": "521f3a1c-f977-4306-9b7f-495858719adf",
@@ -7,12 +7,12 @@
       "net": "2026-08-30T11:25:49Z",
       "net_precision": "SEC",
       "window_start": "2026-08-30T11:25:49Z",
-      "window_end": "2026-08-30T11:25:49Z",
+      "window_end": "2026-08-30T11:26:19Z",
       "provider": "SpaceX",
       "vehicle": "Falcon Heavy",
       "orbit": "Sun-Earth L2",
       "orbit_abbrev": "L2",
-      "probability": 60,
+      "probability": 50,
       "status": "Go for Launch",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_image_20220129192819.jpeg",
       "pad": "Launch Complex 39A",
@@ -21,14 +21,24 @@
       "agency_launches_this_year": 105,
       "boosters": [
         {
-          "core": "Unknown FH",
+          "core": "B1105",
+          "flight": null,
+          "landing_attempt": false,
+          "landing_success": null,
+          "landing_type": "EXP",
+          "landing_location": "Atlantic Ocean",
+          "droneship": "ATL",
+          "description": "The Falcon Heavy center core B1105 will be expended."
+        },
+        {
+          "core": "B1104",
           "flight": null,
           "landing_attempt": true,
           "landing_success": null,
           "landing_type": "RTLS",
           "landing_location": "Landing Zone 40",
           "droneship": "LZ-40",
-          "description": "The Falcon Heavy side booster will land back at the launch site at Landing Zone 40 after its flight."
+          "description": "The Falcon Heavy side booster B1104 will land back at the launch site at Landing Zone 40 after its 1st flight."
         },
         {
           "core": "B1072",
@@ -39,16 +49,6 @@
           "landing_location": "Landing Zone 2",
           "droneship": "LZ-2",
           "description": "The Falcon Heavy side booster B1072 will land back at the launch site at Landing Zone 2 after its 3rd flight."
-        },
-        {
-          "core": "Unknown FH",
-          "flight": null,
-          "landing_attempt": false,
-          "landing_success": null,
-          "landing_type": "EXP",
-          "landing_location": "Atlantic Ocean",
-          "droneship": "ATL",
-          "description": "The Falcon Heavy center core will be expended."
         }
       ]
     },
