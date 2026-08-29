@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-08-29T11:45:16.550Z",
+  "timestamp": "2026-08-29T11:52:29.783Z",
   "launches": [
     {
       "id": "521f3a1c-f977-4306-9b7f-495858719adf",
       "name": "Falcon Heavy | Nancy Grace Roman Space Telescope",
-      "net": "2026-08-30T11:26:00Z",
-      "net_precision": "MIN",
-      "window_start": "2026-08-30T11:26:00Z",
-      "window_end": "2026-08-30T11:26:00Z",
+      "net": "2026-08-30T11:25:49Z",
+      "net_precision": "SEC",
+      "window_start": "2026-08-30T11:25:49Z",
+      "window_end": "2026-08-30T11:25:49Z",
       "provider": "SpaceX",
       "vehicle": "Falcon Heavy",
       "orbit": "Sun-Earth L2",
