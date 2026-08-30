@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-29T23:54:40.784Z",
+  "timestamp": "2026-08-30T00:22:23.356Z",
   "launches": [
     {
       "id": "521f3a1c-f977-4306-9b7f-495858719adf",
@@ -21,14 +21,14 @@
       "agency_launches_this_year": 105,
       "boosters": [
         {
-          "core": "B1105",
-          "flight": null,
-          "landing_attempt": false,
+          "core": "B1072",
+          "flight": 2,
+          "landing_attempt": true,
           "landing_success": null,
-          "landing_type": "EXP",
-          "landing_location": "Atlantic Ocean",
-          "droneship": "ATL",
-          "description": "The Falcon Heavy center core B1105 will be expended."
+          "landing_type": "RTLS",
+          "landing_location": "Landing Zone 2",
+          "droneship": "LZ-2",
+          "description": "The Falcon Heavy side booster B1072 will land back at the launch site at Landing Zone 2 after its 3rd flight."
         },
         {
           "core": "B1104",
@@ -41,14 +41,14 @@
           "description": "The Falcon Heavy side booster B1104 will land back at the launch site at Landing Zone 40 after its 1st flight."
         },
         {
-          "core": "B1072",
-          "flight": 2,
-          "landing_attempt": true,
+          "core": "B1105",
+          "flight": null,
+          "landing_attempt": false,
           "landing_success": null,
-          "landing_type": "RTLS",
-          "landing_location": "Landing Zone 2",
-          "droneship": "LZ-2",
-          "description": "The Falcon Heavy side booster B1072 will land back at the launch site at Landing Zone 2 after its 3rd flight."
+          "landing_type": "EXP",
+          "landing_location": "Atlantic Ocean",
+          "droneship": "ATL",
+          "description": "The Falcon Heavy center core B1105 will be expended."
         }
       ]
     },
@@ -220,20 +220,20 @@
           "flight": null,
           "landing_attempt": true,
           "landing_success": null,
-          "landing_type": "RTLS",
+          "landing_type": "ASDS",
           "landing_location": "Unknown",
           "droneship": "N/A",
-          "description": "the sidebooster will attempt to land at the launch site after launch."
+          "description": "The center core will attempt to land on an ASDS after launch."
         },
         {
           "core": "Unknown FH",
           "flight": null,
           "landing_attempt": true,
           "landing_success": null,
-          "landing_type": "ASDS",
+          "landing_type": "RTLS",
           "landing_location": "Unknown",
           "droneship": "N/A",
-          "description": "The center core will attempt to land on an ASDS after launch."
+          "description": "the sidebooster will attempt to land at the launch site after launch."
         },
         {
           "core": "Unknown FH",
@@ -310,23 +310,23 @@
       ]
     },
     {
-      "id": "06201706-da6b-467e-83b2-ef2ff8596e05",
-      "name": "Vulcan | USSF-23",
+      "id": "d6615c37-dcef-45d1-96c1-3d1a5250bf13",
+      "name": "Falcon 9 Block 5 | Telesat Lightspeed 3",
       "net": "2026-12-31T00:00:00Z",
       "net_precision": "Y",
       "window_start": "2026-12-31T00:00:00Z",
       "window_end": "2026-12-31T00:00:00Z",
-      "provider": "United Launch Alliance",
-      "vehicle": "Vulcan",
-      "orbit": "Unknown",
-      "orbit_abbrev": "N/A",
+      "provider": "SpaceX",
+      "vehicle": "Falcon 9 Block 5",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
       "probability": null,
       "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
-      "pad": "Space Launch Complex 41",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "pad": "Unknown Pad",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
-      "agency_launches_this_year": 26,
+      "agency_launches_this_year": 152,
       "boosters": []
     }
   ]
