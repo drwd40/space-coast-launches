@@ -1,57 +1,6 @@
 {
-  "timestamp": "2026-08-31T11:22:56.323Z",
+  "timestamp": "2026-08-31T11:30:13.305Z",
   "launches": [
-    {
-      "id": "521f3a1c-f977-4306-9b7f-495858719adf",
-      "name": "Falcon Heavy | Nancy Grace Roman Space Telescope",
-      "net": "2026-08-30T11:26:04Z",
-      "net_precision": "SEC",
-      "window_start": "2026-08-30T11:25:49Z",
-      "window_end": "2026-08-30T11:26:19Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon Heavy",
-      "orbit": "Sun-Earth L2",
-      "orbit_abbrev": "L2",
-      "probability": 70,
-      "status": "Launch Successful",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_on_image_20260830111425.jpeg",
-      "pad": "Launch Complex 39A",
-      "location": "Kennedy Space Center, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 105,
-      "boosters": [
-        {
-          "core": "B1104",
-          "flight": 1,
-          "landing_attempt": true,
-          "landing_success": true,
-          "landing_type": "RTLS",
-          "landing_location": "Landing Zone 40",
-          "droneship": "LZ-40",
-          "description": "The Falcon Heavy side booster B1104 has landed back at the launch site at Landing Zone 40 after its 1st flight."
-        },
-        {
-          "core": "B1072",
-          "flight": 3,
-          "landing_attempt": true,
-          "landing_success": true,
-          "landing_type": "RTLS",
-          "landing_location": "Landing Zone 2",
-          "droneship": "LZ-2",
-          "description": "The Falcon Heavy side booster B1072 has landed back at the launch site at Landing Zone 2 after its 3rd flight."
-        },
-        {
-          "core": "B1105",
-          "flight": 1,
-          "landing_attempt": false,
-          "landing_success": null,
-          "landing_type": "EXP",
-          "landing_location": "Atlantic Ocean",
-          "droneship": "ATL",
-          "description": "The Falcon Heavy center core B1105 will be expended."
-        }
-      ]
-    },
     {
       "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
       "name": "Vulcan VC6L | Amazon Leo (LV-01)",
@@ -317,6 +266,37 @@
       "trajectory_direction": null,
       "agency_launches_this_year": 26,
       "boosters": []
+    },
+    {
+      "id": "4d3943e9-c894-46c4-a318-84d526d0ef40",
+      "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-22",
+      "net": "2026-12-31T00:00:00Z",
+      "net_precision": "Y",
+      "window_start": "2026-12-31T00:00:00Z",
+      "window_end": "2026-12-31T00:00:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon 9 Block 5",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "pad": "Unknown Pad",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": "Northeast",
+      "agency_launches_this_year": 152,
+      "boosters": [
+        {
+          "core": "Unknown F9",
+          "flight": null,
+          "landing_attempt": true,
+          "landing_success": null,
+          "landing_type": "RTLS",
+          "landing_location": "Unknown",
+          "droneship": "N/A",
+          "description": "The Falcon 9 first stage will attempt to land back at the launch site after its flight."
+        }
+      ]
     }
   ]
 }
