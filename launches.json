@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-31T01:34:11.317Z",
+  "timestamp": "2026-08-31T01:53:57.657Z",
   "launches": [
     {
       "id": "521f3a1c-f977-4306-9b7f-495858719adf",
@@ -21,16 +21,6 @@
       "agency_launches_this_year": 105,
       "boosters": [
         {
-          "core": "B1072",
-          "flight": 3,
-          "landing_attempt": true,
-          "landing_success": true,
-          "landing_type": "RTLS",
-          "landing_location": "Landing Zone 2",
-          "droneship": "LZ-2",
-          "description": "The Falcon Heavy side booster B1072 has landed back at the launch site at Landing Zone 2 after its 3rd flight."
-        },
-        {
           "core": "B1104",
           "flight": 1,
           "landing_attempt": true,
@@ -39,6 +29,16 @@
           "landing_location": "Landing Zone 40",
           "droneship": "LZ-40",
           "description": "The Falcon Heavy side booster B1104 has landed back at the launch site at Landing Zone 40 after its 1st flight."
+        },
+        {
+          "core": "B1072",
+          "flight": 3,
+          "landing_attempt": true,
+          "landing_success": true,
+          "landing_type": "RTLS",
+          "landing_location": "Landing Zone 2",
+          "droneship": "LZ-2",
+          "description": "The Falcon Heavy side booster B1072 has landed back at the launch site at Landing Zone 2 after its 3rd flight."
         },
         {
           "core": "B1105",
