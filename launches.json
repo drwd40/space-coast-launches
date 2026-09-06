@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-05T23:54:23.250Z",
+  "timestamp": "2026-09-06T00:18:42.274Z",
   "launches": [
     {
       "id": "ad358a4d-c541-409b-9366-9c2f2da4aeb9",
@@ -248,10 +248,10 @@
       "boosters": []
     },
     {
-      "id": "ce1317de-ec94-4479-9b28-38ebf11f13ae",
-      "name": "Falcon 9 Block 5 | Telesat Lightspeed 1",
+      "id": "fc1bd321-e502-4d0f-81f4-1926dece81c6",
+      "name": "Falcon 9 Block 5 | VICTUS SURGO",
       "net": "2026-12-31T00:00:00Z",
-      "net_precision": "M",
+      "net_precision": "Y",
       "window_start": "2026-12-31T00:00:00Z",
       "window_end": "2026-12-31T00:00:00Z",
       "provider": "SpaceX",
@@ -268,10 +268,10 @@
       "boosters": []
     },
     {
-      "id": "fc1bd321-e502-4d0f-81f4-1926dece81c6",
-      "name": "Falcon 9 Block 5 | VICTUS SURGO",
+      "id": "ce1317de-ec94-4479-9b28-38ebf11f13ae",
+      "name": "Falcon 9 Block 5 | Telesat Lightspeed 1",
       "net": "2026-12-31T00:00:00Z",
-      "net_precision": "Y",
+      "net_precision": "M",
       "window_start": "2026-12-31T00:00:00Z",
       "window_end": "2026-12-31T00:00:00Z",
       "provider": "SpaceX",
