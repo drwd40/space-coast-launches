@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-07T01:33:14.352Z",
+  "timestamp": "2026-09-07T01:53:56.016Z",
   "launches": [
     {
       "id": "ad358a4d-c541-409b-9366-9c2f2da4aeb9",
@@ -217,6 +217,37 @@
       "boosters": []
     },
     {
+      "id": "e61d353c-db55-4a57-8184-0fab187231e6",
+      "name": "Falcon 9 Block 5 | Globalstar 2-R Mission 2 (x 9)",
+      "net": "2026-12-31T00:00:00Z",
+      "net_precision": "H2",
+      "window_start": "2026-12-31T00:00:00Z",
+      "window_end": "2026-12-31T00:00:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon 9 Block 5",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "pad": "Space Launch Complex 40",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": "Northeast",
+      "agency_launches_this_year": 153,
+      "boosters": [
+        {
+          "core": "Unknown F9",
+          "flight": null,
+          "landing_attempt": true,
+          "landing_success": null,
+          "landing_type": "ASDS",
+          "landing_location": "A Shortfall of Gravitas",
+          "droneship": "ASOG",
+          "description": "The Falcon 9 first stage will land on ASDS ASOG after its flight."
+        }
+      ]
+    },
+    {
       "id": "b97a54e5-5c6f-4f85-bcf3-69da17fa9682",
       "name": "Terran R | Mars Lander",
       "net": "2026-12-31T00:00:00Z",
@@ -266,26 +297,6 @@
           "description": "The Falcon 9 first stage will attempt to land back at the launch site after its flight."
         }
       ]
-    },
-    {
-      "id": "fc1bd321-e502-4d0f-81f4-1926dece81c6",
-      "name": "Falcon 9 Block 5 | VICTUS SURGO",
-      "net": "2026-12-31T00:00:00Z",
-      "net_precision": "Y",
-      "window_start": "2026-12-31T00:00:00Z",
-      "window_end": "2026-12-31T00:00:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-      "pad": "Unknown Pad",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 153,
-      "boosters": []
     }
   ]
 }
