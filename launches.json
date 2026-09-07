@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-06T23:59:31.666Z",
+  "timestamp": "2026-09-07T00:58:36.211Z",
   "launches": [
     {
       "id": "ad358a4d-c541-409b-9366-9c2f2da4aeb9",
@@ -169,32 +169,52 @@
           "flight": null,
           "landing_attempt": true,
           "landing_success": null,
-          "landing_type": "RTLS",
-          "landing_location": "Unknown",
-          "droneship": "N/A",
-          "description": "the sidebooster will attempt to land at the launch site after launch."
-        },
-        {
-          "core": "Unknown FH",
-          "flight": null,
-          "landing_attempt": true,
-          "landing_success": null,
-          "landing_type": "RTLS",
-          "landing_location": "Unknown",
-          "droneship": "N/A",
-          "description": "the sidebooster will attempt to land at the launch site after launch."
-        },
-        {
-          "core": "Unknown FH",
-          "flight": null,
-          "landing_attempt": true,
-          "landing_success": null,
           "landing_type": "ASDS",
           "landing_location": "Unknown",
           "droneship": "N/A",
           "description": "The center core will attempt to land on an ASDS after launch."
+        },
+        {
+          "core": "Unknown FH",
+          "flight": null,
+          "landing_attempt": true,
+          "landing_success": null,
+          "landing_type": "RTLS",
+          "landing_location": "Unknown",
+          "droneship": "N/A",
+          "description": "the sidebooster will attempt to land at the launch site after launch."
+        },
+        {
+          "core": "Unknown FH",
+          "flight": null,
+          "landing_attempt": true,
+          "landing_success": null,
+          "landing_type": "RTLS",
+          "landing_location": "Unknown",
+          "droneship": "N/A",
+          "description": "the sidebooster will attempt to land at the launch site after launch."
         }
       ]
+    },
+    {
+      "id": "a67b40f9-cfcc-4614-a355-a156280b4bb3",
+      "name": "Vulcan VC4L | Dream Chaser CRS 2 Flight 1",
+      "net": "2026-12-31T00:00:00Z",
+      "net_precision": "Q4",
+      "window_start": "2026-12-31T00:00:00Z",
+      "window_end": "2026-12-31T00:00:00Z",
+      "provider": "United Launch Alliance",
+      "vehicle": "Vulcan VC4L",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": null,
+      "pad": "Space Launch Complex 41",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 26,
+      "boosters": []
     },
     {
       "id": "4d3943e9-c894-46c4-a318-84d526d0ef40",
@@ -226,26 +246,6 @@
           "description": "The Falcon 9 first stage will attempt to land back at the launch site after its flight."
         }
       ]
-    },
-    {
-      "id": "a67b40f9-cfcc-4614-a355-a156280b4bb3",
-      "name": "Vulcan VC4L | Dream Chaser CRS 2 Flight 1",
-      "net": "2026-12-31T00:00:00Z",
-      "net_precision": "Q4",
-      "window_start": "2026-12-31T00:00:00Z",
-      "window_end": "2026-12-31T00:00:00Z",
-      "provider": "United Launch Alliance",
-      "vehicle": "Vulcan VC4L",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": null,
-      "pad": "Space Launch Complex 41",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 26,
-      "boosters": []
     },
     {
       "id": "fc1bd321-e502-4d0f-81f4-1926dece81c6",
