@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-08T23:55:58.594Z",
+  "timestamp": "2026-09-09T00:36:50.218Z",
   "launches": [
     {
       "id": "ad358a4d-c541-409b-9366-9c2f2da4aeb9",
@@ -299,23 +299,23 @@
       ]
     },
     {
-      "id": "b97a54e5-5c6f-4f85-bcf3-69da17fa9682",
-      "name": "Terran R | Mars Lander",
+      "id": "f494692f-471c-4a75-b78e-667842fea27f",
+      "name": "Vulcan | USSF-25",
       "net": "2026-12-31T00:00:00Z",
       "net_precision": "Y",
       "window_start": "2026-12-31T00:00:00Z",
       "window_end": "2026-12-31T00:00:00Z",
-      "provider": "Relativity Space",
-      "vehicle": "Terran R",
-      "orbit": "Mars Orbit",
-      "orbit_abbrev": "Mars",
+      "provider": "United Launch Alliance",
+      "vehicle": "Vulcan",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
       "probability": null,
       "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/terran2520r25_image_20220719142358.png",
-      "pad": "Launch Complex 16",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
+      "pad": "Space Launch Complex 41",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
-      "agency_launches_this_year": 2,
+      "agency_launches_this_year": 26,
       "boosters": []
     }
   ]
