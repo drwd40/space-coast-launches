@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-12T23:59:03.816Z",
+  "timestamp": "2026-09-13T00:59:05.980Z",
   "launches": [
     {
       "id": "ad358a4d-c541-409b-9366-9c2f2da4aeb9",
@@ -230,22 +230,42 @@
           "flight": null,
           "landing_attempt": true,
           "landing_success": null,
-          "landing_type": "ASDS",
+          "landing_type": "RTLS",
           "landing_location": "Unknown",
           "droneship": "N/A",
-          "description": "The center core will attempt to land on an ASDS after launch."
+          "description": "the sidebooster will attempt to land at the launch site after launch."
         },
         {
           "core": "Unknown FH",
           "flight": null,
           "landing_attempt": true,
           "landing_success": null,
-          "landing_type": "RTLS",
+          "landing_type": "ASDS",
           "landing_location": "Unknown",
           "droneship": "N/A",
-          "description": "the sidebooster will attempt to land at the launch site after launch."
+          "description": "The center core will attempt to land on an ASDS after launch."
         }
       ]
+    },
+    {
+      "id": "71df1dd0-d658-4762-b0bc-0fca6886aea7",
+      "name": "Falcon 9 Block 5 | SDA Tranche 2 Transport Layer D",
+      "net": "2026-12-31T00:00:00Z",
+      "net_precision": "M",
+      "window_start": "2026-12-31T00:00:00Z",
+      "window_end": "2026-12-31T00:00:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon 9 Block 5",
+      "orbit": "Polar Orbit",
+      "orbit_abbrev": "PO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "pad": "Unknown Pad",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 157,
+      "boosters": []
     },
     {
       "id": "b32689fe-b156-4ccd-b824-fd555d12ba24",
@@ -297,26 +317,6 @@
           "description": "The Falcon 9 first stage will land on ASDS ASOG after its flight."
         }
       ]
-    },
-    {
-      "id": "f494692f-471c-4a75-b78e-667842fea27f",
-      "name": "Vulcan | USSF-25",
-      "net": "2026-12-31T00:00:00Z",
-      "net_precision": "Y",
-      "window_start": "2026-12-31T00:00:00Z",
-      "window_end": "2026-12-31T00:00:00Z",
-      "provider": "United Launch Alliance",
-      "vehicle": "Vulcan",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
-      "pad": "Space Launch Complex 41",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 26,
-      "boosters": []
     }
   ]
 }
