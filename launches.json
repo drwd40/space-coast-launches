@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-13T18:49:41.399Z",
+  "timestamp": "2026-09-13T18:56:57.284Z",
   "launches": [
     {
       "id": "ad358a4d-c541-409b-9366-9c2f2da4aeb9",
@@ -12,8 +12,8 @@
       "vehicle": "Falcon 9 Block 5",
       "orbit": "Medium Earth Orbit",
       "orbit_abbrev": "MEO",
-      "probability": 60,
-      "status": "Go for Launch",
+      "probability": 75,
+      "status": "Launch in Flight",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
