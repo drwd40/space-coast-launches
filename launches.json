@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-17T23:55:18.961Z",
+  "timestamp": "2026-09-18T00:27:54.203Z",
   "launches": [
     {
       "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
@@ -103,8 +103,8 @@
       "agency_launches_this_year": 119,
       "boosters": [
         {
-          "core": "Unknown FH",
-          "flight": null,
+          "core": "B1072",
+          "flight": 3,
           "landing_attempt": null,
           "landing_success": null,
           "landing_type": null,
@@ -123,8 +123,8 @@
           "description": null
         },
         {
-          "core": "B1072",
-          "flight": 3,
+          "core": "Unknown FH",
+          "flight": null,
           "landing_attempt": null,
           "landing_success": null,
           "landing_type": null,
@@ -217,6 +217,37 @@
       ]
     },
     {
+      "id": "f0460950-3cb6-4889-8cbe-707f063d0565",
+      "name": "New Glenn | BlueBird Block 2",
+      "net": "2026-12-31T00:00:00Z",
+      "net_precision": "Y",
+      "window_start": "2026-12-31T00:00:00Z",
+      "window_end": "2026-12-31T00:00:00Z",
+      "provider": "Blue Origin",
+      "vehicle": "New Glenn",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new_glenn_on_lc_image_20240313170026.jpeg",
+      "pad": "Launch Complex 36A",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 4,
+      "boosters": [
+        {
+          "core": "Unknown NG",
+          "flight": null,
+          "landing_attempt": null,
+          "landing_success": null,
+          "landing_type": null,
+          "landing_location": null,
+          "droneship": null,
+          "description": null
+        }
+      ]
+    },
+    {
       "id": "9bfa0324-db74-444f-8dc3-1c7d373ca659",
       "name": "Falcon 9 Block 5 | 5x Astranis MicroGEO",
       "net": "2026-12-31T00:00:00Z",
@@ -268,66 +299,24 @@
       "boosters": []
     },
     {
-      "id": "f0460950-3cb6-4889-8cbe-707f063d0565",
-      "name": "New Glenn | BlueBird Block 2",
+      "id": "f494692f-471c-4a75-b78e-667842fea27f",
+      "name": "Vulcan | USSF-25",
       "net": "2026-12-31T00:00:00Z",
       "net_precision": "Y",
       "window_start": "2026-12-31T00:00:00Z",
       "window_end": "2026-12-31T00:00:00Z",
-      "provider": "Blue Origin",
-      "vehicle": "New Glenn",
+      "provider": "United Launch Alliance",
+      "vehicle": "Vulcan",
       "orbit": "Low Earth Orbit",
       "orbit_abbrev": "LEO",
       "probability": null,
       "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new_glenn_on_lc_image_20240313170026.jpeg",
-      "pad": "Launch Complex 36A",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
+      "pad": "Space Launch Complex 41",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
-      "agency_launches_this_year": 4,
-      "boosters": [
-        {
-          "core": "Unknown NG",
-          "flight": null,
-          "landing_attempt": null,
-          "landing_success": null,
-          "landing_type": null,
-          "landing_location": null,
-          "droneship": null,
-          "description": null
-        }
-      ]
-    },
-    {
-      "id": "e61d353c-db55-4a57-8184-0fab187231e6",
-      "name": "Falcon 9 Block 5 | Globalstar 2-R Mission 2 (x 9)",
-      "net": "2026-12-31T00:00:00Z",
-      "net_precision": "H2",
-      "window_start": "2026-12-31T00:00:00Z",
-      "window_end": "2026-12-31T00:00:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-      "pad": "Space Launch Complex 40",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": "Northeast",
-      "agency_launches_this_year": 159,
-      "boosters": [
-        {
-          "core": "Unknown F9",
-          "flight": null,
-          "landing_attempt": true,
-          "landing_success": null,
-          "landing_type": "ASDS",
-          "landing_location": "A Shortfall of Gravitas",
-          "droneship": "ASOG",
-          "description": "The Falcon 9 first stage will land on ASDS ASOG after its flight."
-        }
-      ]
+      "agency_launches_this_year": 26,
+      "boosters": []
     }
   ]
 }
