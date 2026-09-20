@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-19T23:55:22.475Z",
+  "timestamp": "2026-09-20T00:31:22.610Z",
   "launches": [
     {
       "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
@@ -38,7 +38,7 @@
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": "Northeast",
-      "agency_launches_this_year": 114,
+      "agency_launches_this_year": 115,
       "boosters": [
         {
           "core": "B1101",
@@ -217,37 +217,6 @@
       ]
     },
     {
-      "id": "9bfa0324-db74-444f-8dc3-1c7d373ca659",
-      "name": "Falcon 9 Block 5 | 5x Astranis MicroGEO",
-      "net": "2026-12-31T00:00:00Z",
-      "net_precision": "Y",
-      "window_start": "2026-12-31T00:00:00Z",
-      "window_end": "2026-12-31T00:00:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Geostationary Transfer Orbit",
-      "orbit_abbrev": "GTO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_20241221043403.jpg",
-      "pad": "Unknown Pad",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": "East",
-      "agency_launches_this_year": 159,
-      "boosters": [
-        {
-          "core": "Unknown F9",
-          "flight": null,
-          "landing_attempt": null,
-          "landing_success": null,
-          "landing_type": null,
-          "landing_location": null,
-          "droneship": null,
-          "description": null
-        }
-      ]
-    },
-    {
       "id": "f0460950-3cb6-4889-8cbe-707f063d0565",
       "name": "New Glenn | BlueBird Block 2",
       "net": "2026-12-31T00:00:00Z",
@@ -279,6 +248,68 @@
       ]
     },
     {
+      "id": "9bfa0324-db74-444f-8dc3-1c7d373ca659",
+      "name": "Falcon 9 Block 5 | 5x Astranis MicroGEO",
+      "net": "2026-12-31T00:00:00Z",
+      "net_precision": "Y",
+      "window_start": "2026-12-31T00:00:00Z",
+      "window_end": "2026-12-31T00:00:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon 9 Block 5",
+      "orbit": "Geostationary Transfer Orbit",
+      "orbit_abbrev": "GTO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_20241221043403.jpg",
+      "pad": "Unknown Pad",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": "East",
+      "agency_launches_this_year": 159,
+      "boosters": [
+        {
+          "core": "Unknown F9",
+          "flight": null,
+          "landing_attempt": null,
+          "landing_success": null,
+          "landing_type": null,
+          "landing_location": null,
+          "droneship": null,
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "e61d353c-db55-4a57-8184-0fab187231e6",
+      "name": "Falcon 9 Block 5 | Globalstar 2-R Mission 2 (x 9)",
+      "net": "2026-12-31T00:00:00Z",
+      "net_precision": "H2",
+      "window_start": "2026-12-31T00:00:00Z",
+      "window_end": "2026-12-31T00:00:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon 9 Block 5",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "pad": "Space Launch Complex 40",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": "Northeast",
+      "agency_launches_this_year": 159,
+      "boosters": [
+        {
+          "core": "Unknown F9",
+          "flight": null,
+          "landing_attempt": true,
+          "landing_success": null,
+          "landing_type": "ASDS",
+          "landing_location": "A Shortfall of Gravitas",
+          "droneship": "ASOG",
+          "description": "The Falcon 9 first stage will land on ASDS ASOG after its flight."
+        }
+      ]
+    },
+    {
       "id": "f494692f-471c-4a75-b78e-667842fea27f",
       "name": "Vulcan | USSF-25",
       "net": "2026-12-31T00:00:00Z",
@@ -296,26 +327,6 @@
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
       "agency_launches_this_year": 26,
-      "boosters": []
-    },
-    {
-      "id": "71df1dd0-d658-4762-b0bc-0fca6886aea7",
-      "name": "Falcon 9 Block 5 | SDA Tranche 2 Transport Layer D",
-      "net": "2026-12-31T00:00:00Z",
-      "net_precision": "M",
-      "window_start": "2026-12-31T00:00:00Z",
-      "window_end": "2026-12-31T00:00:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Polar Orbit",
-      "orbit_abbrev": "PO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-      "pad": "Unknown Pad",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 159,
       "boosters": []
     }
   ]
