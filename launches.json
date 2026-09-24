@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-24T14:21:06.056Z",
+  "timestamp": "2026-09-24T14:46:42.236Z",
   "launches": [
     {
       "id": "18441371-8b2e-457c-afb5-1ec1b11ab630",
@@ -29,6 +29,57 @@
           "landing_location": "Landing Zone 40",
           "droneship": "LZ-40",
           "description": "The Falcon 9 first stage B1101 will land back at the launch site after its 3rd flight."
+        }
+      ]
+    },
+    {
+      "id": "4651fd8a-43de-4166-bf8f-c168b3bd1d2c",
+      "name": "Falcon Heavy | NROL-97",
+      "net": "2026-10-02T03:53:00Z",
+      "net_precision": "MIN",
+      "window_start": "2026-10-02T03:53:00Z",
+      "window_end": "2026-10-02T03:53:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon Heavy",
+      "orbit": "Unknown",
+      "orbit_abbrev": "N/A",
+      "probability": null,
+      "status": "Go for Launch",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_image_20220129192819.jpeg",
+      "pad": "Launch Complex 39A",
+      "location": "Kennedy Space Center, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 116,
+      "boosters": [
+        {
+          "core": "B1072",
+          "flight": 3,
+          "landing_attempt": true,
+          "landing_success": null,
+          "landing_type": "RTLS",
+          "landing_location": "Landing Zone 2",
+          "droneship": "LZ-2",
+          "description": "The Falcon Heavy side booster B1072 will land back at the launch site at Landing Zone 2 after its 4th flight."
+        },
+        {
+          "core": "B1104",
+          "flight": 1,
+          "landing_attempt": true,
+          "landing_success": null,
+          "landing_type": "RTLS",
+          "landing_location": "Landing Zone 1",
+          "droneship": "LZ-1",
+          "description": "The Falcon Heavy side booster B1104 will land back at the launch site at Landing Zone 1 after its 2nd flight."
+        },
+        {
+          "core": "B1106",
+          "flight": null,
+          "landing_attempt": false,
+          "landing_success": null,
+          "landing_type": "EXP",
+          "landing_location": "Atlantic Ocean",
+          "droneship": "ATL",
+          "description": "The Falcon Heavy center core B1106 will be expended."
         }
       ]
     },
@@ -111,57 +162,6 @@
           "landing_location": "Landing Zone 40",
           "droneship": "LZ-40",
           "description": "The Falcon 9 first stage will land back at the launch site after its flight."
-        }
-      ]
-    },
-    {
-      "id": "4651fd8a-43de-4166-bf8f-c168b3bd1d2c",
-      "name": "Falcon Heavy | NROL-97",
-      "net": "2026-10-31T00:00:00Z",
-      "net_precision": "Q4",
-      "window_start": "2026-10-31T00:00:00Z",
-      "window_end": "2026-10-31T00:00:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon Heavy",
-      "orbit": "Unknown",
-      "orbit_abbrev": "N/A",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_image_20220129192819.jpeg",
-      "pad": "Launch Complex 39A",
-      "location": "Kennedy Space Center, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 120,
-      "boosters": [
-        {
-          "core": "B1104",
-          "flight": 1,
-          "landing_attempt": null,
-          "landing_success": null,
-          "landing_type": null,
-          "landing_location": null,
-          "droneship": null,
-          "description": null
-        },
-        {
-          "core": "B1072",
-          "flight": 3,
-          "landing_attempt": null,
-          "landing_success": null,
-          "landing_type": null,
-          "landing_location": null,
-          "droneship": null,
-          "description": null
-        },
-        {
-          "core": "Unknown FH",
-          "flight": null,
-          "landing_attempt": null,
-          "landing_success": null,
-          "landing_type": null,
-          "landing_location": null,
-          "droneship": null,
-          "description": null
         }
       ]
     },
