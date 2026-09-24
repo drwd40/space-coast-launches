@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-24T18:07:22.636Z",
+  "timestamp": "2026-09-24T18:28:37.259Z",
   "launches": [
     {
       "id": "18441371-8b2e-457c-afb5-1ec1b11ab630",
@@ -38,7 +38,7 @@
       "net": "2026-10-02T03:53:00Z",
       "net_precision": "MIN",
       "window_start": "2026-10-02T03:53:00Z",
-      "window_end": "2026-10-02T03:53:00Z",
+      "window_end": "2026-10-02T04:42:00Z",
       "provider": "SpaceX",
       "vehicle": "Falcon Heavy",
       "orbit": "Unknown",
