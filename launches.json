@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-25T00:55:55.637Z",
+  "timestamp": "2026-09-25T01:23:30.334Z",
   "launches": [
     {
       "id": "18441371-8b2e-457c-afb5-1ec1b11ab630",
@@ -28,7 +28,7 @@
           "landing_type": "RTLS",
           "landing_location": "Landing Zone 40",
           "droneship": "LZ-40",
-          "description": "The Falcon 9 first stage B1101 will land back at the launch site after its 3rd flight."
+          "description": "The Falcon 9 first stage B1101 will land back at the launch site at Landing Zone 40 after its 3rd flight."
         }
       ]
     },
