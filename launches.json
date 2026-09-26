@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-25T23:54:18.465Z",
+  "timestamp": "2026-09-26T00:14:16.464Z",
   "launches": [
     {
       "id": "18441371-8b2e-457c-afb5-1ec1b11ab630",
@@ -62,16 +62,6 @@
           "description": "The Falcon Heavy side booster B1104 will land back at the launch site at Landing Zone 1 after its 2nd flight."
         },
         {
-          "core": "B1072",
-          "flight": 3,
-          "landing_attempt": true,
-          "landing_success": null,
-          "landing_type": "RTLS",
-          "landing_location": "Landing Zone 2",
-          "droneship": "LZ-2",
-          "description": "The Falcon Heavy side booster B1072 will land back at the launch site at Landing Zone 2 after its 4th flight."
-        },
-        {
           "core": "B1106",
           "flight": null,
           "landing_attempt": false,
@@ -80,6 +70,16 @@
           "landing_location": "Atlantic Ocean",
           "droneship": "ATL",
           "description": "The Falcon Heavy center core B1106 will be expended."
+        },
+        {
+          "core": "B1072",
+          "flight": 3,
+          "landing_attempt": true,
+          "landing_success": null,
+          "landing_type": "RTLS",
+          "landing_location": "Landing Zone 2",
+          "droneship": "LZ-2",
+          "description": "The Falcon Heavy side booster B1072 will land back at the launch site at Landing Zone 2 after its 4th flight."
         }
       ]
     },
