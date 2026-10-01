@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-01T14:22:18.518Z",
+  "timestamp": "2026-10-01T14:37:02.701Z",
   "launches": [
     {
       "id": "18441371-8b2e-457c-afb5-1ec1b11ab630",
@@ -166,57 +166,6 @@
       ]
     },
     {
-      "id": "d3bd7fb2-fac6-49fc-ae52-cee07d2fde67",
-      "name": "Falcon Heavy | Griffin Mission One",
-      "net": "2026-11-30T00:00:00Z",
-      "net_precision": "M",
-      "window_start": "2026-11-30T00:00:00Z",
-      "window_end": "2026-11-30T00:00:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon Heavy",
-      "orbit": "Lunar Orbit",
-      "orbit_abbrev": "LO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_image_20220129192819.jpeg",
-      "pad": "Launch Complex 39A",
-      "location": "Kennedy Space Center, FL, USA",
-      "trajectory_direction": "Northeast",
-      "agency_launches_this_year": 121,
-      "boosters": [
-        {
-          "core": "Unknown FH",
-          "flight": null,
-          "landing_attempt": true,
-          "landing_success": null,
-          "landing_type": "RTLS",
-          "landing_location": "Unknown",
-          "droneship": "N/A",
-          "description": "the sidebooster will attempt to land at the launch site after launch."
-        },
-        {
-          "core": "Unknown FH",
-          "flight": null,
-          "landing_attempt": true,
-          "landing_success": null,
-          "landing_type": "RTLS",
-          "landing_location": "Unknown",
-          "droneship": "N/A",
-          "description": "the sidebooster will attempt to land at the launch site after launch."
-        },
-        {
-          "core": "Unknown FH",
-          "flight": null,
-          "landing_attempt": true,
-          "landing_success": null,
-          "landing_type": "ASDS",
-          "landing_location": "Unknown",
-          "droneship": "N/A",
-          "description": "The center core will attempt to land on an ASDS after launch."
-        }
-      ]
-    },
-    {
       "id": "98b905bb-4060-40a2-b299-2773b6883203",
       "name": "Falcon 9 Block 5 | Telesat Lightspeed 5",
       "net": "2026-12-31T00:00:00Z",
@@ -255,6 +204,57 @@
       "trajectory_direction": null,
       "agency_launches_this_year": 26,
       "boosters": []
+    },
+    {
+      "id": "d3bd7fb2-fac6-49fc-ae52-cee07d2fde67",
+      "name": "Falcon Heavy | Griffin Mission One",
+      "net": "2026-12-31T00:00:00Z",
+      "net_precision": "M",
+      "window_start": "2026-12-31T00:00:00Z",
+      "window_end": "2026-12-31T00:00:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon Heavy",
+      "orbit": "Lunar Orbit",
+      "orbit_abbrev": "LO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_image_20220129192819.jpeg",
+      "pad": "Launch Complex 39A",
+      "location": "Kennedy Space Center, FL, USA",
+      "trajectory_direction": "Northeast",
+      "agency_launches_this_year": 159,
+      "boosters": [
+        {
+          "core": "Unknown FH",
+          "flight": null,
+          "landing_attempt": true,
+          "landing_success": null,
+          "landing_type": "RTLS",
+          "landing_location": "Unknown",
+          "droneship": "N/A",
+          "description": "the sidebooster will attempt to land at the launch site after launch."
+        },
+        {
+          "core": "Unknown FH",
+          "flight": null,
+          "landing_attempt": true,
+          "landing_success": null,
+          "landing_type": "RTLS",
+          "landing_location": "Unknown",
+          "droneship": "N/A",
+          "description": "the sidebooster will attempt to land at the launch site after launch."
+        },
+        {
+          "core": "Unknown FH",
+          "flight": null,
+          "landing_attempt": true,
+          "landing_success": null,
+          "landing_type": "ASDS",
+          "landing_location": "Unknown",
+          "droneship": "N/A",
+          "description": "The center core will attempt to land on an ASDS after launch."
+        }
+      ]
     },
     {
       "id": "f0460950-3cb6-4889-8cbe-707f063d0565",
