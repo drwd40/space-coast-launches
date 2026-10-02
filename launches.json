@@ -1,37 +1,6 @@
 {
-  "timestamp": "2026-10-02T14:58:06.541Z",
+  "timestamp": "2026-10-02T15:22:37.080Z",
   "launches": [
-    {
-      "id": "18441371-8b2e-457c-afb5-1ec1b11ab630",
-      "name": "Falcon 9 Block 5 | Crew-13",
-      "net": "2026-10-01T15:10:06Z",
-      "net_precision": "SEC",
-      "window_start": "2026-10-01T15:10:06Z",
-      "window_end": "2026-10-01T15:10:06Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": 60,
-      "status": "Launch Successful",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20220301072106.jpeg",
-      "pad": "Space Launch Complex 40",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": "Northeast",
-      "agency_launches_this_year": 114,
-      "boosters": [
-        {
-          "core": "B1101",
-          "flight": 3,
-          "landing_attempt": true,
-          "landing_success": true,
-          "landing_type": "RTLS",
-          "landing_location": "Landing Zone 40",
-          "droneship": "LZ-40",
-          "description": "The Falcon 9 first stage B1101 has landed back at the launch site at Landing Zone 40 after its 3rd flight."
-        }
-      ]
-    },
     {
       "id": "4651fd8a-43de-4166-bf8f-c168b3bd1d2c",
       "name": "Falcon Heavy | NROL-97",
@@ -301,6 +270,26 @@
       "probability": null,
       "status": "To Be Determined",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
+      "pad": "Space Launch Complex 41",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 26,
+      "boosters": []
+    },
+    {
+      "id": "a67b40f9-cfcc-4614-a355-a156280b4bb3",
+      "name": "Vulcan VC4L | Dream Chaser CRS 2 Flight 1",
+      "net": "2026-12-31T00:00:00Z",
+      "net_precision": "Q4",
+      "window_start": "2026-12-31T00:00:00Z",
+      "window_end": "2026-12-31T00:00:00Z",
+      "provider": "United Launch Alliance",
+      "vehicle": "Vulcan VC4L",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": null,
       "pad": "Space Launch Complex 41",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
