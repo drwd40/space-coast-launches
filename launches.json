@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-02T17:22:06.164Z",
+  "timestamp": "2026-10-02T17:33:25.230Z",
   "launches": [
     {
       "id": "4651fd8a-43de-4166-bf8f-c168b3bd1d2c",
@@ -55,16 +55,16 @@
     {
       "id": "bf2c3027-a314-403e-a416-2bfd5d165ad1",
       "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
-      "net": "2026-10-13T10:33:00Z",
-      "net_precision": "MIN",
-      "window_start": "2026-10-13T10:33:00Z",
-      "window_end": "2026-10-13T10:33:00Z",
+      "net": "2026-10-13T10:33:44Z",
+      "net_precision": "SEC",
+      "window_start": "2026-10-13T10:33:44Z",
+      "window_end": "2026-10-13T10:33:44Z",
       "provider": "SpaceX",
       "vehicle": "Falcon 9 Block 5",
       "orbit": "Low Earth Orbit",
       "orbit_abbrev": "LEO",
       "probability": null,
-      "status": "To Be Confirmed",
+      "status": "Go for Launch",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20210520085648.jpeg",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
