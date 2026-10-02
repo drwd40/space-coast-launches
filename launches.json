@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-02T02:04:25.895Z",
+  "timestamp": "2026-10-02T02:33:42.727Z",
   "launches": [
     {
       "id": "18441371-8b2e-457c-afb5-1ec1b11ab630",
@@ -35,7 +35,7 @@
     {
       "id": "4651fd8a-43de-4166-bf8f-c168b3bd1d2c",
       "name": "Falcon Heavy | NROL-97",
-      "net": "2026-10-02T03:53:00Z",
+      "net": "2026-10-02T03:54:00Z",
       "net_precision": "MIN",
       "window_start": "2026-10-02T03:53:00Z",
       "window_end": "2026-10-02T04:42:00Z",
@@ -43,7 +43,7 @@
       "vehicle": "Falcon Heavy",
       "orbit": "Unknown",
       "orbit_abbrev": "N/A",
-      "probability": 60,
+      "probability": 80,
       "status": "Go for Launch",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_image_20220129192819.jpeg",
       "pad": "Launch Complex 39A",
