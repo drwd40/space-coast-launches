@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-07T00:59:38.073Z",
+  "timestamp": "2026-10-07T01:40:40.756Z",
   "launches": [
     {
       "id": "bf2c3027-a314-403e-a416-2bfd5d165ad1",
@@ -202,7 +202,7 @@
       "pad": "Space Launch Complex 41",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
-      "agency_launches_this_year": 26,
+      "agency_launches_this_year": 25,
       "boosters": []
     },
     {
