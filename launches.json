@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-08T17:59:46.118Z",
+  "timestamp": "2026-10-08T18:27:11.620Z",
   "launches": [
     {
       "id": "bf2c3027-a314-403e-a416-2bfd5d165ad1",
@@ -35,10 +35,10 @@
     {
       "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
       "name": "Vulcan VC6L | Amazon Leo (LV-01)",
-      "net": "2026-10-31T00:00:00Z",
-      "net_precision": "M",
-      "window_start": "2026-10-31T00:00:00Z",
-      "window_end": "2026-10-31T00:00:00Z",
+      "net": "2026-10-29T00:00:00Z",
+      "net_precision": "DAY",
+      "window_start": "2026-10-29T00:00:00Z",
+      "window_end": "2026-10-29T00:00:00Z",
       "provider": "United Launch Alliance",
       "vehicle": "Vulcan VC6L",
       "orbit": "Low Earth Orbit",
