@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-10T15:31:36.140Z",
+  "timestamp": "2026-10-10T15:43:43.999Z",
   "launches": [
     {
       "id": "bf2c3027-a314-403e-a416-2bfd5d165ad1",
@@ -166,6 +166,37 @@
       ]
     },
     {
+      "id": "a5e81552-ecdd-4d89-b6bd-b594e22ca891",
+      "name": "New Glenn | Blue Ring-1",
+      "net": "2026-12-31T00:00:00Z",
+      "net_precision": "M",
+      "window_start": "2026-12-31T00:00:00Z",
+      "window_end": "2026-12-31T00:00:00Z",
+      "provider": "Blue Origin",
+      "vehicle": "New Glenn",
+      "orbit": "Geostationary Transfer Orbit",
+      "orbit_abbrev": "GTO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new_glenn_on_lc_image_20240313170026.jpeg",
+      "pad": "Launch Complex 36A",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": "East",
+      "agency_launches_this_year": 5,
+      "boosters": [
+        {
+          "core": "Unknown NG",
+          "flight": null,
+          "landing_attempt": null,
+          "landing_success": null,
+          "landing_type": null,
+          "landing_location": null,
+          "droneship": null,
+          "description": null
+        }
+      ]
+    },
+    {
       "id": "adfc829a-6704-4d9e-b2ca-1068c38b2b83",
       "name": "Falcon 9 Block 5 | Telesat Lightspeed 4",
       "net": "2026-12-31T00:00:00Z",
@@ -244,37 +275,6 @@
       "trajectory_direction": null,
       "agency_launches_this_year": 25,
       "boosters": []
-    },
-    {
-      "id": "f0460950-3cb6-4889-8cbe-707f063d0565",
-      "name": "New Glenn | BlueBird Block 2",
-      "net": "2026-12-31T00:00:00Z",
-      "net_precision": "Y",
-      "window_start": "2026-12-31T00:00:00Z",
-      "window_end": "2026-12-31T00:00:00Z",
-      "provider": "Blue Origin",
-      "vehicle": "New Glenn",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new_glenn_on_lc_image_20240313170026.jpeg",
-      "pad": "Launch Complex 36A",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 4,
-      "boosters": [
-        {
-          "core": "Unknown NG",
-          "flight": null,
-          "landing_attempt": null,
-          "landing_success": null,
-          "landing_type": null,
-          "landing_location": null,
-          "droneship": null,
-          "description": null
-        }
-      ]
     }
   ]
 }
