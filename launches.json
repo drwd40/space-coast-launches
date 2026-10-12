@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-12T00:11:38.443Z",
+  "timestamp": "2026-10-12T01:14:28.442Z",
   "launches": [
     {
       "id": "bf2c3027-a314-403e-a416-2bfd5d165ad1",
@@ -237,35 +237,24 @@
       "boosters": []
     },
     {
-      "id": "f0460950-3cb6-4889-8cbe-707f063d0565",
-      "name": "New Glenn | BlueBird Block 2",
+      "id": "eb8cbca7-5ae6-430c-8ff6-0f672cfb5bd0",
+      "name": "Vulcan | SILENTBARKER 2/NROL-118",
       "net": "2026-12-31T00:00:00Z",
       "net_precision": "Y",
       "window_start": "2026-12-31T00:00:00Z",
       "window_end": "2026-12-31T00:00:00Z",
-      "provider": "Blue Origin",
-      "vehicle": "New Glenn",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
+      "provider": "United Launch Alliance",
+      "vehicle": "Vulcan",
+      "orbit": "Geostationary Orbit",
+      "orbit_abbrev": "Direct-GEO",
       "probability": null,
       "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new_glenn_on_lc_image_20240313170026.jpeg",
-      "pad": "Launch Complex 36A",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
+      "pad": "Space Launch Complex 41",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
-      "agency_launches_this_year": 5,
-      "boosters": [
-        {
-          "core": "Unknown NG",
-          "flight": null,
-          "landing_attempt": null,
-          "landing_success": null,
-          "landing_type": null,
-          "landing_location": null,
-          "droneship": null,
-          "description": null
-        }
-      ]
+      "agency_launches_this_year": 25,
+      "boosters": []
     },
     {
       "id": "ac92d963-ebfb-4d18-b48c-04102d8dce8e",
