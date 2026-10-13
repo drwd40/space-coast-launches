@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-13T12:32:32.727Z",
+  "timestamp": "2026-10-13T12:58:29.658Z",
   "launches": [
     {
       "id": "bf2c3027-a314-403e-a416-2bfd5d165ad1",
@@ -36,9 +36,9 @@
       "id": "3b430f81-0ff1-4d85-8a1a-cef0de326198",
       "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
       "net": "2026-10-19T10:30:00Z",
-      "net_precision": "HR",
+      "net_precision": "MIN",
       "window_start": "2026-10-19T10:30:00Z",
-      "window_end": "2026-10-19T10:30:00Z",
+      "window_end": "2026-10-19T12:13:00Z",
       "provider": "SpaceX",
       "vehicle": "Falcon 9 Block 5",
       "orbit": "Low Earth Orbit",
