@@ -1,37 +1,6 @@
 {
-  "timestamp": "2026-10-14T10:30:41.810Z",
+  "timestamp": "2026-10-14T10:42:43.369Z",
   "launches": [
-    {
-      "id": "bf2c3027-a314-403e-a416-2bfd5d165ad1",
-      "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
-      "net": "2026-10-13T10:33:44Z",
-      "net_precision": "SEC",
-      "window_start": "2026-10-13T10:33:44Z",
-      "window_end": "2026-10-13T10:33:44Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": 99,
-      "status": "Launch Successful",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20210520085648.jpeg",
-      "pad": "Space Launch Complex 40",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": "Northeast",
-      "agency_launches_this_year": 119,
-      "boosters": [
-        {
-          "core": "B1096",
-          "flight": 8,
-          "landing_attempt": true,
-          "landing_success": true,
-          "landing_type": "RTLS",
-          "landing_location": "Landing Zone 40",
-          "droneship": "LZ-40",
-          "description": "The Falcon 9 first stage B1096 has landed back at the launch site after its 8th flight."
-        }
-      ]
-    },
     {
       "id": "3b430f81-0ff1-4d85-8a1a-cef0de326198",
       "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
@@ -259,6 +228,26 @@
     {
       "id": "adfc829a-6704-4d9e-b2ca-1068c38b2b83",
       "name": "Falcon 9 Block 5 | Telesat Lightspeed 4",
+      "net": "2026-12-31T00:00:00Z",
+      "net_precision": "Y",
+      "window_start": "2026-12-31T00:00:00Z",
+      "window_end": "2026-12-31T00:00:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon 9 Block 5",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "pad": "Unknown Pad",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 162,
+      "boosters": []
+    },
+    {
+      "id": "98b905bb-4060-40a2-b299-2773b6883203",
+      "name": "Falcon 9 Block 5 | Telesat Lightspeed 5",
       "net": "2026-12-31T00:00:00Z",
       "net_precision": "Y",
       "window_start": "2026-12-31T00:00:00Z",
