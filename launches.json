@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-15T21:55:50.254Z",
+  "timestamp": "2026-10-15T22:11:29.630Z",
   "launches": [
     {
       "id": "3b430f81-0ff1-4d85-8a1a-cef0de326198",
@@ -135,26 +135,6 @@
       "boosters": []
     },
     {
-      "id": "f494692f-471c-4a75-b78e-667842fea27f",
-      "name": "Vulcan | USSF-25",
-      "net": "2026-12-31T00:00:00Z",
-      "net_precision": "Y",
-      "window_start": "2026-12-31T00:00:00Z",
-      "window_end": "2026-12-31T00:00:00Z",
-      "provider": "United Launch Alliance",
-      "vehicle": "Vulcan",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
-      "pad": "Space Launch Complex 41",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 25,
-      "boosters": []
-    },
-    {
       "id": "d3bd7fb2-fac6-49fc-ae52-cee07d2fde67",
       "name": "Falcon Heavy | Griffin Mission One",
       "net": "2026-12-31T00:00:00Z",
@@ -259,6 +239,26 @@
     {
       "id": "adfc829a-6704-4d9e-b2ca-1068c38b2b83",
       "name": "Falcon 9 Block 5 | Telesat Lightspeed 4",
+      "net": "2026-12-31T00:00:00Z",
+      "net_precision": "Y",
+      "window_start": "2026-12-31T00:00:00Z",
+      "window_end": "2026-12-31T00:00:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon 9 Block 5",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "pad": "Unknown Pad",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 162,
+      "boosters": []
+    },
+    {
+      "id": "98b905bb-4060-40a2-b299-2773b6883203",
+      "name": "Falcon 9 Block 5 | Telesat Lightspeed 5",
       "net": "2026-12-31T00:00:00Z",
       "net_precision": "Y",
       "window_start": "2026-12-31T00:00:00Z",
