@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-19T00:33:29.267Z",
+  "timestamp": "2026-10-19T01:12:40.862Z",
   "launches": [
     {
       "id": "3b430f81-0ff1-4d85-8a1a-cef0de326198",
@@ -82,6 +82,26 @@
           "description": null
         }
       ]
+    },
+    {
+      "id": "2e37a196-f5f8-4496-96ae-63f4b6b27912",
+      "name": "Terran R | Intelsat-1",
+      "net": "2026-12-31T00:00:00Z",
+      "net_precision": "Y",
+      "window_start": "2026-12-31T00:00:00Z",
+      "window_end": "2026-12-31T00:00:00Z",
+      "provider": "Relativity Space",
+      "vehicle": "Terran R",
+      "orbit": "Unknown",
+      "orbit_abbrev": "N/A",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/terran_r_image_20220912002151.png",
+      "pad": "Launch Complex 16",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 2,
+      "boosters": []
     },
     {
       "id": "11b218b1-5e40-4b9d-854e-50320299239d",
@@ -254,26 +274,6 @@
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
       "agency_launches_this_year": 163,
-      "boosters": []
-    },
-    {
-      "id": "06201706-da6b-467e-83b2-ef2ff8596e05",
-      "name": "Vulcan | USSF-23",
-      "net": "2026-12-31T00:00:00Z",
-      "net_precision": "Y",
-      "window_start": "2026-12-31T00:00:00Z",
-      "window_end": "2026-12-31T00:00:00Z",
-      "provider": "United Launch Alliance",
-      "vehicle": "Vulcan",
-      "orbit": "Unknown",
-      "orbit_abbrev": "N/A",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
-      "pad": "Space Launch Complex 41",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 24,
       "boosters": []
     }
   ]
