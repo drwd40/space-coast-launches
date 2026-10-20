@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-20T00:48:55.908Z",
+  "timestamp": "2026-10-20T01:12:04.702Z",
   "launches": [
     {
       "id": "3b430f81-0ff1-4d85-8a1a-cef0de326198",
@@ -69,7 +69,7 @@
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": "Northeast",
-      "agency_launches_this_year": 124,
+      "agency_launches_this_year": 126,
       "boosters": [
         {
           "core": "Unknown F9",
@@ -82,6 +82,26 @@
           "description": null
         }
       ]
+    },
+    {
+      "id": "a67b40f9-cfcc-4614-a355-a156280b4bb3",
+      "name": "Vulcan VC4L | Dream Chaser CRS 2 Flight 1",
+      "net": "2026-12-31T00:00:00Z",
+      "net_precision": "Q4",
+      "window_start": "2026-12-31T00:00:00Z",
+      "window_end": "2026-12-31T00:00:00Z",
+      "provider": "United Launch Alliance",
+      "vehicle": "Vulcan VC4L",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": null,
+      "pad": "Space Launch Complex 41",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 24,
+      "boosters": []
     },
     {
       "id": "ac92d963-ebfb-4d18-b48c-04102d8dce8e",
@@ -120,7 +140,7 @@
       "pad": "Unknown Pad",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
-      "agency_launches_this_year": 163,
+      "agency_launches_this_year": 165,
       "boosters": []
     },
     {
@@ -224,37 +244,6 @@
       "trajectory_direction": null,
       "agency_launches_this_year": 24,
       "boosters": []
-    },
-    {
-      "id": "f0460950-3cb6-4889-8cbe-707f063d0565",
-      "name": "New Glenn | BlueBird Block 2",
-      "net": "2026-12-31T00:00:00Z",
-      "net_precision": "Y",
-      "window_start": "2026-12-31T00:00:00Z",
-      "window_end": "2026-12-31T00:00:00Z",
-      "provider": "Blue Origin",
-      "vehicle": "New Glenn",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new_glenn_on_lc_image_20240313170026.jpeg",
-      "pad": "Launch Complex 36A",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 5,
-      "boosters": [
-        {
-          "core": "Unknown NG",
-          "flight": null,
-          "landing_attempt": null,
-          "landing_success": null,
-          "landing_type": null,
-          "landing_location": null,
-          "droneship": null,
-          "description": null
-        }
-      ]
     }
   ]
 }
