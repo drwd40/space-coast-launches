@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-21T23:54:03.490Z",
+  "timestamp": "2026-10-22T00:09:12.831Z",
   "launches": [
     {
       "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
@@ -135,6 +135,46 @@
       ]
     },
     {
+      "id": "2e37a196-f5f8-4496-96ae-63f4b6b27912",
+      "name": "Terran R | Intelsat-1",
+      "net": "2026-12-31T00:00:00Z",
+      "net_precision": "Y",
+      "window_start": "2026-12-31T00:00:00Z",
+      "window_end": "2026-12-31T00:00:00Z",
+      "provider": "Relativity Space",
+      "vehicle": "Terran R",
+      "orbit": "Unknown",
+      "orbit_abbrev": "N/A",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/terran_r_image_20220912002151.png",
+      "pad": "Launch Complex 16",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 2,
+      "boosters": []
+    },
+    {
+      "id": "06201706-da6b-467e-83b2-ef2ff8596e05",
+      "name": "Vulcan | USSF-23",
+      "net": "2026-12-31T00:00:00Z",
+      "net_precision": "Y",
+      "window_start": "2026-12-31T00:00:00Z",
+      "window_end": "2026-12-31T00:00:00Z",
+      "provider": "United Launch Alliance",
+      "vehicle": "Vulcan",
+      "orbit": "Unknown",
+      "orbit_abbrev": "N/A",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
+      "pad": "Space Launch Complex 41",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 24,
+      "boosters": []
+    },
+    {
       "id": "ac92d963-ebfb-4d18-b48c-04102d8dce8e",
       "name": "Vulcan | NROL-64",
       "net": "2026-12-31T00:00:00Z",
@@ -193,57 +233,6 @@
       "trajectory_direction": null,
       "agency_launches_this_year": 166,
       "boosters": []
-    },
-    {
-      "id": "2e37a196-f5f8-4496-96ae-63f4b6b27912",
-      "name": "Terran R | Intelsat-1",
-      "net": "2026-12-31T00:00:00Z",
-      "net_precision": "Y",
-      "window_start": "2026-12-31T00:00:00Z",
-      "window_end": "2026-12-31T00:00:00Z",
-      "provider": "Relativity Space",
-      "vehicle": "Terran R",
-      "orbit": "Unknown",
-      "orbit_abbrev": "N/A",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/terran_r_image_20220912002151.png",
-      "pad": "Launch Complex 16",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 2,
-      "boosters": []
-    },
-    {
-      "id": "11b218b1-5e40-4b9d-854e-50320299239d",
-      "name": "Falcon 9 Block 5 | BlueBird 14-16 (Block 2 #9-11)",
-      "net": "2026-12-31T00:00:00Z",
-      "net_precision": "Q4",
-      "window_start": "2026-12-31T00:00:00Z",
-      "window_end": "2026-12-31T00:00:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/f9_on_slc-40_2_image_20240919072420.jpg",
-      "pad": "Space Launch Complex 40",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 166,
-      "boosters": [
-        {
-          "core": "Unknown F9",
-          "flight": null,
-          "landing_attempt": true,
-          "landing_success": null,
-          "landing_type": "ASDS",
-          "landing_location": "A Shortfall of Gravitas",
-          "droneship": "ASOG",
-          "description": "The Falcon 9 first stage will land on ASDS ASOG after its flight."
-        }
-      ]
     }
   ]
 }
