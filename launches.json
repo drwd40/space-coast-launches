@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-23T00:00:40.398Z",
+  "timestamp": "2026-10-23T00:51:47.622Z",
   "launches": [
     {
       "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
@@ -195,10 +195,10 @@
       "boosters": []
     },
     {
-      "id": "adfc829a-6704-4d9e-b2ca-1068c38b2b83",
-      "name": "Falcon 9 Block 5 | Telesat Lightspeed 4",
+      "id": "11b218b1-5e40-4b9d-854e-50320299239d",
+      "name": "Falcon 9 Block 5 | BlueBird 14-16 (Block 2 #9-11)",
       "net": "2026-12-31T00:00:00Z",
-      "net_precision": "Y",
+      "net_precision": "Q4",
       "window_start": "2026-12-31T00:00:00Z",
       "window_end": "2026-12-31T00:00:00Z",
       "provider": "SpaceX",
@@ -207,18 +207,29 @@
       "orbit_abbrev": "LEO",
       "probability": null,
       "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-      "pad": "Unknown Pad",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/f9_on_slc-40_2_image_20240919072420.jpg",
+      "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
       "agency_launches_this_year": 166,
-      "boosters": []
+      "boosters": [
+        {
+          "core": "Unknown F9",
+          "flight": null,
+          "landing_attempt": true,
+          "landing_success": null,
+          "landing_type": "ASDS",
+          "landing_location": "A Shortfall of Gravitas",
+          "droneship": "ASOG",
+          "description": "The Falcon 9 first stage will land on ASDS ASOG after its flight."
+        }
+      ]
     },
     {
-      "id": "ce1317de-ec94-4479-9b28-38ebf11f13ae",
-      "name": "Falcon 9 Block 5 | Telesat Lightspeed 1",
+      "id": "adfc829a-6704-4d9e-b2ca-1068c38b2b83",
+      "name": "Falcon 9 Block 5 | Telesat Lightspeed 4",
       "net": "2026-12-31T00:00:00Z",
-      "net_precision": "M",
+      "net_precision": "Y",
       "window_start": "2026-12-31T00:00:00Z",
       "window_end": "2026-12-31T00:00:00Z",
       "provider": "SpaceX",
