@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-23T06:12:10.250Z",
+  "timestamp": "2026-10-23T06:42:52.028Z",
   "launches": [
     {
       "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
@@ -226,10 +226,10 @@
       ]
     },
     {
-      "id": "adfc829a-6704-4d9e-b2ca-1068c38b2b83",
-      "name": "Falcon 9 Block 5 | Telesat Lightspeed 4",
+      "id": "ce1317de-ec94-4479-9b28-38ebf11f13ae",
+      "name": "Falcon 9 Block 5 | Telesat Lightspeed 1",
       "net": "2026-12-31T00:00:00Z",
-      "net_precision": "Y",
+      "net_precision": "M",
       "window_start": "2026-12-31T00:00:00Z",
       "window_end": "2026-12-31T00:00:00Z",
       "provider": "SpaceX",
