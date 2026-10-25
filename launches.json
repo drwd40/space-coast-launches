@@ -1,6 +1,26 @@
 {
-  "timestamp": "2026-10-24T23:59:59.500Z",
+  "timestamp": "2026-10-25T00:54:34.304Z",
   "launches": [
+    {
+      "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
+      "name": "Vulcan VC6L | Amazon Leo (LV-01)",
+      "net": "2026-11-30T00:00:00Z",
+      "net_precision": "M",
+      "window_start": "2026-11-30T00:00:00Z",
+      "window_end": "2026-11-30T00:00:00Z",
+      "provider": "United Launch Alliance",
+      "vehicle": "Vulcan VC6L",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_vc6l_image_20220406123130.jpg",
+      "pad": "Space Launch Complex 41",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 6,
+      "boosters": []
+    },
     {
       "id": "d74afbc7-0de5-491c-be05-4e9c31f736ac",
       "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
@@ -31,26 +51,6 @@
           "description": null
         }
       ]
-    },
-    {
-      "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
-      "name": "Vulcan VC6L | Amazon Leo (LV-01)",
-      "net": "2026-11-30T00:00:00Z",
-      "net_precision": "M",
-      "window_start": "2026-11-30T00:00:00Z",
-      "window_end": "2026-11-30T00:00:00Z",
-      "provider": "United Launch Alliance",
-      "vehicle": "Vulcan VC6L",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_vc6l_image_20220406123130.jpg",
-      "pad": "Space Launch Complex 41",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 6,
-      "boosters": []
     },
     {
       "id": "a67b40f9-cfcc-4614-a355-a156280b4bb3",
@@ -135,6 +135,26 @@
       ]
     },
     {
+      "id": "06201706-da6b-467e-83b2-ef2ff8596e05",
+      "name": "Vulcan | USSF-23",
+      "net": "2026-12-31T00:00:00Z",
+      "net_precision": "Y",
+      "window_start": "2026-12-31T00:00:00Z",
+      "window_end": "2026-12-31T00:00:00Z",
+      "provider": "United Launch Alliance",
+      "vehicle": "Vulcan",
+      "orbit": "Unknown",
+      "orbit_abbrev": "N/A",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
+      "pad": "Space Launch Complex 41",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 24,
+      "boosters": []
+    },
+    {
       "id": "ce1317de-ec94-4479-9b28-38ebf11f13ae",
       "name": "Falcon 9 Block 5 | Telesat Lightspeed 1",
       "net": "2026-12-31T00:00:00Z",
@@ -192,26 +212,6 @@
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
       "agency_launches_this_year": 2,
-      "boosters": []
-    },
-    {
-      "id": "06201706-da6b-467e-83b2-ef2ff8596e05",
-      "name": "Vulcan | USSF-23",
-      "net": "2026-12-31T00:00:00Z",
-      "net_precision": "Y",
-      "window_start": "2026-12-31T00:00:00Z",
-      "window_end": "2026-12-31T00:00:00Z",
-      "provider": "United Launch Alliance",
-      "vehicle": "Vulcan",
-      "orbit": "Unknown",
-      "orbit_abbrev": "N/A",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
-      "pad": "Space Launch Complex 41",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 24,
       "boosters": []
     },
     {
