@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-29T16:53:22.918Z",
+  "timestamp": "2026-10-29T17:13:58.808Z",
   "launches": [
     {
       "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
@@ -38,7 +38,7 @@
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": "Northeast",
-      "agency_launches_this_year": 128,
+      "agency_launches_this_year": 131,
       "boosters": [
         {
           "core": "Unknown F9",
@@ -151,7 +151,7 @@
       "pad": "Unknown Pad",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
-      "agency_launches_this_year": 160,
+      "agency_launches_this_year": 162,
       "boosters": []
     },
     {
@@ -191,7 +191,7 @@
       "pad": "Unknown Pad",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
-      "agency_launches_this_year": 160,
+      "agency_launches_this_year": 162,
       "boosters": []
     },
     {
@@ -211,7 +211,7 @@
       "pad": "Launch Complex 39A",
       "location": "Kennedy Space Center, FL, USA",
       "trajectory_direction": "Northeast",
-      "agency_launches_this_year": 160,
+      "agency_launches_this_year": 162,
       "boosters": [
         {
           "core": "Unknown FH",
@@ -262,7 +262,7 @@
       "pad": "Launch Complex 39A",
       "location": "Kennedy Space Center, FL, USA",
       "trajectory_direction": null,
-      "agency_launches_this_year": 160,
+      "agency_launches_this_year": 162,
       "boosters": []
     }
   ]
