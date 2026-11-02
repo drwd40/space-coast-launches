@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-02T17:49:32.627Z",
+  "timestamp": "2026-11-02T17:56:47.653Z",
   "launches": [
     {
       "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
@@ -24,16 +24,16 @@
     {
       "id": "d74afbc7-0de5-491c-be05-4e9c31f736ac",
       "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
-      "net": "2026-11-29T16:00:00Z",
-      "net_precision": "HR",
-      "window_start": "2026-11-29T16:00:00Z",
-      "window_end": "2026-11-29T16:00:00Z",
+      "net": "2026-11-29T15:49:00Z",
+      "net_precision": "MIN",
+      "window_start": "2026-11-29T15:49:00Z",
+      "window_end": "2026-11-29T15:49:00Z",
       "provider": "SpaceX",
       "vehicle": "Falcon 9 Block 5",
       "orbit": "Low Earth Orbit",
       "orbit_abbrev": "LEO",
       "probability": null,
-      "status": "To Be Confirmed",
+      "status": "Go for Launch",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA",
