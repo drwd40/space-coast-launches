@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-03T17:21:20.093Z",
+  "timestamp": "2026-11-03T17:28:38.268Z",
   "launches": [
     {
       "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
@@ -7,7 +7,7 @@
       "net": "2026-11-13T17:54:00Z",
       "net_precision": "MIN",
       "window_start": "2026-11-13T17:54:00Z",
-      "window_end": "2026-11-13T17:54:00Z",
+      "window_end": "2026-11-13T18:24:00Z",
       "provider": "United Launch Alliance",
       "vehicle": "Vulcan VC6L",
       "orbit": "Low Earth Orbit",
