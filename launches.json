@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-05T17:58:01.284Z",
+  "timestamp": "2026-11-05T18:15:49.623Z",
   "launches": [
     {
       "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
@@ -42,37 +42,6 @@
       "boosters": [
         {
           "core": "Unknown F9",
-          "flight": null,
-          "landing_attempt": null,
-          "landing_success": null,
-          "landing_type": null,
-          "landing_location": null,
-          "droneship": null,
-          "description": null
-        }
-      ]
-    },
-    {
-      "id": "a5e81552-ecdd-4d89-b6bd-b594e22ca891",
-      "name": "New Glenn | Blue Ring-1",
-      "net": "2026-12-31T00:00:00Z",
-      "net_precision": "M",
-      "window_start": "2026-12-31T00:00:00Z",
-      "window_end": "2026-12-31T00:00:00Z",
-      "provider": "Blue Origin",
-      "vehicle": "New Glenn",
-      "orbit": "Geostationary Transfer Orbit",
-      "orbit_abbrev": "GTO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new_glenn_on_lc_image_20240313170026.jpeg",
-      "pad": "Launch Complex 36A",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": "East",
-      "agency_launches_this_year": 5,
-      "boosters": [
-        {
-          "core": "Unknown NG",
           "flight": null,
           "landing_attempt": null,
           "landing_success": null,
@@ -232,6 +201,26 @@
       "location": "Kennedy Space Center, FL, USA",
       "trajectory_direction": null,
       "agency_launches_this_year": 161,
+      "boosters": []
+    },
+    {
+      "id": "b32689fe-b156-4ccd-b824-fd555d12ba24",
+      "name": "Vulcan | USSF-57",
+      "net": "2026-12-31T00:00:00Z",
+      "net_precision": "Y",
+      "window_start": "2026-12-31T00:00:00Z",
+      "window_end": "2026-12-31T00:00:00Z",
+      "provider": "United Launch Alliance",
+      "vehicle": "Vulcan",
+      "orbit": "Geostationary Transfer Orbit",
+      "orbit_abbrev": "GTO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
+      "pad": "Space Launch Complex 41",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": "East",
+      "agency_launches_this_year": 23,
       "boosters": []
     }
   ]
