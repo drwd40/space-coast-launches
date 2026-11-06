@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-06T01:16:13.216Z",
+  "timestamp": "2026-11-06T01:23:31.043Z",
   "launches": [
     {
       "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
@@ -200,7 +200,7 @@
       "pad": "Launch Complex 39A",
       "location": "Kennedy Space Center, FL, USA",
       "trajectory_direction": null,
-      "agency_launches_this_year": 161,
+      "agency_launches_this_year": 160,
       "boosters": []
     },
     {
