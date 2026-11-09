@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-09T20:57:41.702Z",
+  "timestamp": "2026-11-09T21:10:22.649Z",
   "launches": [
     {
       "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
@@ -51,26 +51,6 @@
           "description": null
         }
       ]
-    },
-    {
-      "id": "a67b40f9-cfcc-4614-a355-a156280b4bb3",
-      "name": "Vulcan VC4L | Dream Chaser CRS 2 Flight 1",
-      "net": "2026-12-31T00:00:00Z",
-      "net_precision": "Q4",
-      "window_start": "2026-12-31T00:00:00Z",
-      "window_end": "2026-12-31T00:00:00Z",
-      "provider": "United Launch Alliance",
-      "vehicle": "Vulcan VC4L",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": null,
-      "pad": "Space Launch Complex 41",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 23,
-      "boosters": []
     },
     {
       "id": "f0460950-3cb6-4889-8cbe-707f063d0565",
@@ -221,6 +201,26 @@
       "location": "Kennedy Space Center, FL, USA",
       "trajectory_direction": null,
       "agency_launches_this_year": 160,
+      "boosters": []
+    },
+    {
+      "id": "b97a54e5-5c6f-4f85-bcf3-69da17fa9682",
+      "name": "Terran R | Mars Lander",
+      "net": "2026-12-31T00:00:00Z",
+      "net_precision": "Y",
+      "window_start": "2026-12-31T00:00:00Z",
+      "window_end": "2026-12-31T00:00:00Z",
+      "provider": "Relativity Space",
+      "vehicle": "Terran R",
+      "orbit": "Mars Orbit",
+      "orbit_abbrev": "Mars",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/terran2520r25_image_20220719142358.png",
+      "pad": "Launch Complex 16",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 2,
       "boosters": []
     }
   ]
