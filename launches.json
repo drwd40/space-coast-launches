@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-11-15T16:37:56.506Z",
+  "timestamp": "2026-11-15T16:45:09.094Z",
   "launches": [
     {
       "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
       "name": "Vulcan VC6L | Amazon Leo (LV-01)",
-      "net": "2026-11-15T17:11:30Z",
+      "net": "2026-11-15T17:11:40Z",
       "net_precision": "SEC",
       "window_start": "2026-11-15T17:11:30Z",
       "window_end": "2026-11-15T17:31:00Z",
