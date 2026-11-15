@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-11-15T17:09:28.958Z",
+  "timestamp": "2026-11-15T17:16:41.267Z",
   "launches": [
     {
       "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
       "name": "Vulcan VC6L | Amazon Leo (LV-01)",
-      "net": "2026-11-15T17:11:40Z",
-      "net_precision": "SEC",
+      "net": "2026-11-15T17:31:00Z",
+      "net_precision": "HR",
       "window_start": "2026-11-15T17:11:30Z",
       "window_end": "2026-11-15T17:31:00Z",
       "provider": "United Launch Alliance",
@@ -13,7 +13,7 @@
       "orbit": "Low Earth Orbit",
       "orbit_abbrev": "LEO",
       "probability": null,
-      "status": "Go for Launch",
+      "status": "On Hold",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_vc6l_on__image_20261114102518.jpeg",
       "pad": "Space Launch Complex 41",
       "location": "Cape Canaveral SFS, FL, USA",
