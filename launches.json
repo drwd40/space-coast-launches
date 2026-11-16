@@ -1,26 +1,6 @@
 {
-  "timestamp": "2026-11-16T17:37:18.378Z",
+  "timestamp": "2026-11-16T17:44:31.369Z",
   "launches": [
-    {
-      "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
-      "name": "Vulcan VC6L | Amazon Leo (LV-01)",
-      "net": "2026-11-15T17:40:30Z",
-      "net_precision": "SEC",
-      "window_start": "2026-11-15T17:11:30Z",
-      "window_end": "2026-11-15T17:40:30Z",
-      "provider": "United Launch Alliance",
-      "vehicle": "Vulcan VC6L",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
-      "probability": null,
-      "status": "Launch Failure",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_vc6l_on__image_20261114102518.jpeg",
-      "pad": "Space Launch Complex 41",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 6,
-      "boosters": []
-    },
     {
       "id": "d74afbc7-0de5-491c-be05-4e9c31f736ac",
       "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
@@ -221,6 +201,26 @@
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
       "agency_launches_this_year": 2,
+      "boosters": []
+    },
+    {
+      "id": "fc1bd321-e502-4d0f-81f4-1926dece81c6",
+      "name": "Falcon 9 Block 5 | VICTUS SURGO",
+      "net": "2026-12-31T00:00:00Z",
+      "net_precision": "Y",
+      "window_start": "2026-12-31T00:00:00Z",
+      "window_end": "2026-12-31T00:00:00Z",
+      "provider": "SpaceX",
+      "vehicle": "Falcon 9 Block 5",
+      "orbit": "Low Earth Orbit",
+      "orbit_abbrev": "LEO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "pad": "Unknown Pad",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 162,
       "boosters": []
     }
   ]
