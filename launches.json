@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-17T23:55:20.198Z",
+  "timestamp": "2026-11-18T00:16:54.824Z",
   "launches": [
     {
       "id": "d74afbc7-0de5-491c-be05-4e9c31f736ac",
@@ -204,21 +204,21 @@
       "boosters": []
     },
     {
-      "id": "fc1bd321-e502-4d0f-81f4-1926dece81c6",
-      "name": "Falcon 9 Block 5 | VICTUS SURGO",
+      "id": "c1bd775a-2fff-45bb-9726-765b69817c19",
+      "name": "Falcon Heavy | USSF-75",
       "net": "2026-12-31T00:00:00Z",
       "net_precision": "Y",
       "window_start": "2026-12-31T00:00:00Z",
       "window_end": "2026-12-31T00:00:00Z",
       "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
+      "vehicle": "Falcon Heavy",
+      "orbit": "Geostationary Orbit",
+      "orbit_abbrev": "Direct-GEO",
       "probability": null,
       "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-      "pad": "Unknown Pad",
-      "location": "Cape Canaveral SFS, FL, USA",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_image_20220129192819.jpeg",
+      "pad": "Launch Complex 39A",
+      "location": "Kennedy Space Center, FL, USA",
       "trajectory_direction": null,
       "agency_launches_this_year": 162,
       "boosters": []
