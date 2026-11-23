@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-23T13:46:34.083Z",
+  "timestamp": "2026-11-23T13:53:46.058Z",
   "launches": [
     {
       "id": "d74afbc7-0de5-491c-be05-4e9c31f736ac",
@@ -93,26 +93,6 @@
       "boosters": []
     },
     {
-      "id": "06201706-da6b-467e-83b2-ef2ff8596e05",
-      "name": "Vulcan | USSF-23",
-      "net": "2026-12-31T00:00:00Z",
-      "net_precision": "Y",
-      "window_start": "2026-12-31T00:00:00Z",
-      "window_end": "2026-12-31T00:00:00Z",
-      "provider": "United Launch Alliance",
-      "vehicle": "Vulcan",
-      "orbit": "Unknown",
-      "orbit_abbrev": "N/A",
-      "probability": null,
-      "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
-      "pad": "Space Launch Complex 41",
-      "location": "Cape Canaveral SFS, FL, USA",
-      "trajectory_direction": null,
-      "agency_launches_this_year": 22,
-      "boosters": []
-    },
-    {
       "id": "eb8cbca7-5ae6-430c-8ff6-0f672cfb5bd0",
       "name": "Vulcan | SILENTBARKER 2/NROL-118",
       "net": "2026-12-31T00:00:00Z",
@@ -123,6 +103,26 @@
       "vehicle": "Vulcan",
       "orbit": "Geostationary Orbit",
       "orbit_abbrev": "Direct-GEO",
+      "probability": null,
+      "status": "To Be Determined",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
+      "pad": "Space Launch Complex 41",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "trajectory_direction": null,
+      "agency_launches_this_year": 22,
+      "boosters": []
+    },
+    {
+      "id": "06201706-da6b-467e-83b2-ef2ff8596e05",
+      "name": "Vulcan | USSF-23",
+      "net": "2026-12-31T00:00:00Z",
+      "net_precision": "Y",
+      "window_start": "2026-12-31T00:00:00Z",
+      "window_end": "2026-12-31T00:00:00Z",
+      "provider": "United Launch Alliance",
+      "vehicle": "Vulcan",
+      "orbit": "Unknown",
+      "orbit_abbrev": "N/A",
       "probability": null,
       "status": "To Be Determined",
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
