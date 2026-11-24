@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-24T13:44:53.745Z",
+  "timestamp": "2026-11-24T13:51:57.222Z",
   "launches": [
     {
       "id": "d74afbc7-0de5-491c-be05-4e9c31f736ac",
@@ -204,35 +204,24 @@
       ]
     },
     {
-      "id": "11b218b1-5e40-4b9d-854e-50320299239d",
-      "name": "Falcon 9 Block 5 | BlueBird 14-16 (Block 2 #9-11)",
+      "id": "d055f3cc-ef83-4229-98df-73bf68e67581",
+      "name": "Vulcan | USSF-43",
       "net": "2026-12-31T00:00:00Z",
-      "net_precision": "Q4",
+      "net_precision": "Y",
       "window_start": "2026-12-31T00:00:00Z",
       "window_end": "2026-12-31T00:00:00Z",
-      "provider": "SpaceX",
-      "vehicle": "Falcon 9 Block 5",
-      "orbit": "Low Earth Orbit",
-      "orbit_abbrev": "LEO",
+      "provider": "United Launch Alliance",
+      "vehicle": "Vulcan",
+      "orbit": "Unknown",
+      "orbit_abbrev": "N/A",
       "probability": null,
       "status": "To Be Determined",
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/f9_on_slc-40_2_image_20240919072420.jpg",
-      "pad": "Space Launch Complex 40",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
+      "pad": "Space Launch Complex 41",
       "location": "Cape Canaveral SFS, FL, USA",
       "trajectory_direction": null,
-      "agency_launches_this_year": 163,
-      "boosters": [
-        {
-          "core": "Unknown F9",
-          "flight": null,
-          "landing_attempt": true,
-          "landing_success": null,
-          "landing_type": "ASDS",
-          "landing_location": "A Shortfall of Gravitas",
-          "droneship": "ASOG",
-          "description": "The Falcon 9 first stage will land on ASDS ASOG after its flight."
-        }
-      ]
+      "agency_launches_this_year": 22,
+      "boosters": []
     }
   ]
 }
